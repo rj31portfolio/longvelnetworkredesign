@@ -1,0 +1,1357 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ravindra Singh - Network Infrastructure & Business Consultant</title>
+
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Favicon -->
+    <link href="img/logo.png" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.css" />
+
+    <!-- slick css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/responsive.css" rel="stylesheet">
+
+    <!-- data aos animation -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <style>
+        :root {
+            --color-white: rgba(255, 255, 255, 1);
+            --color-black: rgba(0, 0, 0, 1);
+            --color-cream-50: rgba(252, 252, 249, 1);
+            --color-cream-100: rgba(255, 255, 253, 1);
+            --color-gray-200: rgba(245, 245, 245, 1);
+            --color-gray-300: rgba(167, 169, 169, 1);
+            --color-gray-400: rgba(119, 124, 124, 1);
+            --color-slate-500: rgba(98, 108, 113, 1);
+            --color-brown-600: rgba(94, 82, 64, 1);
+            --color-charcoal-700: rgba(31, 33, 33, 1);
+            --color-charcoal-800: rgba(38, 40, 40, 1);
+            --color-slate-900: rgba(19, 52, 59, 1);
+            --color-teal-300: rgba(50, 184, 198, 1);
+            --color-teal-400: rgba(45, 166, 178, 1);
+            --color-teal-500: rgba(33, 128, 141, 1);
+            --color-teal-600: rgba(29, 116, 128, 1);
+            --color-teal-700: rgba(26, 104, 115, 1);
+            --color-brown-600-rgb: 94, 82, 64;
+            --color-teal-500-rgb: 33, 128, 141;
+            --color-slate-900-rgb: 19, 52, 59;
+            --color-slate-500-rgb: 98, 108, 113;
+            --color-background: var(--color-cream-50);
+            --color-surface: var(--color-cream-100);
+            --color-text: var(--color-slate-900);
+            --color-text-secondary: var(--color-slate-500);
+            --color-primary: var(--color-teal-500);
+            --color-primary-hover: var(--color-teal-600);
+            --color-primary-active: var(--color-teal-700);
+            --color-secondary: rgba(var(--color-brown-600-rgb), 0.12);
+            --color-border: rgba(var(--color-brown-600-rgb), 0.2);
+            --color-card-border: rgba(var(--color-brown-600-rgb), 0.12);
+            --font-family-base: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            --font-size-sm: 12px;
+            --font-size-base: 14px;
+            --font-size-md: 14px;
+            --font-size-lg: 16px;
+            --font-size-xl: 18px;
+            --font-size-2xl: 20px;
+            --font-size-3xl: 24px;
+            --font-size-4xl: 30px;
+            --font-weight-medium: 500;
+            --font-weight-semibold: 550;
+            --font-weight-bold: 600;
+            --space-8: 8px;
+            --space-12: 12px;
+            --space-16: 16px;
+            --space-20: 20px;
+            --space-24: 24px;
+            --space-32: 32px;
+            --space-48: 48px;
+            --radius-base: 8px;
+            --radius-lg: 12px;
+            --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.04), 0 1px 2px rgba(0, 0, 0, 0.02);
+            --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.04), 0 2px 4px -1px rgba(0, 0, 0, 0.02);
+        }
+
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --color-gray-400-rgb: 119, 124, 124;
+                --color-teal-300-rgb: 50, 184, 198;
+                --color-gray-300-rgb: 167, 169, 169;
+                --color-gray-200-rgb: 245, 245, 245;
+                --color-background: var(--color-charcoal-700);
+                --color-surface: var(--color-charcoal-800);
+                --color-text: var(--color-gray-200);
+                --color-text-secondary: rgba(var(--color-gray-300-rgb), 0.7);
+                --color-primary: var(--color-teal-300);
+                --color-primary-hover: var(--color-teal-400);
+                --color-secondary: rgba(var(--color-gray-400-rgb), 0.15);
+                --color-border: rgba(var(--color-gray-400-rgb), 0.3);
+                --color-card-border: rgba(var(--color-gray-400-rgb), 0.2);
+            }
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+
+        /* .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: var(--space-20);
+        } */
+
+
+        h1 {
+            font-size: var(--font-size-4xl);
+            font-weight: var(--font-weight-bold);
+            color: var(--color-text);
+            margin-bottom: var(--space-12);
+        }
+
+        .subtitle {
+            font-size: var(--font-size-xl);
+            color: var(--color-primary);
+            font-weight: var(--font-weight-semibold);
+            margin-bottom: var(--space-16);
+        }
+
+        .contact-info {
+            display: flex;
+            justify-content: center;
+            gap: var(--space-24);
+            flex-wrap: wrap;
+            margin-top: var(--space-20);
+        }
+
+        .contact-item {
+            display: flex;
+            align-items: center;
+            gap: var(--space-8);
+            color: var(--color-text-secondary);
+            font-size: var(--font-size-base);
+        }
+
+        .contact-item a {
+            color: var(--color-primary);
+            text-decoration: none;
+        }
+
+        .contact-item a:hover {
+            color: var(--color-primary-hover);
+        }
+
+        section {
+            margin-bottom: var(--space-48);
+        }
+
+        h2 {
+            font-size: var(--font-size-3xl);
+            font-weight: var(--font-weight-bold);
+            color: var(--color-text);
+            margin-bottom: var(--space-24);
+            padding-bottom: var(--space-12);
+            border-bottom: 2px solid var(--color-primary);
+        }
+
+        h3 {
+            font-size: var(--font-size-xl);
+            font-weight: var(--font-weight-semibold);
+            color: var(--color-text);
+            margin-bottom: var(--space-12);
+        }
+
+        .card {
+            background-color: var(--color-surface);
+            border: 1px solid var(--color-card-border);
+            border-radius: var(--radius-lg);
+            padding: var(--space-24);
+            margin-bottom: var(--space-24);
+            box-shadow: var(--shadow-sm);
+            transition: box-shadow 0.3s ease;
+        }
+
+        .card:hover {
+            box-shadow: var(--shadow-md);
+        }
+
+        .intro-text {
+            font-size: var(--font-size-lg);
+            line-height: 1.8;
+            color: var(--color-text);
+            margin-bottom: var(--space-24);
+        }
+
+        .skills-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: var(--space-20);
+            margin-top: var(--space-24);
+        }
+
+        .skill-category h4 {
+            font-size: var(--font-size-lg);
+            font-weight: var(--font-weight-semibold);
+            color: var(--color-primary);
+            margin-bottom: var(--space-12);
+        }
+
+        .skill-list {
+            list-style: none;
+        }
+
+        .skill-list li {
+            padding: var(--space-8) 0;
+            color: var(--color-text);
+            font-size: var(--font-size-base);
+            position: relative;
+            padding-left: var(--space-20);
+        }
+
+        .skill-list li:before {
+            content: "▸";
+            color: var(--color-primary);
+            font-weight: bold;
+            position: absolute;
+            left: 0;
+        }
+
+        .experience-item {
+            margin-bottom: var(--space-32);
+        }
+
+        .experience-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            margin-bottom: var(--space-12);
+            flex-wrap: wrap;
+            gap: var(--space-12);
+        }
+
+        .company-name {
+            font-size: var(--font-size-xl);
+            font-weight: var(--font-weight-bold);
+            color: var(--color-primary);
+        }
+
+        .duration {
+            font-size: var(--font-size-base);
+            color: var(--color-text-secondary);
+            font-weight: var(--font-weight-medium);
+        }
+
+        .role {
+            font-size: var(--font-size-lg);
+            font-weight: var(--font-weight-semibold);
+            color: var(--color-text);
+            margin-bottom: var(--space-16);
+        }
+
+        .responsibilities {
+            list-style: none;
+            margin-top: var(--space-12);
+        }
+
+        .responsibilities li {
+            padding: var(--space-8) 0;
+            color: var(--color-text);
+            position: relative;
+            padding-left: var(--space-24);
+            line-height: 1.6;
+        }
+
+        .responsibilities li:before {
+            content: "•";
+            color: var(--color-primary);
+            font-weight: bold;
+            font-size: 18px;
+            position: absolute;
+            left: 0;
+        }
+
+        .certification-badge {
+            display: inline-block;
+            background-color: var(--color-secondary);
+            color: var(--color-primary);
+            padding: var(--space-8) var(--space-16);
+            border-radius: var(--radius-base);
+            font-size: var(--font-size-base);
+            font-weight: var(--font-weight-medium);
+            margin: var(--space-8) var(--space-8) var(--space-8) 0;
+            border: 1px solid var(--color-border);
+        }
+
+        .clients-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: var(--space-16);
+            margin-top: var(--space-24);
+        }
+
+        .client-item {
+            background-color: var(--color-surface);
+            padding: var(--space-16);
+            border-radius: var(--radius-base);
+            border: 1px solid var(--color-card-border);
+            font-size: var(--font-size-base);
+            color: var(--color-text);
+        }
+
+        .highlight-box {
+            background-color: var(--color-secondary);
+            border-left: 4px solid var(--color-primary);
+            padding: var(--space-20);
+            border-radius: var(--radius-base);
+            margin: var(--space-24) 0;
+        }
+
+        .highlight-box p {
+            font-size: var(--font-size-lg);
+            line-height: 1.8;
+            color: var(--color-text);
+        }
+
+        .icon {
+            width: 48px;
+            height: 48px;
+            margin-bottom: var(--space-16);
+            fill: var(--color-primary);
+        }
+
+        .expertise-card {
+            display: flex;
+            gap: var(--space-20);
+            align-items: flex-start;
+        }
+
+        .expertise-icon {
+            flex-shrink: 0;
+            width: 60px;
+            height: 60px;
+            background: var(--color-secondary);
+            border-radius: var(--radius-lg);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border: 2px solid var(--color-primary);
+        }
+
+        .expertise-icon svg {
+            width: 32px;
+            height: 32px;
+            fill: var(--color-primary);
+        }
+
+        .expertise-content {
+            flex: 1;
+        }
+
+        .stat-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: var(--space-20);
+            margin: var(--space-32) 0;
+        }
+
+        .stat-card {
+            text-align: center;
+            padding: var(--space-24);
+            background: var(--color-secondary);
+            border-radius: var(--radius-lg);
+            border: 2px solid var(--color-primary);
+        }
+
+        .stat-number {
+            font-size: var(--font-size-4xl);
+            font-weight: var(--font-weight-bold);
+            color: var(--color-primary);
+            display: block;
+            margin-bottom: var(--space-8);
+        }
+
+        .stat-label {
+            font-size: var(--font-size-base);
+            color: var(--color-text-secondary);
+            font-weight: var(--font-weight-medium);
+        }
+
+        .skill-category {
+            position: relative;
+        }
+
+        .skill-category-icon {
+            width: 40px;
+            height: 40px;
+            margin-bottom: var(--space-12);
+        }
+
+        .skill-category-icon svg {
+            width: 100%;
+            height: 100%;
+            fill: var(--color-primary);
+        }
+
+        footer {
+            text-align: center;
+            padding: var(--space-32) 0;
+            border-top: 1px solid var(--color-border);
+            margin-top: var(--space-48);
+            color: var(--color-text-secondary);
+        }
+
+        @media (max-width: 768px) {
+            h1 {
+                font-size: var(--font-size-3xl);
+            }
+
+            h2 {
+                font-size: var(--font-size-2xl);
+            }
+
+            .contact-info {
+                flex-direction: column;
+                gap: var(--space-12);
+            }
+
+            .experience-header {
+                flex-direction: column;
+            }
+
+            .skills-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+    <link href="css/header-payment.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <div id="customCursor" class="custom-cursor" aria-hidden="true"></div>
+
+    <!-- this is the loading section -->
+    <!-- <div id="spinner" class="show bg-dark position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-grow text-primary" style="width: 3rem; height: 3rem;" role="status">
+            <span class="sr-only">Loading...</span>
+        </div>
+    </div> -->
+    <!-- Spinner End -->
+
+    <!-- Navbar Start -->
+    <header id="header">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container">
+                <div class="header-brand col-lg-2 col-md-3 col-4 text-dark">
+                    <a class="navbar-brand d-flex " href="index.html">
+                        <img class="img-fluid w-75 " src="img/logo.png" alt="mango metal logo">
+                        <!-- <div class="d-flex flex-column justify-content-center">
+                            <span style="color:#dbd027; font-size:16px;">To Be Safe</span>
+                            <span style="color:#dbd027;font-size:16px ;"> & Secure</span>
+                        </div> -->
+                    </a>
+                </div>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <!-- <span class="navbar-toggler-icon"></span> -->
+                    <i class="ri-menu-line "></i>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item px-xxl-3">
+                            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item px-xxl-3">
+                            <a class="nav-link " href="about.html">About Us</a>
+                        </li>
+                        <!-- <li class="nav-item px-xxl-3">
+                            <a class="nav-link " href="#product-sec">Products</a>
+                        </li> -->
+                        <li class="nav-item px-xxl-3">
+                            <a class="nav-link " href="product.html"> Products</a>
+                        </li>
+                        <li class="nav-item px-xxl-3">
+                            <a class="nav-link " href="index.html#our-services"> Services</a>
+                        </li>
+                       
+
+
+                        <!-- <li class="nav-item px-xxl-3">
+                            <a class="nav-link " href="#review">Review</a>
+                        </li> -->
+                        <li class="nav-item px-xxl-3">
+                            <a class="nav-link " href="blog.html">Blogs</a>
+                        </li>
+
+                        <li class="nav-item px-xxl-3">
+                            <a class="nav-link" href="contact.html">Contact Us</a>
+                        </li>
+                    </ul>
+
+
+                </div>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <div class="icon-box header-actions">
+                            <div class="btn btn-main">
+                                <a href="portfolio.html">Know Your Expert
+                                    <i class="fa-solid fa-arrow-right" aria-hidden="true"></i>
+                                </a>
+                            </div>
+                            <a class="cashfree-payment" href="https://payments.cashfree.com/forms/longevalnetworks" target="_parent">
+                                <img src="https://cashfree-checkoutcartimages-prod.cashfree.com/logo__13_Rb0sjn5r3cd0_prod.png" alt="Longeval Networks" class="payment-logo">
+                                <span class="payment-text">
+                                    <span class="payment-title">Pay Now</span>
+                                    <span class="payment-brand">Powered By Cashfree
+                                        <img src="https://cashfreelogo.cashfree.com/assets_images/cfbrand/cf_logo.svg" alt="">
+                                    </span>
+                                </span>
+                            </a>
+
+                            <!-- <div class="icon">
+                                <a href="">
+                                    <i class="fa-brands fa-facebook-f"></i>
+                                </a>
+                            </div> -->
+                            <!-- <div class="icon">
+                                <a
+                                    href="https://www.instagram.com/longevalnetworks?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==">
+                                    <i class="fa-brands fa-instagram"></i>
+                                </a>
+                            </div> -->
+                            <!-- <div class="icon">
+                                <a href="">
+                                    <i class="fa-brands fa-x-twitter"></i>
+                                </a>
+                            </div>
+                            <div class="icon">
+                                <a href="">
+                                    <i class="fa-brands fa-youtube"></i>
+                                </a>
+                            </div> -->
+                        </div>
+                    </ul>
+
+                </div>
+
+            </div>
+        </nav>
+    </header>
+    <!-- Navbar End -->
+
+    <!-- breadcrumb-sec section start -->
+    <section id="breadcrumb-sec" class="breadcrumb-sec bg-info">
+        <div class="container breadcrumb-section ">
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item" aria-current="page" href="index.html">
+                        <a href="index.html">Home</a>
+                        <i class="ri-arrow-right-s-line"></i>
+                    </li>
+                    <li class="breadcrumb-item">
+                        <a href="about.html" class="rem-sty">Ravindra Singh </a>
+                    </li>
+                </ol>
+            </nav>
+
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item active" aria-current="page">
+                        <h2>
+                            Network Infrastructure Specialist | Business Consultant | CCIE Service Provider #38999
+                        </h2>
+                    </li>
+                </ol>
+            </nav>
+        </div>
+    </section>
+    <!-- breadcrumb-sec section start -->
+
+
+ 
+        <header>
+            <h1>Ravindra Singh</h1>
+            <p class="subtitle">Network Infrastructure Specialist | Business Consultant | CCIE Service Provider #38999
+            </p>
+            <div class="contact-info">
+                <div class="contact-item">
+                    <span>📧</span>
+                    <a href="mailto:ravi.sh101@gmail.com">ravi.sh101@gmail.com</a>
+                </div>
+                <div class="contact-item">
+                    <span>📱</span>
+                    <span>+91 8802999776 | +91 9560811222</span>
+                </div>
+            </div>
+        </header>
+
+        <section id="about">
+            <h2>About Me</h2>
+
+            <div class="stat-grid">
+                <div class="stat-card">
+                    <span class="stat-number">20+</span>
+                    <span class="stat-label">Years Experience</span>
+                </div>
+                <div class="stat-card">
+                    <span class="stat-number">CCIE</span>
+                    <span class="stat-label">Service Provider #38999</span>
+                </div>
+                <div class="stat-card">
+                    <span class="stat-number">12+</span>
+                    <span class="stat-label">Certifications</span>
+                </div>
+                <div class="stat-card">
+                    <span class="stat-number">Global</span>
+                    <span class="stat-label">Enterprise Clients</span>
+                </div>
+            </div>
+
+            <div class="card">
+                <p class="intro-text">
+                    With over two decades of distinguished experience in enterprise network infrastructure and
+                    telecommunications, I bring a unique combination of deep technical expertise and strategic business
+                    acumen to every engagement. As a certified CCIE Service Provider (#38999), I have architected,
+                    implemented, and optimized mission-critical network solutions for Fortune 500 companies, global
+                    telecommunications operators, and enterprises across multiple continents.
+                </p>
+                <p class="intro-text">
+                    Following my extensive tenure at Aircel Ltd. as Assistant Manager of NOC IP/MPLS Core &amp; Managed
+                    Services, I transitioned into entrepreneurship, leveraging my technical foundation to provide
+                    comprehensive business consulting and network infrastructure advisory services. My journey from
+                    hands-on network engineering to strategic business leadership positions me uniquely to understand
+                    both the technical intricacies and business implications of infrastructure decisions.
+                </p>
+                <p class="intro-text">
+                    Today, as a business consultant and entrepreneur, I help organizations navigate the complex
+                    landscape of digital transformation, network modernization, and IT infrastructure optimization. My
+                    approach combines technical depth with business strategy, ensuring that technology investments align
+                    with organizational goals and deliver measurable ROI.
+                </p>
+            </div>
+        </section>
+
+        <section id="expertise">
+            <h2>Core Expertise</h2>
+            <div class="card">
+                <div class="expertise-card">
+                    <div class="expertise-icon">
+                        <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M12 2L2 7v10c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V7l-10-5zm0 2.18l8 3.6v7.22c0 4.56-3.07 8.85-8 10-4.93-1.15-8-5.44-8-10V7.78l8-3.6z" />
+                            <circle cx="12" cy="12" r="3" />
+                        </svg>
+                    </div>
+                    <div class="expertise-content">
+                        <h3>Mission-Critical Network Architecture</h3>
+                        <p>
+                            Specializing in designing and implementing high-availability MPLS networks, data center
+                            interconnects, and carrier-grade infrastructure that powers telecommunications operators and
+                            enterprise networks worldwide. Expert in BGP routing policies, MPLS VPN architectures, and
+                            multi-vendor integration scenarios.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="expertise-card">
+                    <div class="expertise-icon">
+                        <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm0 16H5V5h14v14z" />
+                            <path d="M7 10h2v7H7zm4-3h2v10h-2zm4 6h2v4h-2z" />
+                        </svg>
+                    </div>
+                    <div class="expertise-content">
+                        <h3>Business &amp; Technology Consulting</h3>
+                        <p>
+                            Advising organizations on infrastructure strategy, technology roadmaps, vendor selection,
+                            and digital transformation initiatives. Bridging the gap between technical capabilities and
+                            business objectives to drive informed decision-making and successful outcomes.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="expertise-card">
+                    <div class="expertise-icon">
+                        <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8z" />
+                            <path
+                                d="M12 6c-3.31 0-6 2.69-6 6s2.69 6 6 6 6-2.69 6-6-2.69-6-6-6zm0 10c-2.21 0-4-1.79-4-4s1.79-4 4-4 4 1.79 4 4-1.79 4-4 4z" />
+                            <circle cx="12" cy="12" r="2" />
+                        </svg>
+                    </div>
+                    <div class="expertise-content">
+                        <h3>Enterprise Solutions &amp; Managed Services</h3>
+                        <p>
+                            Deep experience in provisioning and managing complex enterprise connectivity solutions
+                            including MPLS VPNs, dedicated internet access, SD-WAN integration, and hybrid cloud
+                            connectivity. Expert in SLA management, performance optimization, and customer-centric
+                            service delivery.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="certifications">
+            <h2>Professional Certifications</h2>
+            <div class="card">
+                <div>
+                    <span class="certification-badge">CCIE Service Provider #38999</span>
+                    <span class="certification-badge">CCIE Written - Data Center</span>
+                    <span class="certification-badge">CCIE Written - Security</span>
+                    <span class="certification-badge">CCIE Written - R&amp;S</span>
+                    <span class="certification-badge">CCIP (CSCO11816030)</span>
+                    <span class="certification-badge">CCNP (CSCO11816030)</span>
+                    <span class="certification-badge">CCNA (CSCO11816030)</span>
+                    <span class="certification-badge">IPv6 Gold Certified Engineer</span>
+                    <span class="certification-badge">MCTS (7266787)</span>
+                    <span class="certification-badge">MCP - Microsoft Certified Professional</span>
+                    <span class="certification-badge">CCNP Security (Trained)</span>
+                    <span class="certification-badge">CCDP (Trained)</span>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills">
+            <h2>Technical Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-category card">
+                    <div class="skill-category-icon">
+                        <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M12 2L4.5 6.5v8c0 4.42 2.87 8.54 7.5 10 4.63-1.46 7.5-5.58 7.5-10v-8L12 2z" />
+                        </svg>
+                    </div>
+                    <h4>Routing Protocols &amp; Technologies</h4>
+                    <ul class="skill-list">
+                        <li>TCP/IP, IPv4/IPv6</li>
+                        <li>BGP4, EIGRP, OSPF, RIP</li>
+                        <li>MPLS, MPLS VPN (L2/L3)</li>
+                        <li>Multicast (ASM, SSM, PIM)</li>
+                        <li>QoS, Traffic Engineering</li>
+                        <li>HSRP, VRRP, GLBP</li>
+                        <li>NAT, PBR, Policy Routing</li>
+                    </ul>
+                </div>
+
+                <div class="skill-category card">
+                    <div class="skill-category-icon">
+                        <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M20 13H4c-.55 0-1 .45-1 1v6c0 .55.45 1 1 1h16c.55 0 1-.45 1-1v-6c0-.55-.45-1-1-1zM7 19c-1.1 0-2-.9-2-2s.9-2 2-2 2 .9 2 2-.9 2-2 2zM20 3H4c-.55 0-1 .45-1 1v6c0 .55.45 1 1 1h16c.55 0 1-.45 1-1V4c0-.55-.45-1-1-1zM7 9c-1.1 0-2-.9-2-2s.9-2 2-2 2 .9 2 2-.9 2-2 2z" />
+                        </svg>
+                    </div>
+                    <h4>Infrastructure Platforms</h4>
+                    <ul class="skill-list">
+                        <li>Cisco Routers (1600 - 12410 GSR)</li>
+                        <li>Cisco ASR 1000/9000 Series</li>
+                        <li>Cisco Switches (2900 - 3750)</li>
+                        <li>Cisco Nexus (7K, 5K, 2K)</li>
+                        <li>Juniper (J-Series, MX-Series)</li>
+                        <li>Huawei, HP, Maipu</li>
+                        <li>Radware, Watchguard Firewalls</li>
+                    </ul>
+                </div>
+
+                <div class="skill-category card">
+                    <div class="skill-category-icon">
+                        <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M4 6h18V4H4c-1.1 0-2 .9-2 2v11H0v3h14v-3H4V6zm19 2h-6c-.55 0-1 .45-1 1v10c0 .55.45 1 1 1h6c.55 0 1-.45 1-1V9c0-.55-.45-1-1-1zm-1 9h-4v-7h4v7z" />
+                        </svg>
+                    </div>
+                    <h4>Data Center Technologies</h4>
+                    <ul class="skill-list">
+                        <li>Cisco Nexus VPC</li>
+                        <li>Virtual Device Contexts (VDC)</li>
+                        <li>Overlay Transport Virtualization (OTV)</li>
+                        <li>FabricPath</li>
+                        <li>Data Center Interconnect</li>
+                        <li>Server Virtualization Networking</li>
+                        <li>Storage Network Integration</li>
+                    </ul>
+                </div>
+
+                <div class="skill-category card">
+                    <div class="skill-category-icon">
+                        <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z" />
+                        </svg>
+                    </div>
+                    <h4>Enterprise &amp; Carrier Services</h4>
+                    <ul class="skill-list">
+                        <li>MPLS VPN (Hub-Spoke, Mesh)</li>
+                        <li>Carrier Ethernet Services</li>
+                        <li>ISP/ILL Provisioning</li>
+                        <li>BGP Peering Management</li>
+                        <li>Site-to-Site VPN</li>
+                        <li>Remote Access VPN</li>
+                        <li>WiMAX Integration</li>
+                    </ul>
+                </div>
+
+                <div class="skill-category card">
+                    <div class="skill-category-icon">
+                        <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zm.31-8.86c-1.77-.45-2.34-.94-2.34-1.67 0-.84.79-1.43 2.1-1.43 1.38 0 1.9.66 1.94 1.64h1.71c-.05-1.34-.87-2.57-2.49-2.97V5H10.9v1.69c-1.51.32-2.72 1.3-2.72 2.81 0 1.79 1.49 2.69 3.66 3.21 1.95.46 2.34 1.15 2.34 1.87 0 .53-.39 1.39-2.1 1.39-1.6 0-2.23-.72-2.32-1.64H8.04c.1 1.7 1.36 2.66 2.86 2.97V19h2.34v-1.67c1.52-.29 2.72-1.16 2.73-2.77-.01-2.2-1.9-2.96-3.66-3.42z" />
+                        </svg>
+                    </div>
+                    <h4>Management &amp; Operations</h4>
+                    <ul class="skill-list">
+                        <li>NOC Operations</li>
+                        <li>SLA Management</li>
+                        <li>Change Management</li>
+                        <li>Incident Response</li>
+                        <li>SNMP, NetFlow</li>
+                        <li>Network Monitoring Tools</li>
+                        <li>Technical Documentation</li>
+                    </ul>
+                </div>
+
+                <div class="skill-category card">
+                    <div class="skill-category-icon">
+                        <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M20 18c1.1 0 1.99-.9 1.99-2L22 6c0-1.1-.9-2-2-2H4c-1.1 0-2 .9-2 2v10c0 1.1.9 2 2 2H0v2h24v-2h-4zM4 6h16v10H4V6z" />
+                        </svg>
+                    </div>
+                    <h4>Operating Systems</h4>
+                    <ul class="skill-list">
+                        <li>Cisco IOS/IOS-XE/IOS-XR</li>
+                        <li>Cisco NX-OS</li>
+                        <li>Junos OS</li>
+                        <li>Windows Server (2003-2008)</li>
+                        <li>Red Hat Linux</li>
+                        <li>Network OS Upgrades</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="experience">
+            <h2>Professional Experience</h2>
+
+            <div class="card experience-item">
+                <div class="experience-header">
+                    <div>
+                        <div class="company-name">Independent Business Consultant</div>
+                        <div class="role">Principal Consultant &amp; Entrepreneur</div>
+                    </div>
+                    <div class="duration">October 2017 - Present</div>
+                </div>
+                <ul class="responsibilities">
+                    <li>Providing strategic business consulting and technology advisory services to enterprises
+                        undergoing digital transformation initiatives</li>
+                    <li>Advising organizations on network infrastructure modernization, cloud migration strategies, and
+                        IT infrastructure optimization</li>
+                    <li>Conducting network audits, architecture reviews, and security assessments for enterprise clients
+                    </li>
+                    <li>Designing scalable network solutions aligned with business objectives and growth trajectories
+                    </li>
+                    <li>Vendor evaluation and selection support for routing, switching, security, and SD-WAN platforms
+                    </li>
+                    <li>Leading proof-of-concept implementations and technology evaluation projects</li>
+                    <li>Developing business cases and ROI analyses for infrastructure investments</li>
+                    <li>Mentoring and training network engineering teams on advanced technologies and best practices
+                    </li>
+                    <li>Building strategic partnerships with technology vendors and service providers</li>
+                </ul>
+            </div>
+
+            <div class="card experience-item">
+                <div class="experience-header">
+                    <div>
+                        <div class="company-name">Aircel Ltd.</div>
+                        <div class="role">Assistant Manager - NOC IP/MPLS Core &amp; Managed Services</div>
+                    </div>
+                    <div class="duration">May 2012 - October 2017</div>
+                </div>
+                <ul class="responsibilities">
+                    <li>Managed mission-critical MPLS backbone serving enterprise customers across India with 99.95%
+                        uptime SLA</li>
+                    <li>Provisioned and troubleshot ISP and MPLS links on multi-vendor platforms including Cisco,
+                        Juniper, and Huawei PE routers</li>
+                    <li>Architected and implemented complex L3VPN topologies including Hub-Spoke, Dual-Hub, and
+                        full-mesh configurations for Fortune 500 clients</li>
+                    <li>Configured advanced Nexus Data Center technologies including VPC, VDC, OTV, and FabricPath for
+                        financial services customers</li>
+                    <li>Implemented differentiated Quality of Service (QoS) policies tailored to customer application
+                        requirements including voice, video, and critical data</li>
+                    <li>Established and maintained international MPLS VPN connectivity using Network-to-Network
+                        Interface (NNI) with global carriers</li>
+                    <li>Deployed multicast solutions using both Any-Source Multicast (ASM) and Source-Specific Multicast
+                        (SSM) models for broadcast and streaming applications</li>
+                    <li>Managed BGP peering relationships with international carriers and configured sophisticated
+                        routing policies using route-maps and filter-lists</li>
+                    <li>Led troubleshooting of complex network issues including high latency, packet loss, routing
+                        loops, and reachability problems within strict SLA timelines</li>
+                    <li>Provisioned enterprise mobile data services on 2G, 3G, and 4G SIM cards using ASR 1000 platforms
+                    </li>
+                    <li>Configured WiMAX customer integrations on Alverstar and Airspan BTS equipment</li>
+                    <li>Managed planned maintenance activities and change requests ensuring minimal customer impact</li>
+                </ul>
+            </div>
+
+            <div class="card experience-item">
+                <div class="experience-header">
+                    <div>
+                        <div class="company-name">S.O. Infotech Pvt. Ltd., Noida</div>
+                        <div class="role">Cisco Networking Consultant</div>
+                    </div>
+                    <div class="duration">July 2010 - December 2011</div>
+                </div>
+                <ul class="responsibilities">
+                    <li>Provided high-level technical consulting and problem resolution for Cisco enterprise deployments
+                    </li>
+                    <li>Designed and implemented routing solutions using EIGRP, OSPF, and BGP for enterprise customers
+                    </li>
+                    <li>Configured advanced switching features including VLANs, ISL trunking, and Fast EtherChannel</li>
+                    <li>Implemented multicast protocols including CGMP, IGMP, and PIM for video streaming applications
+                    </li>
+                    <li>Designed and deployed NAT solutions including static, dynamic, and PAT configurations</li>
+                    <li>Configured QoS policies including custom queuing and priority queuing for Frame Relay networks
+                    </li>
+                    <li>Implemented network access control using standard and extended access control lists</li>
+                    <li>Conducted CCNA and CCNP certification training programs for networking professionals</li>
+                    <li>Delivered technical training on emerging routing and switching technologies</li>
+                    <li>Managed multi-protocol network configuration reviews for technical accuracy and compliance</li>
+                </ul>
+            </div>
+
+            <div class="card experience-item">
+                <div class="experience-header">
+                    <div>
+                        <div class="company-name">PSPL (Boston, USA)</div>
+                        <div class="role">Senior Network Engineer</div>
+                    </div>
+                    <div class="duration">February 2008 - June 2010</div>
+                </div>
+                <ul class="responsibilities">
+                    <li>Led global network infrastructure projects supporting operations across 4 international
+                        locations</li>
+                    <li>Designed and implemented enterprise routing solutions using RIPv2, EIGRP, and OSPF on Cisco
+                        platforms</li>
+                    <li>Pioneered IPv6 deployment including OSPF over IPv6 and IPv4/IPv6 tunnel configurations</li>
+                    <li>Architected site-to-site VPN and remote access VPN solutions using Cisco VPN and SonicWall
+                        platforms</li>
+                    <li>Managed multi-vendor switching infrastructure including VLAN design, EtherChannel, VTP, and
+                        Rapid Spanning Tree</li>
+                    <li>Deployed network monitoring solutions including Zenoss and WhatsUpGold for proactive management
+                    </li>
+                    <li>Administered DHCP services and coordinated IOS upgrades across enterprise router and switch
+                        infrastructure</li>
+                    <li>Provided escalation support to client services teams on complex technical issues</li>
+                    <li>Collaborated with IT leadership on strategic infrastructure decisions and technology
+                        recommendations</li>
+                    <li>Managed 24x7 production server and network infrastructure ensuring high availability</li>
+                </ul>
+                <div style="margin-top: var(--space-20);">
+                    <h4
+                        style="font-size: var(--font-size-lg); color: var(--color-primary); margin-bottom: var(--space-12);">
+                        Notable Client Engagements</h4>
+                    <div class="clients-grid">
+                        <div class="client-item">Harmony Systems - Leading US Technology Provider</div>
+                        <div class="client-item">Angie's List - 1M+ Customer Online Platform</div>
+                        <div class="client-item">Horizon Staffing Solutions - Connecticut</div>
+                        <div class="client-item">Mediawhiz - 40M Daily Email Traffic (NYC)</div>
+                        <div class="client-item">Bluestreak - Advertising Technology</div>
+                        <div class="client-item">BambooCricket - Email Platform (Florida)</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card experience-item">
+                <div class="experience-header">
+                    <div>
+                        <div class="company-name">Circuit City (IT Services)</div>
+                        <div class="role">Hardware &amp; Networking Engineer</div>
+                    </div>
+                    <div class="duration">February 2005 - January 2008</div>
+                </div>
+                <ul class="responsibilities">
+                    <li>Maintained and troubleshot Cisco 1700 series routers and 2924 switches for enterprise clients
+                    </li>
+                    <li>Implemented LAN/WAN infrastructure supporting Windows Server environments</li>
+                    <li>Provided desktop and server hardware troubleshooting and support services</li>
+                    <li>Managed network monitoring and regular maintenance activities ensuring optimal performance</li>
+                    <li>Delivered on-site technical support at major industrial facilities including refineries and
+                        engineering sites</li>
+                    <li>Coordinated with multiple contractors and engineering firms on integrated network solutions</li>
+                </ul>
+                <div style="margin-top: var(--space-20);">
+                    <h4
+                        style="font-size: var(--font-size-lg); color: var(--color-primary); margin-bottom: var(--space-12);">
+                        Client Projects</h4>
+                    <div class="clients-grid">
+                        <div class="client-item">L&amp;T Ltd. (E&amp;C &amp; ECC Divisions) - Mathura Refinery</div>
+                        <div class="client-item">DAELIM (Korean Engineering) - Mathura Refinery</div>
+                        <div class="client-item">Toyo Engineering Ltd. - Mathura Refinery</div>
+                        <div class="client-item">Jacobs Engineering Group - Mathura Refinery</div>
+                        <div class="client-item">Edify India Pvt. Ltd.</div>
+                        <div class="client-item">Brij Bihar Group, Mathura</div>
+                        <div class="client-item">India Info Line Ltd.</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="value">
+            <h2>Value Proposition</h2>
+            <div class="card">
+                <p class="intro-text">
+                    What sets me apart is the rare combination of hands-on technical mastery at the CCIE level with
+                    real-world experience managing large-scale carrier networks and enterprise managed services
+                    operations. I understand not just how to configure networks, but how to architect solutions that
+                    align with business objectives, scale efficiently, and deliver measurable value.
+                </p>
+                <p class="intro-text">
+                    My transition from technical specialist to business consultant has equipped me with a holistic
+                    perspective that encompasses technical feasibility, operational sustainability, financial viability,
+                    and strategic alignment. I speak both the language of the data center and the boardroom, enabling me
+                    to bridge gaps that often hinder successful technology initiatives.
+                </p>
+                <p class="intro-text">
+                    Whether you need strategic guidance on infrastructure modernization, hands-on expertise for complex
+                    network implementations, or a trusted advisor to navigate vendor landscapes and technology
+                    decisions, I bring proven experience, vendor-neutral perspective, and a commitment to delivering
+                    outcomes that drive business success.
+                </p>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>Let's Connect</h2>
+            <div class="card">
+                <p class="intro-text">
+                    I'm available for consulting engagements, advisory roles, and strategic partnerships. Whether you're
+                    facing network infrastructure challenges, planning a major technology initiative, or seeking expert
+                    guidance on enterprise architecture decisions, I'd welcome the opportunity to discuss how my
+                    experience can help achieve your objectives.
+                </p>
+                <div class="contact-info" style="justify-content: flex-start; margin-top: var(--space-24);">
+                    <div class="contact-item">
+                        <span>📧</span>
+                        <a href="mailto:ravi.sh101@gmail.com">ravi.sh101@gmail.com</a>
+                    </div>
+                    <div class="contact-item">
+                        <span>📱</span>
+                        <span>+91 8802999776</span>
+                    </div>
+                    <div class="contact-item">
+                        <span>📱</span>
+                        <span>+91 9560811222</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+  <!-- Footer Start -->
+    <section id="footer">
+        <div class="footer-sec">
+            <div class="container-fluid text-light footer mt-5 wow fadeIn px-0" data-wow-delay="0.1s">
+                <div class="container py-5">
+                    <div class="row g-5">
+                        <div class="col-lg-3 col-md-6 ">
+                            <div class="position-relative mb-2 ">
+                                <img src="img/logo.png" class="w-75">
+                            </div>
+                            <p style="color: rgba(255, 255, 255, 0.6);">Longeval Networks provides reliable refurbished
+                                network equipment rentals with quality, performance, affordability, and nationwide
+                                support. </p>
+                            <!-- <div class="d-flex pt-1 m-n1">
+                        <a class="btn m-1" href=""
+                            style="background-color: #80bf00; color:white; border-radius: 50%;"><i
+                                class="fab fa-facebook-f"></i></a>
+                        <a class="btn m-1" href=""
+                            style="background-color: #80bf00; border-radius: 50%; color:white;"><i
+                                class="fa-brands fa-instagram"></i></a>
+                        <a class="btn m-1" href=""
+                            style="background-color: #80bf00; border-radius: 50%; color:white;"><i
+                                class="fa-brands fa-x-twitter"></i></a>
+
+                        <a class="btn m-1" href=""
+                            style="background-color: #80bf00; border-radius: 50%; color:white;"><i
+                                class="fab fa-youtube"></i></a>
+                    </div> -->
+                        </div>
+
+
+                      <div class="col-lg-3 col-md-6">
+                            <h4 class="text-uppercase mb-4">Quick Links</h4>
+                            <a class='btn btn-link' href='index.html'>Home</a>
+                            <a class="btn btn-link" href="about.html">About</a>
+                            <a class="btn btn-link" href="index.html#our-services">Services</a>
+                            <a class="btn btn-link" href="product.html">Products</a>
+                            <a class="btn btn-link" href="blog.html">Blogs</a>
+                            <a class="btn btn-link" href="contact.html">Contact Us</a>
+                            <a class="btn btn-link" href="privacy-policy.html">Privacy Policy</a>
+                            <a class="btn btn-link" href="return-refund.html">Return & Refund Policy</a>
+                            <a class="btn btn-link" href="term-condition.html">Term & Condition</a>
+                        </div>
+
+                        <div class="col-lg-3 col-md-6">
+                            <h4 class="text-uppercase mb-4">Products</h4>
+                            <a class='btn btn-link' href='product.html'>2900 Series Router</a>
+                            <a class='btn btn-link' href='product.html'>4300 Series Router</a>
+                            <a class='btn btn-link' href='product.html'>4400 Series Router</a>
+                            <a class='btn btn-link' href='product.html'>3850 Series Router</a>
+                            <a class='btn btn-link' href='product.html'>2960X Series Router</a>
+                            <a class='btn btn-link' href='product.html'>9200 Series Router</a>
+
+
+                        </div>
+
+                        <div class="col-lg-3 col-md-6 contact-add">
+                            <h4 class="text-uppercase mb-4">Get In Touch</h4>
+                            <div class="d-flex align-items-center mb-2">
+                                <div class="btn-square flex-shrink-0 me-3">
+                                    <span class="fa fa-map-marker-alt fs-6 " style="color: var(--primary);"></span>
+                                </div>
+                                <a href="#">
+                                    <span> Longeval Networks<br>
+                                        208, 2nd Floor, 60 - Skylark Building,<br>
+                                        Nehru Place, 110019
+                                    </span>
+                                </a>
+                            </div>
+                            <div class="d-flex align-items-center mb-2">
+                                <div class="btn-square flex-shrink-0 me-3">
+                                    <span class="fa-solid fa-phone" style="color: var(--primary);"></span>
+                                </div>
+                                <a href="tel:+918802999776">
+                                    <span>+91 8802999776</span>
+                                </a>
+                            </div>
+                            <div class="d-flex align-items-center">
+                                <div class="btn-square flex-shrink-0 me-3">
+                                    <span class="fa fa-envelope-open fs-6 " style="color: var(--primary);"></span>
+                                </div>
+                                <a href="mailto:contact@longevalnetworks.com">
+                                    <span>contact@longevalnetworks.com</span>
+                                </a>
+                            </div>
+                            <div class="d-flex pt-1 m-n1 pt-4 footer-social-sec">
+                                <a class="btn m-1" href="https://www.facebook.com/longevalnetworks"><i
+                                        class="fab fa-facebook-f"></i></a>
+                                <a class="btn m-1" href="https://www.instagram.com/longevalnetworks?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="><i
+                                        class="fa-brands fa-instagram"></i></a>
+                                
+                                
+
+                            </div>
+                            <a class="cashfree-payment mt-3" href="https://payments.cashfree.com/forms/longevalnetworks" target="_parent">
+                                <img src="https://cashfree-checkoutcartimages-prod.cashfree.com/logo__13_Rb0sjn5r3cd0_prod.png" alt="Longeval Networks" class="payment-logo">
+                                <span class="payment-text">
+                                    <span class="payment-title">Pay Now</span>
+                                    <span class="payment-brand">Powered By Cashfree
+                                        <img src="https://cashfreelogo.cashfree.com/assets_images/cfbrand/cf_logo.svg" alt="">
+                                    </span>
+                                </span>
+                            </a>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="container-fluid px-0">
+                    <div class="copyright">
+                        <div class="row">
+                            <div class="col-md-6 mb-2 text-center mb-md-0 text-white">
+                                &copy; 2025 <a href="index.html">Longeval </a>, All Right Reserved.
+                            </div>
+                            <div class="col-md-6 text-center text-white">
+                                <!-- This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support.  -->
+                                Designed By <a href="https://viraladsmedia.com">viraladsmedia</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Footer End -->
+
+        <footer>
+            <p>&copy; 2025 Ravindra Singh. All rights reserved.</p>
+            <p style="margin-top: var(--space-8); font-size: var(--font-size-sm);">CCIE Service Provider #38999 |
+                Network Infrastructure Specialist | Business Consultant</p>
+        </footer>
+
+        <!-- This is the whatsapp section -->
+    <div class="position-relative">
+        <a href="tel:+918802999776" class="call"><i class="bi bi-telephone"></i></a>
+        <a class="whatsapp" href="https://api.whatsapp.com/send/?phone=+918802999776&text=Hello&app_absent=0"><i
+                class="bi bi-whatsapp"></i></a>
+    </div>
+    <!-- End whatsapp section -->
+
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg-square2 back-to-top" style="    background-color: var(--primary);
+    color: white;
+    border-radius: 15px;
+    display: inline;
+    padding: 8px 10px;"><i class="bi bi-arrow-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <!-- Slick JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+    <!-- End javascript Template -->
+
+    <!-- data aos animation  -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+
+    <script>
+
+       
+        (() => {
+            const cursor = document.getElementById('customCursor');
+            const label = cursor.querySelector('.cursor-label');
+
+            // Smooth follow
+            let mx = innerWidth / 2, my = innerHeight / 2; // mouse
+            let x = mx, y = my;                        // follower
+            const ease = 0.18;
+
+            window.addEventListener('mousemove', (e) => {
+                mx = e.clientX; my = e.clientY;
+            }, { passive: true });
+
+            function raf() {
+                x += (mx - x) * ease;
+                y += (my - y) * ease;
+                cursor.style.transform = `translate(${x}px, ${y}px) translate(-50%, -50%)`;
+                requestAnimationFrame(raf);
+            }
+            requestAnimationFrame(raf);
+
+            // ====== HOVER STATES ======
+
+            // 1) Headings -> active glass effect
+            function bindHeadingHover(root = document) {
+                root.querySelectorAll('.heading').forEach(el => {
+                    if (el.__cursorHeadingBound) return;
+                    el.__cursorHeadingBound = true;
+                    el.addEventListener('pointerenter', () => cursor.classList.add('active'));
+                    el.addEventListener('pointerleave', () => cursor.classList.remove('active'));
+                });
+            }
+            bindHeadingHover();
+
+            // 2) DRAG/Swiper targets -> show "Drag" label
+            // Add/adjust selectors as per your project:
+            const DRAG_SELECTOR = [
+                '[draggable="true"]',
+                '.draggable',
+                '.swiper', '.swiper-container', '.swiper-wrapper', '.swiper-slide',
+                '.splide', '.slick-slider',
+                '[data-cursor="drag"]'
+            ].join(',');
+
+            function bindDragHover(root = document) {
+                root.querySelectorAll(DRAG_SELECTOR).forEach(el => {
+                    if (el.__cursorDragBound) return;
+                    el.__cursorDragBound = true;
+
+                    el.addEventListener('pointerenter', () => {
+                        label.textContent = 'Drag';
+                        cursor.classList.add('drag');
+                    });
+
+                    el.addEventListener('pointerleave', () => {
+                        cursor.classList.remove('drag');
+                        // If heading se bahar aa rahe ho to label ko clear hi rehne do
+                        label.textContent = '';
+                    });
+
+                    // optional: while actually dragging, keep it active
+                    el.addEventListener('pointerdown', () => cursor.classList.add('drag'));
+                    el.addEventListener('pointerup', () => cursor.classList.remove('drag'));
+                });
+            }
+            bindDragHover();
+
+            // Observe DOM for SPA/lazy content
+            const mo = new MutationObserver(muts => {
+                for (const m of muts) {
+                    m.addedNodes && m.addedNodes.forEach(n => {
+                        if (n.nodeType === 1) {
+                            bindHeadingHover(n);
+                            bindDragHover(n);
+                        }
+                    });
+                }
+            });
+            mo.observe(document.documentElement, { childList: true, subtree: true });
+
+            // Optional polish: hide on window blur
+            window.addEventListener('blur', () => cursor.style.opacity = '0');
+            window.addEventListener('focus', () => cursor.style.opacity = '1');
+        })();
+        </script>
+    
+</body>
+
+</html>
+

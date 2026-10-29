@@ -1,0 +1,1999 @@
+/* Homepage-only visual system. Shared styles and interior pages are untouched. */
+.home-redesign {
+    --primary  : #00b9ef;
+    --secondary: #00d8ee;
+    --ink      : #071521;
+    --muted    : #566571;
+    background : #fff;
+    color      : var(--ink);
+    overflow-x : clip;
+    font-family: 'Plus Jakarta Sans', sans-serif
+}
+
+.home-redesign *:not(i):not([class*="fa-"]) {
+    font-family: inherit
+}
+
+.home-redesign .container {
+    max-width    : 1240px;
+    padding-left : 28px;
+    padding-right: 28px
+}
+
+.home-redesign p {
+    color      : #566571;
+    font-size  : 14px;
+    line-height: 1.65
+}
+
+.home-redesign h2,
+.home-redesign h3,
+.home-redesign h4,
+.home-redesign h5,
+.home-redesign h6 {
+    color: var(--ink)
+}
+
+.home-redesign .heading {
+    display       : block;
+    width         : auto;
+    margin        : 0 0 22px;
+    font-size     : clamp(26px, 2.8vw, 39px);
+    line-height   : 1.15;
+    letter-spacing: -1.15px;
+    color         : var(--ink);
+    text-align    : left;
+    font-weight   : 800
+}
+
+.home-redesign .sub-head {
+    font-size     : 11px;
+    line-height   : 1.5;
+    font-weight   : 800;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    text-align    : left !important;
+    color         : #039fc6;
+    margin-bottom : 12px
+}
+
+.home-redesign .section {
+    padding: 64px 0;
+    margin : 0
+}
+
+.home-redesign .btn {
+    border    : 0;
+    box-shadow: none;
+    transition: background .25s, transform .25s, box-shadow .25s
+}
+
+.home-redesign .btn-main,
+.home-redesign .btn-thir {
+    display        : inline-flex;
+    align-items    : center;
+    justify-content: center;
+    gap            : 18px;
+    padding        : 12px 22px;
+    border-radius  : 30px;
+    background     : linear-gradient(105deg, #00cbe8, #009ff3);
+    color          : #fff;
+    font-size      : 12px;
+    font-weight    : 700;
+    margin         : 0;
+    min-height     : 42px
+}
+
+.home-redesign .btn-main a,
+.home-redesign .btn-thir a {
+    color      : inherit;
+    font-size  : inherit;
+    padding    : 0;
+    background : none;
+    line-height: 1.4
+}
+
+.home-redesign .btn-main i,
+.home-redesign .btn-thir i {
+    position  : static;
+    margin    : 0;
+    padding   : 0;
+    background: none;
+    transform : none;
+    color     : inherit;
+    font-size : 12px;
+    width     : auto;
+    height    : auto
+}
+
+.home-redesign .btn-main:hover,
+.home-redesign .btn-thir:hover {
+    transform : translateY(-3px);
+    box-shadow: 0 8px 22px #00b9ef40;
+    background: #008fce;
+    color     : white
+}
+
+.home-redesign .btn-four {
+    display      : inline-flex;
+    align-items  : center;
+    gap          : 18px;
+    background   : #fff;
+    padding      : 12px 22px;
+    border-radius: 30px;
+    min-height   : 42px;
+    font-size    : 12px;
+    color        : #071521;
+    font-weight  : 700;
+    margin       : 0
+}
+
+.home-redesign .btn-four a {
+    color      : inherit;
+    font-size  : inherit;
+    padding    : 0;
+    background : none;
+    line-height: 1.4
+}
+
+.home-redesign .btn-four i {
+    position  : static;
+    color     : inherit;
+    background: none;
+    margin    : 0;
+    transform : none;
+    padding   : 0;
+    font-size : 12px
+}
+
+.home-redesign a:focus-visible,
+.home-redesign button:focus-visible,
+.home-redesign [tabindex]:focus-visible {
+    outline       : 3px solid #00c9ef;
+    outline-offset: 5px
+}
+
+.home-redesign .skip-link {
+    position     : fixed;
+    top          : -80px;
+    left         : 15px;
+    z-index      : 99999;
+    padding      : 12px 20px;
+    background   : #fff;
+    color        : #071521;
+    border-radius: 10px
+}
+
+.home-redesign .skip-link:focus {
+    top: 10px
+}
+
+.home-redesign #customCursor {
+    display: none
+}
+
+/* Slim, dark masthead */
+.home-redesign #header {
+    position       : sticky;
+    top            : 0;
+    z-index        : 1000;
+    background     : #03121eee;
+    border-bottom  : 1px solid #ffffff12;
+    backdrop-filter: blur(18px);
+    margin         : 0;
+    padding        : 0
+}
+
+.home-redesign #header .navbar {
+    background: none;
+    padding   : 10px 0;
+    position  : relative;
+    min-height: 80px
+}
+
+.home-redesign #header .container-fluid {
+    max-width: 1420px;
+    padding  : 0 4%;
+    gap      : 20px
+}
+
+.home-redesign #header .header-brand {
+    width      : 135px;
+    flex-shrink: 0
+}
+
+.home-redesign #header .navbar-brand {
+    padding: 0;
+    margin : 0
+}
+
+.home-redesign #header .navbar-brand img {
+    width     : 110px !important;
+    height    : 64px;
+    object-fit: contain
+}
+
+.home-redesign #header .nav-link {
+    color      : #e1eaf0;
+    font-size  : 11px;
+    font-weight: 600;
+    padding    : 20px 11px;
+    position   : relative
+}
+
+.home-redesign #header .nav-link:hover,
+.home-redesign #header .nav-link.active {
+    color: #00d1f0
+}
+
+.home-redesign #header .nav-link.active:after {
+    content   : '';
+    position  : absolute;
+    bottom    : 3px;
+    left      : 12px;
+    right     : 12px;
+    height    : 2px;
+    background: #00c5ee
+}
+
+.home-redesign #header .header-actions {
+    display    : flex;
+    gap        : 12px;
+    align-items: center;
+    flex-wrap  : nowrap
+}
+
+.home-redesign #header .btn-main {
+    padding    : 10px 15px;
+    font-size  : 10px;
+    white-space: nowrap
+}
+
+.home-redesign #header .cashfree-payment {
+    min-width    : 0;
+    padding      : 5px 9px;
+    border-radius: 10px
+}
+
+.home-redesign #header .payment-logo {
+    width : 26px;
+    height: 26px
+}
+
+.home-redesign #header .payment-title {
+    font-size: 11px
+}
+
+.home-redesign #header .payment-brand {
+    font-size: 7px
+}
+
+.home-redesign #header .navbar-toggler {
+    color    : white;
+    border   : 1px solid #1c465c;
+    font-size: 25px
+}
+
+/* Split hero: existing headline and equipment, with a luminous network stage. */
+.home-redesign #home-banner {
+    background: #02121f;
+    isolation : isolate
+}
+
+.home-redesign .home-banner .carousel-inner .first {
+    min-height: 570px;
+    height    : auto;
+    background: linear-gradient(90deg, #02111ff5 0%, #02111fb0 48%, #02111f20 100%), url('../img/banner2.jpg') center/cover;
+    position  : relative;
+    overflow  : hidden;
+    padding   : 76px max(28px, calc((100% - 1184px)/2)) 72px
+}
+
+.home-redesign #home-banner .carousel-inner .first>.carousel-caption {
+    display   : block !important;
+    position  : relative;
+    inset     : auto;
+    transform : none;
+    width     : 52%;
+    max-width : 650px;
+    height    : auto;
+    text-align: left;
+    padding   : 0;
+    z-index   : 3
+}
+
+.home-redesign .home-banner .carousel-inner .carousel-caption h5 {
+    text-align    : left !important;
+    color         : #bbd5e0;
+    font-size     : 11px;
+    margin-bottom : 18px;
+    letter-spacing: 2.4px
+}
+
+.home-redesign .home-banner .carousel-inner .first .carousel-caption h1 {
+    font-size     : clamp(32px, 3.5vw, 49px);
+    line-height   : 1.13;
+    letter-spacing: -1.7px;
+    font-weight   : 800;
+    text-align    : left;
+    color         : #fff;
+    margin        : 0 0 22px
+}
+
+.home-redesign .home-banner .carousel-inner .carousel-caption p {
+    text-align   : left;
+    padding      : 0;
+    font-size    : 14px;
+    line-height  : 1.7;
+    color        : #b7ccd9;
+    max-width    : 520px;
+    margin-bottom: 28px
+}
+
+.home-redesign .carousel-caption>.d-flex {
+    justify-content: flex-start !important;
+    gap            : 14px
+}
+
+.home-redesign .hero-visual {
+    position      : absolute;
+    right         : 0;
+    top           : 0;
+    width         : 51%;
+    height        : 100%;
+    pointer-events: none
+}
+
+.home-redesign .server-racks {
+    position : absolute;
+    inset    : 0 0 10%;
+    display  : flex;
+    gap      : 22px;
+    transform: perspective(700px) rotateY(-13deg);
+    opacity  : .65
+}
+
+.home-redesign .server-racks span {
+    flex      : 1;
+    background: repeating-linear-gradient(0deg, #071722 0 15px, #092e43 16px 18px, #00c7f4 19px 20px, #06111c 21px 34px);
+    border    : 10px solid #061621;
+    border-top: 3px solid #00c9ef;
+    box-shadow: -8px 0 24px #00b9ef30;
+    position  : relative
+}
+
+.home-redesign .server-racks span:after {
+    content   : '';
+    position  : absolute;
+    right     : 12px;
+    top       : 0;
+    height    : 100%;
+    width     : 5px;
+    background: repeating-linear-gradient(0deg, transparent 0 20px, #03d8fa 21px 23px, transparent 24px 34px);
+    box-shadow: 0 0 15px #00c9ef
+}
+
+.home-redesign .equipment-stage {
+    position       : absolute;
+    inset          : 25% 7% 16% 3%;
+    background     : linear-gradient(135deg, #d4eaf3, #72c6e4);
+    transform      : perspective(1100px) rotateY(-13deg) rotateX(3deg);
+    border-radius  : 20px 8px 8px 20px;
+    box-shadow     : 0 16px 0 #052635, 0 20px 0 #00bff1, 0 25px 45px #00b9ef88;
+    animation      : equipment-float 6s ease-in-out infinite;
+    display        : flex;
+    flex-direction : column;
+    justify-content: center;
+    isolation      : isolate
+}
+
+.home-redesign .equipment-unit {
+    position      : relative;
+    height        : 30%;
+    overflow      : hidden;
+    mix-blend-mode: multiply
+}
+
+.home-redesign .equipment-unit img {
+    position : absolute;
+    width    : 100%;
+    height   : auto;
+    left     : 0;
+    top      : 50%;
+    transform: translateY(-50%)
+}
+
+.home-redesign .unit-one {
+    width      : 88%;
+    margin-left: 3%
+}
+
+.home-redesign .unit-two {
+    width      : 94%;
+    margin-left: 3%
+}
+
+.home-redesign .unit-three {
+    width: 100%
+}
+
+.home-redesign .network-orbit {
+    position     : absolute;
+    width        : 420px;
+    height       : 420px;
+    border       : 1px solid #00b9ef44;
+    border-radius: 50%;
+    bottom       : -180px;
+    right        : -70px;
+    box-shadow   : 0 0 0 20px #00b9ef08, 0 0 0 40px #00b9ef08, 0 0 0 65px #00b9ef08
+}
+
+.home-redesign .orbit-two {
+    width  : 200px;
+    height : 200px;
+    top    : 30px;
+    right  : 60px;
+    bottom : auto;
+    opacity: .4
+}
+
+@keyframes equipment-float {
+    50% {
+        translate: 0 -10px
+    }
+}
+
+/* Partner strip */
+.home-redesign #trust {
+    background: #03101a;
+    border-top: 1px solid #ffffff0a;
+    padding   : 16px 0
+}
+
+.home-redesign #trust .container {
+    overflow: hidden
+}
+
+.home-redesign #trust .trust {
+    background: transparent
+}
+
+.home-redesign #trust .item-group {
+    display: block
+}
+
+.home-redesign #trust .brand-group img {
+    margin: 0;
+    width : 105px;
+    height: 102px
+}
+
+.home-redesign .brand-track {
+    display  : flex;
+    width    : max-content;
+    animation: brands-scroll 32s linear infinite
+}
+
+.home-redesign .brand-group {
+    display      : flex;
+    align-items  : center;
+    gap          : 65px;
+    padding-right: 65px
+}
+
+.home-redesign .brand-group img {
+    width      : 105px;
+    height     : 44px;
+    object-fit : contain;
+    filter     : grayscale(1) brightness(0) invert(1);
+    opacity    : .75;
+    flex-shrink: 0
+}
+
+.home-redesign .brand-track:hover {
+    animation-play-state: paused
+}
+
+@keyframes brands-scroll {
+    to {
+        transform: translateX(-50%)
+    }
+}
+
+/* White split about section, retaining the full original description. */
+.home-redesign #about {
+    padding   : 0;
+    background: #fff
+}
+
+.home-redesign #about>.container {
+    max-width: 1440px;
+    padding  : 0
+}
+
+.home-redesign #about .row {
+    margin     : 0;
+    align-items: stretch
+}
+
+.home-redesign #about .left {
+    padding   : 0;
+    margin    : 0 !important;
+    min-height: 600px
+}
+
+.home-redesign #about .left .img-box {
+    margin    : 0;
+    height    : 100%;
+    min-height: 600px;
+    background: #051d30
+}
+
+.home-redesign #about .left .img-box-1 {
+    position: absolute;
+    inset   : 0;
+    width   : 100%;
+    height  : 100%
+}
+
+.home-redesign #about .left .img-box-1 img {
+    height         : 100%;
+    width          : 100%;
+    object-fit     : cover;
+    object-position: 50% 43%;
+    border-radius  : 0
+}
+
+.home-redesign #about .left .img-box-2 {
+    width        : 30%;
+    height       : 38%;
+    bottom       : 28px;
+    right        : 28px;
+    border       : 5px solid white;
+    border-radius: 10px;
+    overflow     : hidden;
+    box-shadow   : 0 15px 40px #0005
+}
+
+.home-redesign #about .left .img-box-2:before {
+    display: none
+}
+
+.home-redesign #about .left .img-box-2 img {
+    inset        : 0;
+    width        : 100%;
+    height       : 100%;
+    object-fit   : cover;
+    border-radius: 0
+}
+
+.home-redesign #about .right {
+    padding   : 44px 4.5%;
+    background: linear-gradient(120deg, #fff, #f6fbfe)
+}
+
+.home-redesign #about .heading {
+    font-size    : 30px;
+    margin-bottom: 14px
+}
+
+.home-redesign #about .right>h5 {
+    color      : #1d596f !important;
+    font-size  : 14px !important;
+    line-height: 1.5
+}
+
+.home-redesign #about p {
+    font-size    : 12px;
+    margin-bottom: 10px
+}
+
+.home-redesign #about .right .box {
+    margin-top: 10px !important;
+    gap       : 12px
+}
+
+.home-redesign #about .right .box .icon-box {
+    width : 36px;
+    height: 36px;
+    margin: 0
+}
+
+.home-redesign #about .right .box .icon-box .back-icon {
+    width     : 36px;
+    height    : 36px;
+    background: #e0f7ff
+}
+
+.home-redesign #about .right .box .icon-box i {
+    font-size: 17px;
+    color    : #00a7de;
+    margin   : 0
+}
+
+.home-redesign #about .right .content h5 {
+    font-size: 14px;
+    color    : #0a2838
+}
+
+.home-redesign #about .btn-main {
+    margin-top: 12px
+}
+
+/* Services */
+.home-redesign #our-services {
+    margin    : 0;
+    background: #04131f
+}
+
+.home-redesign #our-services .our-services {
+    border-radius: 0;
+    background   : radial-gradient(ellipse at 0 100%, #00466370, transparent 55%);
+    padding      : 58px 0 48px
+}
+
+.home-redesign #our-services .heading {
+    max-width    : 720px;
+    color        : #fff;
+    margin-bottom: 15px
+}
+
+.home-redesign #our-services .row {
+    align-items: stretch;
+    row-gap    : 20px;
+    margin-top : 0
+}
+
+.home-redesign #our-services .row>[class*=col] {
+    display: flex
+}
+
+.home-redesign .our-services .feature-card {
+    margin        : 0;
+    background    : #fff;
+    border        : 1px solid #d5e6ec;
+    border-radius : 14px;
+    padding       : 20px;
+    display       : flex;
+    flex-direction: column;
+    width         : 100%;
+    transition    : transform .3s, box-shadow .3s;
+    overflow      : hidden
+}
+
+.home-redesign .our-services .feature-card:after {
+    display: none
+}
+
+.home-redesign .our-services .feature-card:hover {
+    transform : translateY(-7px);
+    box-shadow: 0 14px 32px #00b9ef25
+}
+
+.home-redesign .our-services .row>div:first-child .feature-card {
+    background  : linear-gradient(145deg, #17c8ee, #009eea);
+    border-color: transparent
+}
+
+.home-redesign .service-image {
+    height        : 105px;
+    position      : relative;
+    overflow      : hidden;
+    mix-blend-mode: multiply;
+    margin        : 0 -6px 18px
+}
+
+.home-redesign .service-image img {
+    position : absolute;
+    width    : 100%;
+    top      : 50%;
+    transform: translateY(-50%)
+}
+
+.home-redesign .feature-card>.icon-box {
+    display: none
+}
+
+.home-redesign .our-services .feature-title {
+    font-size    : 17px;
+    font-weight  : 800;
+    line-height  : 1.3;
+    color        : #071521;
+    margin-bottom: 14px
+}
+
+.home-redesign .our-services .feature-text {
+    font-size  : 12px;
+    color      : #5e6b74;
+    line-height: 1.65
+}
+
+.home-redesign .our-services .feature-card:hover p {
+    color: #5e6b74
+}
+
+.home-redesign .our-services .row>div:first-child .feature-title,
+.home-redesign .our-services .row>div:first-child p {
+    color: white
+}
+
+.home-redesign .feature-card>.btn-sec {
+    align-self: flex-end;
+    margin-top: auto;
+    padding   : 0;
+    background: none
+}
+
+.home-redesign .btn-sec a {
+    display      : grid;
+    place-items  : center;
+    width        : 32px;
+    height       : 32px;
+    border-radius: 50%;
+    background   : #00aff0;
+    color        : white
+}
+
+.home-redesign a.btn-sec {
+    display      : grid;
+    place-items  : center;
+    width        : 32px;
+    height       : 32px;
+    border-radius: 50%;
+    background   : #00aff0;
+    color        : white
+}
+
+.home-redesign .feature-card>a.btn-sec {
+    background: #00aff0;
+    padding   : 0
+}
+
+.home-redesign .our-services .row>div:first-child a.btn-sec {
+    background: white;
+    color     : #00aff0
+}
+
+.home-redesign .product-sec .card .card-body a.btn-sec {
+    background: #00aff0;
+    padding   : 0
+}
+
+.home-redesign .product-sec .card .card-body a.btn-sec {
+    width      : 32px;
+    height     : 32px;
+    flex-shrink: 0
+}
+
+.home-redesign .btn-sec i {
+    transform : none;
+    margin    : 0;
+    padding   : 0;
+    background: none;
+    font-size : 13px;
+    color     : inherit
+}
+
+.home-redesign .our-services>.container>.btn-main {
+    margin    : 24px 0 0 auto;
+    display   : flex;
+    width     : max-content;
+    background: none;
+    border    : 1px solid #008dc0
+}
+
+/* Products */
+.home-redesign #product-sec {
+    padding   : 50px 0 30px;
+    background: radial-gradient(ellipse at 65% 130%, #005078 0, transparent 60%), #020f1b;
+    position  : relative
+}
+
+.home-redesign #product-sec .heading {
+    max-width    : 750px;
+    color        : #fff;
+    margin-bottom: 20px
+}
+
+.home-redesign .swiper {
+    padding : 12px 0 64px !important;
+    overflow: visible
+}
+
+.home-redesign .swiper-wrapper {
+    display         : flex;
+    gap             : 20px;
+    overflow-x      : auto;
+    scroll-snap-type: x mandatory;
+    scrollbar-width : none;
+    align-items     : stretch;
+    transform       : none !important;
+    height          : auto
+}
+
+.home-redesign .swiper-wrapper::-webkit-scrollbar {
+    display: none
+}
+
+.home-redesign .fleet-swiper .swiper-slide {
+    flex             : 0 0 calc((100% - 60px)/4);
+    scroll-snap-align: start;
+    height           : auto
+}
+
+.home-redesign .product-sec .card {
+    border-radius: 13px;
+    background   : #fff;
+    border       : 1px solid #d3e0e5;
+    overflow     : hidden;
+    height       : 100%;
+    box-shadow   : none;
+    transition   : transform .25s
+}
+
+.home-redesign .product-sec .card:hover {
+    transform: translateY(-4px)
+}
+
+.home-redesign .product-sec .card-img-top {
+    width          : 100%;
+    height         : 155px;
+    object-fit     : cover;
+    object-position: center;
+    margin         : 0;
+    border-radius  : 0;
+    background     : white
+}
+
+.home-redesign .product-sec .card-body {
+    padding: 16px
+}
+
+.home-redesign .product-sec .card .card-body .card-title {
+    font-size    : 16px;
+    font-weight  : 800;
+    color        : #071521;
+    text-align   : left;
+    padding      : 0;
+    margin-bottom: 12px !important
+}
+
+.home-redesign .product-sec hr {
+    display: none
+}
+
+.home-redesign .product-sec .btn-thir {
+    padding   : 8px 15px;
+    min-height: 30px;
+    font-size : 10px;
+    margin-top: 8px
+}
+
+.home-redesign .product-sec .btn-sec {
+    padding   : 0;
+    background: none
+}
+
+.home-redesign .fleet-swiper .swiper-button-prev,
+.home-redesign .fleet-swiper .swiper-button-next,
+.home-redesign .testi-controls .swiper-button-prev,
+.home-redesign .testi-controls .swiper-button-next {
+    position     : absolute;
+    top          : auto;
+    bottom       : 5px;
+    left         : auto;
+    right        : 52px;
+    transform    : none;
+    width        : 36px;
+    height       : 36px;
+    margin       : 0;
+    border       : 1px solid #53616d;
+    background   : transparent;
+    color        : #b4c4d0;
+    display      : grid;
+    place-items  : center;
+    cursor       : pointer;
+    transition   : background .2s;
+    border-radius: 50%
+}
+
+.home-redesign .fleet-swiper .swiper-button-next {
+    right: 4px
+}
+
+.home-redesign .swiper-button-prev:after,
+.home-redesign .swiper-button-next:after {
+    display: none
+}
+
+.home-redesign .swiper-button-prev:hover,
+.home-redesign .swiper-button-next:hover {
+    background: #00afe7;
+    color     : white
+}
+
+.home-redesign #sub-banner {
+    margin    : 0;
+    padding   : 0;
+    background: #03415c;
+    overflow  : hidden
+}
+
+.home-redesign #sub-banner .container-fluid {
+    padding  : 0;
+    max-width: 1440px
+}
+
+.home-redesign .network-banner {
+    display              : grid;
+    grid-template-columns: 40% 1fr;
+    gap                  : 35px;
+    align-items          : center;
+    padding              : 48px max(28px, calc((100% - 1184px)/2));
+    background           : radial-gradient(ellipse at 18% 65%, #00bafa80, transparent 40%), linear-gradient(120deg, #003d64, #05243e);
+    min-height           : 280px
+}
+
+.home-redesign .network-banner .banner-equipment {
+    position     : relative;
+    height       : 190px;
+    overflow     : hidden;
+    background   : #a7d9eb;
+    border-radius: 90px 15px 15px 20px;
+    box-shadow   : 0 0 0 8px #00b9ef12, 0 0 0 16px #00b9ef12, 0 0 0 25px #00b9ef12
+}
+
+.home-redesign .network-banner .banner-equipment img {
+    position      : absolute;
+    width         : 100%;
+    height        : auto;
+    top           : 50%;
+    transform     : translateY(-50%);
+    mix-blend-mode: multiply
+}
+
+.home-redesign .network-banner h2 {
+    font-size     : clamp(20px, 2.35vw, 33px);
+    line-height   : 1.35;
+    font-weight   : 800;
+    color         : #fff;
+    letter-spacing: -.5px;
+    margin        : 0 0 16px
+}
+
+.home-redesign .network-banner h2 span {
+    color: #00d5ec
+}
+
+.home-redesign .network-banner p {
+    font-size  : 15px;
+    line-height: 1.7;
+    color      : #c5e1ee;
+    margin     : 0
+}
+
+@media(max-width:600px) {
+    .home-redesign #home-banner .carousel-inner .first>.carousel-caption {
+        width: 100%
+    }
+
+    .home-redesign .network-banner {
+        grid-template-columns: 1fr;
+        padding              : 32px 22px;
+        gap                  : 25px
+    }
+
+    .home-redesign .network-banner .banner-equipment {
+        max-width: 300px;
+        width    : 100%;
+        margin   : 0 auto;
+        height   : 150px
+    }
+
+    .home-redesign .network-banner h2 {
+        font-size: 23px
+    }
+
+    .home-redesign .network-banner p {
+        font-size: 12px
+    }
+
+    .home-redesign #trust .brand-group img {
+        width : 75px;
+        height: 32px
+    }
+}
+
+.home-redesign #sub-banner .img-box {
+    height: auto
+}
+
+.home-redesign #sub-banner img.first {
+    display: block;
+    width  : 100%;
+    height : auto
+}
+
+.home-redesign #sub-banner img.second {
+    display: none
+}
+
+/* Six benefits arranged as the reference's light blue band. */
+.home-redesign .why-sec {
+    padding   : 55px 0;
+    background: linear-gradient(110deg, #f3faff, #eaf8ff);
+    text-align: left
+}
+
+.home-redesign .why-sec .container {
+    display              : grid;
+    grid-template-columns: 30% 1fr;
+    column-gap           : 45px
+}
+
+.home-redesign .why-sec .sub-head {
+    grid-column: 1;
+    grid-row   : 1;
+    align-self : start
+}
+
+.home-redesign .why-sec h2 {
+    grid-column: 1;
+    grid-row   : 1;
+    padding-top: 30px;
+    margin     : 0
+}
+
+.home-redesign .why-sec .heading {
+    font-size: 31px
+}
+
+.home-redesign .why-sec .row {
+    grid-column          : 2;
+    grid-row             : 1;
+    display              : grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap                  : 20px;
+    margin               : 0;
+    border-left          : 1px solid #d2eaf5;
+    padding-left         : 28px
+}
+
+.home-redesign .why-sec .why-image {
+    display: none
+}
+
+.home-redesign .why-item {
+    width        : auto;
+    padding      : 0 0 18px !important;
+    margin       : 0;
+    border       : 0;
+    border-bottom: 1px solid #cce9f4;
+    gap          : 12px
+}
+
+.home-redesign .why-item .icon-box {
+    height       : 40px;
+    width        : 40px;
+    margin       : 0;
+    background   : #d6f2ff;
+    border-radius: 50%
+}
+
+.home-redesign .why-item .icon-box .back-icon {
+    display: none
+}
+
+.home-redesign .why-item .icon-box i {
+    font-size: 20px;
+    margin   : 0;
+    color    : #00a9e7
+}
+
+.home-redesign .why-item h5 {
+    font-size  : 13px;
+    line-height: 1.5;
+    font-weight: 800
+}
+
+.home-redesign .why-item p {
+    font-size  : 11px;
+    line-height: 1.7;
+    color      : #60727e
+}
+
+/* Testimonials and insights */
+.home-redesign .testimonials {
+    padding   : 48px 0 25px !important;
+    background: #fff
+}
+
+.home-redesign .testimonials .row {
+    margin  : 0;
+    position: relative
+}
+
+.home-redesign .testimonials .sub-head,
+.home-redesign .testimonials .heading {
+    padding   : 0;
+    text-align: left
+}
+
+.home-redesign .testimonials .heading {
+    max-width: 660px;
+    font-size: 30px
+}
+
+.home-redesign .testi-swiper {
+    padding: 8px 0 10px !important;
+    width  : 100%
+}
+
+.home-redesign .testi-swiper .swiper-slide {
+    flex             : 0 0 calc((100% - 40px)/3);
+    scroll-snap-align: start
+}
+
+.home-redesign .testimonial-card {
+    background   : white;
+    border       : 1px solid #e6eef3;
+    box-shadow   : 0 5px 20px #062a3f08;
+    border-radius: 12px;
+    padding      : 24px;
+    min-height   : 100%;
+    color        : #152737
+}
+
+.home-redesign .testimonial-card .rating span {
+    font-size: 16px;
+    color    : #ffba24
+}
+
+.home-redesign .testimonial-card .quote {
+    color      : #5c6b74;
+    font-size  : 12px;
+    line-height: 1.8
+}
+
+.home-redesign .testimonial-card hr {
+    border-color: #e7eff4
+}
+
+.home-redesign .testimonial-card .person img {
+    height: 38px;
+    width : 38px
+}
+
+.home-redesign .testimonials .det h6 {
+    color    : #102637;
+    font-size: 13px
+}
+
+.home-redesign .testimonials .det small {
+    font-size: 10px;
+    color    : #7a8992
+}
+
+.home-redesign .testi-controls {
+    height  : 40px;
+    margin  : 8px 0 0;
+    position: relative
+}
+
+.home-redesign .testi-controls .swiper-button-prev {
+    right       : 50px;
+    color       : #16374a;
+    border-color: #d3e4ed;
+    bottom      : 0
+}
+
+.home-redesign .testi-controls .swiper-button-next {
+    right       : 0;
+    color       : #16374a;
+    border-color: #d3e4ed;
+    bottom      : 0
+}
+
+.home-redesign #blog {
+    background: #fff;
+    padding   : 5px 0 25px
+}
+
+.home-redesign #blog .blog-section {
+    padding-top   : 25px !important;
+    padding-bottom: 25px !important
+}
+
+.home-redesign #blog .heading {
+    font-size: 30px;
+    max-width: 700px
+}
+
+.home-redesign #blog .row {
+    display              : grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap                  : 20px;
+    margin               : 0
+}
+
+.home-redesign #blog .row>a {
+    display       : flex !important;
+    flex-direction: column;
+    width         : 100%;
+    padding       : 0;
+    background    : white;
+    border        : 1px solid #e2ebf0;
+    border-radius : 12px;
+    overflow      : hidden;
+    gap           : 0;
+    box-shadow    : 0 3px 10px #082a3a05;
+    transition    : transform .3s;
+    margin        : 0
+}
+
+.home-redesign #blog .row>a:hover {
+    transform: translateY(-5px)
+}
+
+.home-redesign #blog .squre-effect,
+.home-redesign #blog .blog-list-thumb {
+    width        : 100%;
+    height       : 145px;
+    min-width    : 0;
+    flex         : none;
+    border-radius: 0;
+    overflow     : hidden
+}
+
+.home-redesign #blog .squre-effect img,
+.home-redesign #blog .blog-list-thumb img {
+    width        : 100%;
+    height       : 145px;
+    object-fit   : cover;
+    border-radius: 0
+}
+
+.home-redesign #blog .blog-feature-content,
+.home-redesign #blog .blog-list-body {
+    display       : flex;
+    flex-direction: column;
+    gap           : 10px;
+    padding       : 15px;
+    flex          : 1;
+    position      : relative
+}
+
+.home-redesign #blog .blog-feature-title,
+.home-redesign #blog .blog-list-title {
+    font-size  : 13px;
+    line-height: 1.55;
+    font-weight: 800;
+    color      : #102637;
+    margin     : 0;
+    order      : -1
+}
+
+.home-redesign #blog .blog-meta {
+    font-size: 10px;
+    color    : #8798a4
+}
+
+.home-redesign #blog .blog-read {
+    font-size : 11px;
+    margin-top: auto;
+    color     : #00a7e4;
+    align-self: flex-start
+}
+
+.home-redesign #blog .blog-feature-content .btn-main {
+    position  : static;
+    align-self: flex-end;
+    width     : 27px;
+    height    : 27px;
+    min-height: 0;
+    padding   : 0;
+    order     : 3
+}
+
+/* FAQs are last, above the footer. */
+.home-redesign #faq-sec {
+    padding   : 30px 0 55px;
+    margin    : 0;
+    background: #fff
+}
+
+.home-redesign .faq-sec {
+    background   : none;
+    border-radius: 0;
+    padding      : 0
+}
+
+.home-redesign .faq-sec .row {
+    align-items: flex-start !important
+}
+
+.home-redesign .faq-left {
+    width      : 32%;
+    padding-top: 10px
+}
+
+.home-redesign .faq-left .squre-effect {
+    /* height       : 210px; */
+    overflow     : hidden;
+    border-radius: 10px
+}
+
+.home-redesign .faq-left img {
+    width     : 100%;
+    height    : 100%;
+    object-fit: cover
+}
+
+.home-redesign .faq-left+div {
+    width       : 68%;
+    padding-left: 40px
+}
+
+.home-redesign .faq-sec h2.sub-head {
+    font-size     : 26px;
+    line-height   : 1.3;
+    text-transform: none;
+    letter-spacing: -.6px;
+    color         : #071521;
+    margin-bottom : 20px
+}
+
+.home-redesign .faq-sec .heading:empty {
+    display: none
+}
+
+.home-redesign .accordion-item {
+    margin-bottom: 9px;
+    border       : 1px solid #e5edf2 !important;
+    border-radius: 10px !important;
+    overflow     : hidden;
+    background   : #fff !important
+}
+
+.home-redesign .accordion-header {
+    margin   : 0 !important;
+    padding  : 0 !important;
+    font-size: inherit !important
+}
+
+.home-redesign .accordion-button {
+    padding    : 15px 18px;
+    font-size  : 12px;
+    line-height: 1.5;
+    font-weight: 700;
+    color      : #183447;
+    background : #fff;
+    box-shadow : none;
+    border     : 0
+}
+
+.home-redesign .accordion-button:not(.collapsed) {
+    color     : #008cb9;
+    background: #f4fcff;
+    box-shadow: none
+}
+
+.home-redesign .accordion-body {
+    font-size  : 12px;
+    line-height: 1.7;
+    padding    : 0 18px 18px;
+    color      : #5e7180;
+    background : #f4fcff
+}
+
+.home-redesign .accordion-body {
+    border: 0
+}
+
+.home-redesign .accordion-button:before {
+    content    : '+';
+    color      : #637e8d;
+    font-family: inherit;
+    font-size  : 18px
+}
+
+.home-redesign .accordion-button:not(.collapsed):before {
+    content  : '−';
+    color    : #00a7de;
+    transform: translateY(-50%)
+}
+
+.home-redesign .accordion-button:after {
+    filter         : none;
+    width          : 13px;
+    height         : 13px;
+    background-size: 13px
+}
+
+/* Footer keeps the company's original links, contact details and payment link. */
+.home-redesign #footer,
+.home-redesign #footer .footer-sec {
+    margin       : 0;
+    background   : #030f19;
+    border-radius: 0
+}
+
+.home-redesign #footer .footer {
+    margin-top: 0 !important;
+    background: radial-gradient(ellipse at 85% 0, #07314770, transparent 50%)
+}
+
+.home-redesign #footer .container {
+    padding-top   : 45px !important;
+    padding-bottom: 30px !important
+}
+
+.home-redesign #footer .row {
+    --bs-gutter-x: 36px;
+    --bs-gutter-y: 25px
+}
+
+.home-redesign #footer .position-relative img {
+    width          : 130px !important;
+    height         : 85px;
+    object-fit     : contain;
+    object-position: left
+}
+
+.home-redesign #footer p,
+.home-redesign #footer .contact-add a {
+    font-size  : 11px;
+    line-height: 1.8;
+    color      : #9aafbc
+}
+
+.home-redesign #footer h4 {
+    font-size     : 13px;
+    text-transform: none !important;
+    letter-spacing: 0;
+    color         : #fff;
+    margin-bottom : 20px !important
+}
+
+.home-redesign #footer h4:after {
+    display: none
+}
+
+.home-redesign #footer .btn-link {
+    display      : block;
+    font-size    : 11px;
+    color        : #9aafbc;
+    text-align   : left;
+    line-height  : 1.8;
+    padding      : 0;
+    margin-bottom: 3px
+}
+
+.home-redesign #footer .btn-link:before {
+    display: none
+}
+
+.home-redesign #footer .btn-link:hover {
+    color         : #00c4ed;
+    letter-spacing: 0
+}
+
+.home-redesign #footer .btn-square {
+    width       : 20px;
+    height      : 25px;
+    margin-right: 10px !important;
+    background  : none
+}
+
+.home-redesign #footer .footer-social-sec a {
+    width        : 28px;
+    height       : 28px;
+    padding      : 4px;
+    background   : #102433;
+    border-radius: 50%;
+    color        : #fff;
+    font-size    : 12px
+}
+
+.home-redesign #footer .copyright {
+    padding   : 18px 28px;
+    border-top: 1px solid #ffffff12;
+    font-size : 10px;
+    background: none;
+    max-width : 1240px;
+    margin    : auto
+}
+
+.home-redesign .back-to-top {
+    right        : 22px;
+    bottom       : 22px;
+    border-radius: 50% !important;
+    z-index      : 100;
+    box-shadow   : 0 6px 20px #00b9ef30
+}
+
+.home-redesign .call,
+.home-redesign .whatsapp {
+    width      : 38px;
+    height     : 38px;
+    font-size  : 18px;
+    left       : 18px;
+    right      : auto;
+    display    : grid;
+    place-items: center;
+    z-index    : 90
+}
+
+.home-redesign .call {
+    bottom: 72px
+}
+
+.home-redesign .whatsapp {
+    bottom: 24px
+}
+
+.home-redesign .reveal {
+    opacity   : 0;
+    transform : translateY(22px);
+    transition: opacity .65s var(--delay, 0ms), transform .65s var(--delay, 0ms)
+}
+
+.home-redesign .reveal.is-visible {
+    opacity  : 1;
+    transform: translateY(0)
+}
+
+@media(min-width:1500px) {
+    .home-redesign .home-banner .carousel-inner .first {
+        padding-left: calc((100% - 1240px)/2)
+    }
+}
+
+@media(max-width:1199px) {
+    .home-redesign #header .container-fluid {
+        gap    : 10px;
+        padding: 0 24px
+    }
+
+    .home-redesign #header .header-brand {
+        width: 110px
+    }
+
+    .home-redesign #header .nav-link {
+        padding  : 18px 8px;
+        font-size: 10px
+    }
+
+    .home-redesign #header .header-actions {
+        gap: 7px
+    }
+
+    .home-redesign #header .btn-main {
+        padding: 9px 10px
+    }
+
+    .home-redesign #header .payment-logo {
+        display: none
+    }
+
+    .home-redesign #about .right {
+        padding: 35px 30px
+    }
+
+    .home-redesign #about .heading {
+        font-size: 27px
+    }
+
+    .home-redesign .why-sec .container {
+        column-gap: 24px
+    }
+
+    .home-redesign .why-sec .row {
+        padding-left: 20px
+    }
+}
+
+@media(max-width:991px) {
+    .home-redesign #header .navbar {
+        min-height: 74px
+    }
+
+    .home-redesign #header .container-fluid {
+        flex-wrap: wrap
+    }
+
+    .home-redesign #header .navbar-brand img {
+        height: 52px;
+        width : 100px !important
+    }
+
+    .home-redesign #header .navbar-toggler {
+        margin-left: auto
+    }
+
+    .home-redesign #header .navbar-collapse {
+        flex-basis: 100%;
+        width     : 100%
+    }
+
+    .home-redesign #header .nav-link {
+        padding  : 12px 8px;
+        font-size: 13px
+    }
+
+    .home-redesign #header .nav-link.active:after {
+        right : auto;
+        width : 25px;
+        left  : 8px;
+        bottom: 4px
+    }
+
+    .home-redesign #header .header-actions {
+        padding        : 5px 0 15px;
+        justify-content: flex-start
+    }
+
+    .home-redesign #header .header-actions .btn-main {
+        font-size: 12px;
+        padding  : 10px 20px
+    }
+
+    .home-redesign #header .header-actions .payment-logo {
+        display: block
+    }
+
+    .home-redesign .home-banner .carousel-inner .first {
+        min-height: 530px;
+        padding   : 60px 28px
+    }
+
+    .home-redesign .home-banner .carousel-inner .first>.carousel-caption {
+        width: 57%
+    }
+
+    .home-redesign .hero-visual {
+        width: 44%
+    }
+
+    .home-redesign .equipment-stage {
+        inset: 30% 5% 25% 0
+    }
+
+    .home-redesign #about .left,
+    .home-redesign #about .left .img-box {
+        min-height: 430px
+    }
+
+    .home-redesign #about .right {
+        padding: 40px 35px
+    }
+
+    .home-redesign #about .left .img-box-1 img {
+        object-position: 50% 48%
+    }
+
+    .home-redesign #our-services .row {
+        row-gap: 22px
+    }
+
+    .home-redesign .feature-card {
+        min-height: 360px
+    }
+
+    .home-redesign .service-image {
+        height: 125px
+    }
+
+    .home-redesign .fleet-swiper .swiper-slide {
+        flex-basis: calc((100% - 40px)/3)
+    }
+
+    .home-redesign .why-sec .container {
+        display: block
+    }
+
+    .home-redesign .why-sec h2 {
+        padding-top: 0;
+        max-width  : 580px
+    }
+
+    .home-redesign .why-sec .row {
+        padding: 10px 0 0;
+        border : 0
+    }
+
+    .home-redesign .why-sec .heading {
+        margin-bottom: 26px
+    }
+
+    .home-redesign .testi-swiper .swiper-slide {
+        flex-basis: calc((100% - 20px)/2)
+    }
+
+    .home-redesign #blog .row {
+        grid-template-columns: repeat(2, minmax(0, 1fr))
+    }
+
+    .home-redesign #blog .squre-effect,
+    .home-redesign #blog .blog-list-thumb,
+    .home-redesign #blog .squre-effect img,
+    .home-redesign #blog .blog-list-thumb img {
+        height: 180px
+    }
+
+    .home-redesign .faq-left {
+        width: 30%
+    }
+
+    .home-redesign .faq-left+div {
+        width       : 70%;
+        padding-left: 25px
+    }
+}
+
+@media(max-width:600px) {
+    .home-redesign .container {
+        padding-left : 22px;
+        padding-right: 22px
+    }
+
+    .home-redesign #header .container-fluid {
+        padding: 0 20px
+    }
+
+    .home-redesign .home-banner .carousel-inner .first {
+        padding   : 42px 22px 295px;
+        min-height: 0
+    }
+
+    .home-redesign .home-banner .carousel-inner .first>.carousel-caption {
+        width    : 100%;
+        max-width: none
+    }
+
+    .home-redesign .home-banner .carousel-inner .first .carousel-caption h1 {
+        font-size     : 34px;
+        letter-spacing: -1.2px;
+        line-height   : 1.14
+    }
+
+    .home-redesign .home-banner .carousel-inner .carousel-caption p {
+        font-size  : 12px;
+        line-height: 1.75
+    }
+
+    .home-redesign .home-banner .carousel-inner .carousel-caption h5 {
+        font-size: 9px
+    }
+
+    .home-redesign .carousel-caption>.d-flex {
+        gap: 10px
+    }
+
+    .home-redesign .btn-main,
+    .home-redesign .btn-four {
+        padding  : 11px 17px;
+        font-size: 11px
+    }
+
+    .home-redesign .hero-visual {
+        width : 100%;
+        top   : auto;
+        bottom: 0;
+        height: 280px
+    }
+
+    .home-redesign .equipment-stage {
+        inset        : 30px 12% 40px 12%;
+        border-radius: 12px
+    }
+
+    .home-redesign .server-racks {
+        inset  : 0 8% 0;
+        opacity: .4
+    }
+
+    .home-redesign .network-orbit {
+        width : 280px;
+        height: 280px
+    }
+
+    .home-redesign .brand-group {
+        gap          : 35px;
+        padding-right: 35px
+    }
+
+    .home-redesign .brand-group img {
+        width : 75px;
+        height: 32px
+    }
+
+    .home-redesign #trust {
+        padding: 15px 0
+    }
+
+    .home-redesign #about .left,
+    .home-redesign #about .left .img-box {
+        min-height: 340px
+    }
+
+    .home-redesign #about .right {
+        padding: 34px 22px
+    }
+
+    .home-redesign #about .heading {
+        font-size: 26px
+    }
+
+    .home-redesign #about .right .box .icon-box {
+        width : 32px;
+        height: 32px
+    }
+
+    .home-redesign #our-services .our-services {
+        padding: 38px 0
+    }
+
+    .home-redesign #our-services .row {
+        --bs-gutter-x: 14px
+    }
+
+    .home-redesign #our-services .row>div {
+        width: 100%
+    }
+
+    .home-redesign .our-services .feature-card {
+        min-height: 0;
+        padding   : 22px
+    }
+
+    .home-redesign .service-image {
+        height: 125px
+    }
+
+    .home-redesign .our-services .feature-title {
+        font-size: 19px
+    }
+
+    .home-redesign .our-services .feature-text {
+        font-size: 13px
+    }
+
+    .home-redesign #product-sec {
+        padding: 36px 0 20px
+    }
+
+    .home-redesign .heading {
+        font-size     : 28px;
+        letter-spacing: -.7px
+    }
+
+    .home-redesign .fleet-swiper .swiper-slide {
+        flex-basis: 82%
+    }
+
+    .home-redesign .product-sec .card-img-top {
+        height: 170px
+    }
+
+    .home-redesign #sub-banner .img-box {
+        overflow-x: auto
+    }
+
+    .home-redesign #sub-banner img.first {
+        min-width: 720px
+    }
+
+    .home-redesign .why-sec {
+        padding: 36px 0
+    }
+
+    .home-redesign .why-sec .row {
+        grid-template-columns: 1fr;
+        gap                  : 22px
+    }
+
+    .home-redesign .why-item {
+        gap: 15px
+    }
+
+    .home-redesign .why-item h5 {
+        font-size: 15px
+    }
+
+    .home-redesign .why-item p {
+        font-size: 12px
+    }
+
+    .home-redesign .testimonials {
+        padding-top: 35px !important
+    }
+
+    .home-redesign .testi-swiper .swiper-slide {
+        flex-basis: 92%
+    }
+
+    .home-redesign #blog .row {
+        gap: 14px
+    }
+
+    .home-redesign #blog .blog-feature-content,
+    .home-redesign #blog .blog-list-body {
+        padding: 12px
+    }
+
+    .home-redesign #blog .blog-feature-title,
+    .home-redesign #blog .blog-list-title {
+        font-size: 11px
+    }
+
+    .home-redesign #blog .squre-effect,
+    .home-redesign #blog .blog-list-thumb,
+    .home-redesign #blog .squre-effect img,
+    .home-redesign #blog .blog-list-thumb img {
+        height: 110px
+    }
+
+    .home-redesign #blog .blog-meta {
+        font-size: 9px
+    }
+
+    .home-redesign .faq-left {
+        display: none
+    }
+
+    .home-redesign .faq-left+div {
+        width  : 100%;
+        padding: 0 12px
+    }
+
+    .home-redesign #faq-sec {
+        padding: 15px 0 35px
+    }
+
+    .home-redesign .faq-sec h2.sub-head {
+        font-size: 25px
+    }
+
+    .home-redesign #footer .row>div {
+        width: 50%
+    }
+
+    .home-redesign #footer .row>div:first-child,
+    .home-redesign #footer .contact-add {
+        width: 100%
+    }
+
+    .home-redesign #footer .copyright .row>div {
+        width: 100%
+    }
+
+    .home-redesign #footer .copyright {
+        padding: 15px 22px
+    }
+
+    .home-redesign #footer .row {
+        --bs-gutter-y: 28px
+    }
+
+    .home-redesign #footer .contact-add a {
+        overflow-wrap: anywhere
+    }
+}
+
+@media(prefers-reduced-motion:reduce) {
+
+    .home-redesign *,
+    .home-redesign *:before,
+    .home-redesign *:after {
+        animation      : none !important;
+        transition     : none !important;
+        scroll-behavior: auto !important
+    }
+
+    .home-redesign .reveal {
+        opacity  : 1;
+        transform: none
+    }
+}
+

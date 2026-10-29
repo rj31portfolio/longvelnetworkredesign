@@ -1,0 +1,51 @@
+in header button know your expert after aero its change in payement button and in foooter aftersocial link show payement button and button color match as theam so now update only index page and button code is 
+<form>
+  <a href="https://payments.cashfree.com/forms/longevalnetworks" target="_parent">
+    <div class="button-container" style="background: #2a80b7">
+      <div>
+        <img src="https://cashfree-checkoutcartimages-prod.cashfree.com/logo__13_Rb0sjn5r3cd0_prod.png" alt="logo" class="logo-container">
+      </div>
+      <div class="text-container">
+        <div style="font-family: Verdana; color: #fff; margin-bottom: 5px; font-size: 14px;">
+          Pay Now
+        </div>
+        <div style="font-family: Verdana; color: #fff; font-size: 10px;">
+            <span>Powered By Cashfree</span>
+            <img src="https://cashfreelogo.cashfree.com/assets_images/cfbrand/cf_logo.svg" alt="logo" class="seconday-logo-container">
+        </div>
+      </div>
+    </div>
+  </a>
+ <style>
+  .button-container{
+      border: 1px solid black;
+      border-radius: 15px;
+      display: flex;
+      padding: 10px;
+      width: fit-content;
+      cursor: pointer;
+  }
+  .text-container{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-left: 10px;
+      justify-content: center;
+      margin-right: 10px;
+  }
+  .logo-container{
+      width: 40px;
+      height: 40px;
+  }
+  .seconday-logo-container{
+    width: 16px;
+    height: 16px;
+    vertical-align: middle;
+  }
+  a{
+    text-decoration:none;
+  }
+</style>
+</form>
+
+Only update home page degine of website layouyt but product and contenet and lofo same existing only update degine of layout and layout ui i give you make extact same and animated attrective 
