@@ -1,26 +1,31 @@
- const counters = document.querySelectorAll('.counter');
-
-  counters.forEach(counter => {
-    const updateCount = () => {
-      const target = +counter.getAttribute('data-target');
-      const suffix = counter.getAttribute('data-suffix') || '';
-      const count = +counter.innerText.replace(/\D/g, '');
-
-      const increment = target / 200;
-
-      if (count < target) {
-        counter.innerText = `${Math.ceil(count + increment)}${suffix}`;
-        setTimeout(updateCount, 10);
-      } else {
-        counter.innerText = `${target}${suffix}`;
-      }
-    };
-
-    updateCount();
-  });
-
-
-
+// Animate each counter once when it enters the viewport.
+(() => {
+  const counters = document.querySelectorAll('.counter');
+  const reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  const finish = counter => {
+    counter.textContent = counter.dataset.target + (counter.dataset.suffix || '');
+  };
+  counters.forEach(finish);
+  if (reducedMotion || !('IntersectionObserver' in window)) return;
+  const observer = new IntersectionObserver(entries => {
+    entries.forEach(entry => {
+      if (!entry.isIntersecting) return;
+      const counter = entry.target;
+      observer.unobserve(counter);
+      const target = Number(counter.dataset.target);
+      const suffix = counter.dataset.suffix || '';
+      const start = performance.now();
+      const step = now => {
+        const progress = Math.min((now - start) / 1200, 1);
+        counter.textContent = Math.round(target * (1 - Math.pow(1 - progress, 3))) + suffix;
+        if (progress < 1) requestAnimationFrame(step);
+        else finish(counter);
+      };
+      requestAnimationFrame(step);
+    });
+  }, { threshold: .35 });
+  counters.forEach(counter => observer.observe(counter));
+})();
 
 (function ($) {
     "use strict";

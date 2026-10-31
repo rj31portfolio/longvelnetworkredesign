@@ -46,9 +46,11 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
 
     <link href="css/header-payment.css" rel="stylesheet">
+    <link href="css/site-refresh.css" rel="stylesheet">
 </head>
 
-<body>
+<body class="site-refresh">
+    <a class="skip-link" href="#page-content">Skip to content</a>
     <div id="customCursor" class="custom-cursor" aria-hidden="true"></div>
 
     <!-- this is the loading section -->
@@ -165,6 +167,7 @@
     </header>
     <!-- Navbar End -->
 
+    <main id="page-content" tabindex="-1">
     <section id="breadcrumb-sec" class="breadcrumb-sec bg-info">
         <div class="container breadcrumb-section ">
             <nav aria-label="breadcrumb">
@@ -474,6 +477,7 @@
 
 
    <!-- Footer Start -->
+    </main>
     <section id="footer">
         <div class="footer-sec">
             <div class="container-fluid text-light footer mt-5 wow fadeIn px-0" data-wow-delay="0.1s">
@@ -863,6 +867,7 @@ document.querySelectorAll(".heading").forEach((heading) => {
 
 
 
+    <script src="js/site-refresh.js" defer></script>
 </body>
 
 </html>

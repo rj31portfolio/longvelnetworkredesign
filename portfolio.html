@@ -46,9 +46,11 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
 
     <link href="css/header-payment.css" rel="stylesheet">
+    <link href="css/site-refresh.css" rel="stylesheet">
 </head>
 
-<body>
+<body class="site-refresh">
+    <a class="skip-link" href="#page-content">Skip to content</a>
     <div id="customCursor" class="custom-cursor" aria-hidden="true"></div>
 
     <!-- this is the loading section -->
@@ -163,6 +165,7 @@
     </header>
     <!-- Navbar End -->
 
+    <main id="page-content" tabindex="-1">
     <section id="breadcrumb-sec" class="breadcrumb-sec bg-info">
         <div class="container breadcrumb-section ">
             <nav aria-label="breadcrumb">
@@ -294,7 +297,7 @@
             <!-- 1 -->
             <article class="stat" data-aos="zoom-in-up" data-aos-duration="300">
                 <div class="stat-ring"></div>
-                <h2 class="stat-num"><span class="counter" data-target="20" data-suffix="+">0</span></h2>
+                <h2 class="stat-num"><span class="counter" data-target="20" data-suffix="+">20+</span></h2>
                 <p class="stat-label">Years <br>Experience</p>
             </article>
 
@@ -308,7 +311,7 @@
             <!-- 3 -->
             <article class="stat" data-aos="zoom-in-up" data-aos-duration="1500">
                 <div class="stat-ring"></div>
-                <h2 class="stat-num"><span class="counter" data-target="12" data-suffix="+"></span></h2>
+                <h2 class="stat-num"><span class="counter" data-target="12" data-suffix="+">12+</span></h2>
                 <p class="stat-label">Certifications</p>
             </article>
 
@@ -1054,6 +1057,7 @@
     <!-- contact form section start -->
 
     <!-- Footer Start -->
+    </main>
     <section id="footer">
         <div class="footer-sec">
             <div class="container-fluid text-light footer mt-5 wow fadeIn px-0" data-wow-delay="0.1s">
@@ -1324,46 +1328,7 @@ document.querySelectorAll(".heading").forEach((heading) => {
     </script>
 
     <!-- testimonial script end -->
-
-
-    <!-- counter script start -->
-
-    <script>
-        (function () {
-            const counters = document.querySelectorAll('.counter');
-
-            function animate(el) {
-                const target = +el.getAttribute('data-target') || 0;
-                const suffix = el.getAttribute('data-suffix') || '';
-                const duration = 1300;
-                const startTime = performance.now();
-
-                function step(now) {
-                    const p = Math.min((now - startTime) / duration, 1);
-                    const ease = 1 - Math.pow(1 - p, 3);
-                    el.textContent = Math.round(target * ease) + suffix;
-                    if (p < 1) requestAnimationFrame(step);
-                    else el.textContent = target + suffix;
-                }
-                requestAnimationFrame(step);
-            }
-
-            if (!('IntersectionObserver' in window)) {
-                counters.forEach(animate);
-            } else {
-                const io = new IntersectionObserver((entries, obs) => {
-                    entries.forEach(e => {
-                        if (e.isIntersecting) {
-                            animate(e.target);
-                            obs.unobserve(e.target);
-                        }
-                    });
-                }, { threshold: 0.55 });
-                counters.forEach(c => io.observe(c));
-            }
-        })();
-    </script>
-    <!-- counter script start -->
+    <!-- Counters are managed once in js/main.js. -->
 
     <script>
 
@@ -1503,6 +1468,7 @@ document.querySelectorAll(".heading").forEach((heading) => {
 
 
 
+    <script src="js/site-refresh.js" defer></script>
 </body>
 
 </html>

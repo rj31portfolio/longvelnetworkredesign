@@ -46,9 +46,11 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
 
     <link href="css/header-payment.css" rel="stylesheet">
+    <link href="css/site-refresh.css" rel="stylesheet">
 </head>
 
-<body>
+<body class="site-refresh company-about">
+    <a class="skip-link" href="#page-content">Skip to content</a>
     <div id="customCursor" class="custom-cursor" aria-hidden="true"></div>
 
     <!-- this is the loading section -->
@@ -96,8 +98,6 @@
                         <li class="nav-item px-xxl-3">
                             <a class="nav-link " href="index.html#our-services"> Services</a>
                         </li>
-                     
-
 
                         <!-- <li class="nav-item px-xxl-3">
                             <a class="nav-link " href="#review">Review</a>
@@ -111,7 +111,6 @@
                         </li>
                     </ul>
 
-
                 </div>
 
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -123,12 +122,15 @@
                                     <i class="fa-solid fa-arrow-right" aria-hidden="true"></i>
                                 </a>
                             </div>
-                            <a class="cashfree-payment" href="https://payments.cashfree.com/forms/longevalnetworks" target="_parent">
-                                <img src="https://cashfree-checkoutcartimages-prod.cashfree.com/logo__13_Rb0sjn5r3cd0_prod.png" alt="Longeval Networks" class="payment-logo">
+                            <a class="cashfree-payment" href="https://payments.cashfree.com/forms/longevalnetworks"
+                                target="_parent">
+                                <img src="https://cashfree-checkoutcartimages-prod.cashfree.com/logo__13_Rb0sjn5r3cd0_prod.png"
+                                    alt="Longeval Networks" class="payment-logo">
                                 <span class="payment-text">
                                     <span class="payment-title">Pay Now</span>
                                     <span class="payment-brand">Powered By Cashfree
-                                        <img src="https://cashfreelogo.cashfree.com/assets_images/cfbrand/cf_logo.svg" alt="">
+                                        <img src="https://cashfreelogo.cashfree.com/assets_images/cfbrand/cf_logo.svg"
+                                            alt="">
                                     </span>
                                 </span>
                             </a>
@@ -164,440 +166,451 @@
     </header>
     <!-- Navbar End -->
 
-    <section id="breadcrumb-sec" class="breadcrumb-sec bg-info">
-        <div class="container breadcrumb-section ">
-            <nav aria-label="breadcrumb">
-                <ol class="breadcrumb">
-                    <li class="breadcrumb-item" aria-current="page" href="index.html">
-                        <a href="index.html">Home</a>
-                        <i class="ri-arrow-right-s-line"></i>
-                    </li>
-                    <li class="breadcrumb-item">
-                        <a href="about.html" class="rem-sty">About </a>
-                    </li>
-                </ol>
-            </nav>
+    <main id="page-content" tabindex="-1">
+        <section id="breadcrumb-sec" class="breadcrumb-sec bg-info">
+            <div class="container breadcrumb-section ">
+                <nav aria-label="breadcrumb">
+                    <ol class="breadcrumb">
+                        <li class="breadcrumb-item" aria-current="page" href="index.html">
+                            <a href="index.html">Home</a>
+                            <i class="ri-arrow-right-s-line"></i>
+                        </li>
+                        <li class="breadcrumb-item">
+                            <a href="about.html" class="rem-sty">About </a>
+                        </li>
+                    </ol>
+                </nav>
 
-            <nav aria-label="breadcrumb">
-                <ol class="breadcrumb">
-                    <li class="breadcrumb-item active" aria-current="page">
-                        <h2>
-                            About Us
-                        </h2>
-                    </li>
-                </ol>
-            </nav>
-        </div>
-    </section>
+                <nav aria-label="breadcrumb">
+                    <ol class="breadcrumb">
+                        <li class="breadcrumb-item active" aria-current="page">
+                            <h2>
+                                About Us
+                            </h2>
+                        </li>
+                    </ol>
+                </nav>
+            </div>
+        </section>
 
-
-    <!-- This is the Product video contaioner -->
-    <section id="about" class="section" style="overflow: hidden; ">
-        <div class="about container">
-            <div class="row">
-                <!-- <div class="col-lg-1 sun d-none">
+        <!-- This is the Product video contaioner -->
+        <section id="about" class="section" style="overflow: hidden; ">
+            <div class="about container">
+                <div class="row">
+                    <!-- <div class="col-lg-1 sun d-none">
                     <h1 class="since-vert">SINCE 1995</h1>
                 </div> -->
-                <div class="col-lg-6 col-md-12 mb-md-5 mb-sm-4 left">
-                    <div class="img-box">
-                        <!-- BACK image (slow) -->
-                        <div class="img-box-1 parallax-layer" data-speed="0.18">
-                            <img src="img/about-1.jpg" alt="Network installation">
-                        </div>
+                    <div class="col-lg-6 col-md-12 mb-md-5 mb-sm-4 left">
+                        <div class="img-box">
+                            <!-- BACK image (slow) -->
+                            <div class="img-box-1 parallax-layer" data-speed="0.18">
+                                <img src="img/about-1.jpg" alt="Network installation">
+                            </div>
 
-                        <!-- FRONT image (faster) -->
-                        <div class="img-box-2 parallax-layer" data-speed="0.35">
-                            <img src="img/about-2.jpg" alt="Cisco devices inventory">
+                            <!-- FRONT image (faster) -->
+                            <div class="img-box-2 parallax-layer" data-speed="0.35">
+                                <img src="img/about-2.jpg" alt="Cisco devices inventory">
+                            </div>
                         </div>
                     </div>
-                </div>
 
-                <div class="col-lg-6 col-md-12 right d-flex flex-column justify-content-center" data-aos="fade-left">
-                    <h1 class="sub-head ">
-                        About Longeval Networks
-                    </h1>
-                    <div class="heading">Your Trusted Partner in Refurbished Network Solutions</div>
-                    <h5 style="color: white; font-size: 20px;margin-bottom: 15px;">Delivering Excellence in Network
-                        Rentals Since 2010</h5>
-                    <p>
-                        Established in 2010 and based in New Delhi, Longeval Networks is a leading provider of
-                        Refurbished Switch, Router, and Firewall rental services across India. With a strong reputation
-                        for high-quality service and customer satisfaction, we are proud to be a trusted partner to
-                        businesses of all sizes, offering reliable, scalable, and cost-effective networking solutions.
-                    </p>
+                    <div class="col-lg-6 col-md-12 right d-flex flex-column justify-content-center"
+                        data-aos="fade-left">
+                        <h1 class="sub-head ">
+                            About Longeval Networks
+                        </h1>
+                        <div class="heading">Your Trusted Partner in Refurbished Network Solutions</div>
+                        <h5 style="color: white; font-size: 20px;margin-bottom: 15px;">Delivering Excellence in Network
+                            Rentals Since 2010</h5>
+                        <p>
+                            Established in 2010 and based in New Delhi, Longeval Networks is a leading provider of
+                            Refurbished Switch, Router, and Firewall rental services across India. With a strong
+                            reputation
+                            for high-quality service and customer satisfaction, we are proud to be a trusted partner to
+                            businesses of all sizes, offering reliable, scalable, and cost-effective networking
+                            solutions.
+                        </p>
 
-
-                    <!-- <p>
+                        <!-- <p>
                         Our systems are corrosion-resistant, maintenance-free, and built to last, making them the preferred choice for modern infrastructure. With a focus on innovation and reliability, Swasthi continues to raise the bar in earthing technology.
                     </p> -->
 
-                    <div class="box d-flex mt-3">
-                        <div class="icon-box" data-aos="fade-up" data-aos-duration="500">
-                            <div class="back-icon"></div>
-                            <i class="fas fa-plug"></i>
+                        <div class="box d-flex mt-3">
+                            <div class="icon-box" data-aos="fade-up" data-aos-duration="500">
+                                <div class="back-icon"></div>
+                                <i class="fas fa-plug"></i>
+                            </div>
+                            <div class="content">
+                                <h5>Expert Refurbished Solutions</h5>
+                                <p>We specialize in offering Refurbished Network Equipment rentals that cater to the
+                                    diverse
+                                    needs of our clients. From enterprise-grade switches and routers to secure firewalls
+                                    and
+                                    data center gear, every unit we provide is rigorously tested to meet the highest
+                                    standards of performance, reliability, and value.
+                                </p>
+                            </div>
                         </div>
-                        <div class="content">
-                            <h5>Expert Refurbished Solutions</h5>
-                            <p>We specialize in offering Refurbished Network Equipment rentals that cater to the diverse
-                                needs of our clients. From enterprise-grade switches and routers to secure firewalls and
-                                data center gear, every unit we provide is rigorously tested to meet the highest
-                                standards of performance, reliability, and value.
-                            </p>
+                        <div class="box d-flex mt-3">
+                            <div class="icon-box" data-aos="fade-up" data-aos-duration="500">
+                                <div class="back-icon"></div>
+                                <i class="fas fa-truck"></i>
+                            </div>
+                            <div class="content">
+                                <h5>Nationwide Coverage & Reliable Support</h5>
+                                <p>With a pan-India presence, we provide nationwide delivery, installation, and 24/7
+                                    technical support, ensuring your network infrastructure remains operational without
+                                    interruption. Our commitment lies in delivering quality service and dependable
+                                    refurbished equipment that meets your business needs â€” every time.</p>
+                            </div>
                         </div>
-                    </div>
-                    <div class="box d-flex mt-3">
-                        <div class="icon-box" data-aos="fade-up" data-aos-duration="500">
-                            <div class="back-icon"></div>
-                            <i class="fas fa-truck"></i>
-                        </div>
-                        <div class="content">
-                            <h5>Nationwide Coverage & Reliable Support</h5>
-                            <p>With a pan-India presence, we provide nationwide delivery, installation, and 24/7
-                                technical support, ensuring your network infrastructure remains operational without
-                                interruption. Our commitment lies in delivering quality service and dependable
-                                refurbished equipment that meets your business needs â€” every time.</p>
-                        </div>
-                    </div>
 
-                    <button class="btn btn-main" data-aos="fade-up" data-aos-duration="1500"><a href="https://api.whatsapp.com/send/?phone=+918802999776&text=Hello&app_absent=0">Contact Now</a> <i class="fa-solid fa-arrow-right"></i></button>
+                        <button class="btn btn-main" data-aos="fade-up" data-aos-duration="1500"><a
+                                href="https://api.whatsapp.com/send/?phone=+918802999776&text=Hello&app_absent=0">Contact
+                                Now</a> <i class="fa-solid fa-arrow-right"></i></button>
+                    </div>
                 </div>
             </div>
-        </div>
 
-    </section>
-    <!-- End product video container -->
+        </section>
+        <!-- End product video container -->
 
-    <!-- Counter area start -->
-    <section class="stats-area">
-        <div class="stats-wrap">
-            <!-- 1 -->
-            <article class="stat"  data-aos="zoom-in-up" data-aos-duration="300" >
-                <div class="stat-ring"></div>
-                <h2 class="stat-num"><span class="counter" data-target="150" data-suffix="+">0</span></h2>
-                <p class="stat-label">All <br>Product</p>
-            </article>
-
-            <!-- 2 -->
-            <article class="stat" data-aos="zoom-in-up" data-aos-duration="5000">
-                <div class="stat-ring"></div>
-                <h2 class="stat-num"><span class="counter" data-target="500" data-suffix="+">0</span></h2>
-                <p class="stat-label">Happy<br>Customers</p>
-            </article>
-
-            <!-- 3 -->
-            <article class="stat" data-aos="zoom-in-up" data-aos-duration="1500">
-                <div class="stat-ring"></div>
-                <h2 class="stat-num"><span class="counter" data-target="2010">0</span></h2>
-                <p class="stat-label">Year of<br>Establishment</p>
-            </article>
-
-            <!-- 4 -->
-            <article class="stat" data-aos="zoom-in-up" data-aos-duration="2000">
-                <div class="stat-ring"></div>
-                <h2 class="stat-num"><span class="counter" data-target="20">0</span></h2>
-                <p class="stat-label">Team<br>Members</p>
-            </article>
-        </div>
-    </section>
-    <!-- Counter area end -->
-
-    <!-- mission section start -->
-    <section id="mission">
-        <div class="mission section container-fluid">
+        <!-- Counter area start -->
+        <section class="stats-area" aria-labelledby="company-stats-title">
             <div class="container">
-                <!-- <h1 class="sub-head text-center">
+                <div class="stats-intro">
+                    <p class="sub-head">Longeval in numbers</p>
+                    <h2 id="company-stats-title">Built on experience.<br>Trusted by businesses.</h2>
+                </div>
+                <div class="stats-wrap">
+                    <article class="stat">
+                        <span class="stat-index" aria-hidden="true">01 / INVENTORY</span>
+                        <h3 class="stat-num"><span class="counter" data-target="150" data-suffix="+">150+</span></h3>
+                        <p class="stat-label">Network products</p>
+                    </article>
+                    <article class="stat">
+                        <span class="stat-index" aria-hidden="true">02 / CLIENTS</span>
+                        <h3 class="stat-num"><span class="counter" data-target="500" data-suffix="+">500+</span></h3>
+                        <p class="stat-label">Happy customers</p>
+                    </article>
+                    <article class="stat">
+                        <span class="stat-index" aria-hidden="true">03 / HERITAGE</span>
+                        <h3 class="stat-num">2010</h3>
+                        <p class="stat-label">Year established</p>
+                    </article>
+                    <article class="stat">
+                        <span class="stat-index" aria-hidden="true">04 / OUR PEOPLE</span>
+                        <h3 class="stat-num"><span class="counter" data-target="20">20</span></h3>
+                        <p class="stat-label">Team members</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+        <!-- Counter area end -->
+
+        <!-- mission section start -->
+        <section id="mission">
+            <div class="mission section container-fluid">
+                <div class="container">
+                    <!-- <h1 class="sub-head text-center">
                 Our Services
             </h1> -->
-                <div class="heading justify-content-center w-100">Our Vision, Mission & Core Values</div>
-                <br>
-                <div class="sub-heading">
-                    <span id="vis" onclick="Vision()">Our Vision</span>
-                    <span id="miss" onclick="Mission()">Our Mission</span>
-                    <span id="val" onclick="Value()">Our Value</span>
-                </div>
-
-                <!-- Vision start -->
-                <div class="Vision-cont">
-                    <div class="row">
-                        <div class="col-lg-6 col-md-12" data-aos="fade-right" data-aos="fade-right">
-                            <div class="content">
-                                <h1 class="sub-head">
-                                     Our Vision
-                                </h1>
-
-                                <div class="heading ">Empowering Businesses with Sustainable Network Solutions</div>
-                                <p>
-                                    At Longeval Networks, our vision is to become Indiaâ€™s most trusted partner in
-                                    Refurbished Network Solutions, empowering businesses of all sizes with reliable,
-                                    high-performance, and eco-friendly network infrastructure.
-                                    We strive to redefine the refurbished IT market by integrating quality,
-                                    affordability,
-                                    and sustainability, ensuring that every organization can experience enterprise-grade
-                                    networking without compromising on performance or cost.
-                                    Our focus remains on innovation, environmental responsibility, and long-term
-                                    customer
-                                    success â€” building networks that connect possibilities and power progress.
-
-                                </p>
-
-
-                                <ul>
-                                    <li><i class="fa-solid fa-check"></i>
-                                        Deliver top-quality refurbished networking equipment that performs like new.
-                                    </li>
-                                    <li><i class="fa-solid fa-check"></i>
-                                        Build long-term trust through transparency, service excellence, and reliability.
-                                    </li>
-                                    <li><i class="fa-solid fa-check"></i>
-                                        Promote sustainability by extending the lifecycle of IT hardware.
-                                    </li>
-                                    <li><i class="fa-solid fa-check"></i>
-                                        Empower organizations to scale with confidence and connectivity.
-                                    </li>
-
-                                </ul>
-
-
-                            </div>
-
-                        </div>
-                        <div class="col-lg-6 col-md-12  d-flex justify-content-center align-items-center" data-aos="fade-left">
-                            <div class="img-box squre-effect">
-                                <img src="img/vis.png" class="img-fluid">
-                            </div>
-
-                        </div>
+                    <div class="heading justify-content-center w-100">Our Vision, Mission & Core Values</div>
+                    <br>
+                    <div class="sub-heading">
+                        <span id="vis" onclick="Vision()">Our Vision</span>
+                        <span id="miss" onclick="Mission()">Our Mission</span>
+                        <span id="val" onclick="Value()">Our Value</span>
                     </div>
 
+                    <!-- Vision start -->
+                    <div class="Vision-cont">
+                        <div class="row">
+                            <div class="col-lg-6 col-md-12" data-aos="fade-right" data-aos="fade-right">
+                                <div class="content">
+                                    <h1 class="sub-head">
+                                        Our Vision
+                                    </h1>
 
-                </div>
+                                    <div class="heading ">Empowering Businesses with Sustainable Network Solutions</div>
+                                    <p>
+                                        At Longeval Networks, our vision is to become Indiaâ€™s most trusted partner in
+                                        Refurbished Network Solutions, empowering businesses of all sizes with reliable,
+                                        high-performance, and eco-friendly network infrastructure.
+                                        We strive to redefine the refurbished IT market by integrating quality,
+                                        affordability,
+                                        and sustainability, ensuring that every organization can experience
+                                        enterprise-grade
+                                        networking without compromising on performance or cost.
+                                        Our focus remains on innovation, environmental responsibility, and long-term
+                                        customer
+                                        success â€” building networks that connect possibilities and power progress.
 
-                <!-- mission start -->
-                <div class="mission-cont">
-                    <div class="row">
+                                    </p>
 
-                        <div class="col-lg-6 col-md-12  d-flex justify-content-center align-items-center" data-aos="fade-left">
-                            <div class="img-box squre-effect">
-                                <img src="img/miss.png" class="img-fluid">
-                            </div>
+                                    <ul>
+                                        <li><i class="fa-solid fa-check"></i>
+                                            Deliver top-quality refurbished networking equipment that performs like new.
+                                        </li>
+                                        <li><i class="fa-solid fa-check"></i>
+                                            Build long-term trust through transparency, service excellence, and
+                                            reliability.
+                                        </li>
+                                        <li><i class="fa-solid fa-check"></i>
+                                            Promote sustainability by extending the lifecycle of IT hardware.
+                                        </li>
+                                        <li><i class="fa-solid fa-check"></i>
+                                            Empower organizations to scale with confidence and connectivity.
+                                        </li>
 
-                        </div>
-                        <div class="col-lg-6 col-md-12" data-aos="fade-right">
-                            <div class="content">
-                                <h1 class="sub-head">
-                                     Our Mission
-                                </h1>
+                                    </ul>
 
-                                <div class="heading ">Delivering Reliable, Affordable & Eco-Smart Network Solutions
                                 </div>
-                                <p>
-                                    At Longeval Networks, our mission is to simplify enterprise networking through
-                                    refurbished yet high-performance equipment that offers unmatched value. We are
-                                    committed
-                                    to delivering dependable, cost-effective, and sustainable network solutions that
-                                    empower
-                                    businesses to stay connected and competitive.
-                                    Our focus is on combining technology, transparency, and trust â€” ensuring every
-                                    client
-                                    receives not just equipment, but a long-term partnership that fuels growth and
-                                    continuity.
-
-                                </p>
-
-
-                                <ul>
-                                    <li><i class="fa-solid fa-check"></i>
-                                        Offer enterprise-grade refurbished equipment at competitive pricing.
-                                    </li>
-                                    <li><i class="fa-solid fa-check"></i>
-                                        Ensure uptime through quality assurance and responsive support.
-                                    </li>
-                                    <li><i class="fa-solid fa-check"></i>
-                                        Build long-term partnerships rooted in trust and transparency.
-                                    </li>
-                                    <li><i class="fa-solid fa-check"></i>
-                                        Support sustainability by extending the lifecycle of networking hardware.
-                                    </li>
-
-                                </ul>
-
 
                             </div>
+                            <div class="col-lg-6 col-md-12  d-flex justify-content-center align-items-center"
+                                data-aos="fade-left">
+                                <div class="img-box squre-effect">
+                                    <img src="img/vis.png" class="img-fluid">
+                                </div>
 
+                            </div>
                         </div>
+
                     </div>
 
+                    <!-- mission start -->
+                    <div class="mission-cont">
+                        <div class="row">
+
+                            <div class="col-lg-6 col-md-12  d-flex justify-content-center align-items-center"
+                                data-aos="fade-left">
+                                <div class="img-box squre-effect">
+                                    <img src="img/miss.png" class="img-fluid">
+                                </div>
+
+                            </div>
+                            <div class="col-lg-6 col-md-12" data-aos="fade-right">
+                                <div class="content">
+                                    <h1 class="sub-head">
+                                        Our Mission
+                                    </h1>
+
+                                    <div class="heading ">Delivering Reliable, Affordable & Eco-Smart Network Solutions
+                                    </div>
+                                    <p>
+                                        At Longeval Networks, our mission is to simplify enterprise networking through
+                                        refurbished yet high-performance equipment that offers unmatched value. We are
+                                        committed
+                                        to delivering dependable, cost-effective, and sustainable network solutions that
+                                        empower
+                                        businesses to stay connected and competitive.
+                                        Our focus is on combining technology, transparency, and trust â€” ensuring every
+                                        client
+                                        receives not just equipment, but a long-term partnership that fuels growth and
+                                        continuity.
+
+                                    </p>
+
+                                    <ul>
+                                        <li><i class="fa-solid fa-check"></i>
+                                            Offer enterprise-grade refurbished equipment at competitive pricing.
+                                        </li>
+                                        <li><i class="fa-solid fa-check"></i>
+                                            Ensure uptime through quality assurance and responsive support.
+                                        </li>
+                                        <li><i class="fa-solid fa-check"></i>
+                                            Build long-term partnerships rooted in trust and transparency.
+                                        </li>
+                                        <li><i class="fa-solid fa-check"></i>
+                                            Support sustainability by extending the lifecycle of networking hardware.
+                                        </li>
+
+                                    </ul>
+
+                                </div>
+
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <!-- value start -->
+                    <div class="value-cont">
+                        <div class="row">
+                            <div class="col-lg-6 col-md-12" data-aos="fade-right">
+                                <div class="content">
+                                    <h1 class="sub-head">
+                                        Our Core Values
+                                    </h1>
+
+                                    <div class="heading ">Integrity, Quality & Innovation in Every Connection</div>
+                                    <p>
+                                        Our core values define how we work, innovate, and build relationships. At
+                                        Longeval
+                                        Networks, we operate with a commitment to transparency, sustainability, and
+                                        customer
+                                        success. Every decision and action is guided by our promise to deliver value,
+                                        trust,
+                                        and
+                                        reliability in every interaction and every network solution.
+
+                                    </p>
+
+                                    <ul>
+                                        <li><i class="fa-solid fa-check"></i>
+                                            Integrity: Honest business practices that build lasting relationships.
+                                        </li>
+                                        <li><i class="fa-solid fa-check"></i>
+                                            Quality: Each product passes through rigorous testing and certification.
+                                        </li>
+                                        <li><i class="fa-solid fa-check"></i>
+                                            Customer Focus: Our clientâ€™s success is our top priority.
+                                        </li>
+                                        <li><i class="fa-solid fa-check"></i>
+                                            Sustainability: A greener IT ecosystem through responsible refurbishment.
+                                        </li>
+
+                                    </ul>
+
+                                </div>
+
+                            </div>
+                            <div class="col-lg-6 col-md-12  d-flex justify-content-center align-items-center"
+                                data-aos="fade-left">
+                                <div class="img-box squre-effect">
+                                    <img src="img/value.png" class="img-fluid">
+                                </div>
+
+                            </div>
+                        </div>
+
+                    </div>
 
                 </div>
+            </div>
+        </section>
 
-                <!-- value start -->
-                <div class="value-cont">
-                    <div class="row">
-                        <div class="col-lg-6 col-md-12" data-aos="fade-right">
-                            <div class="content">
-                                <h1 class="sub-head">
-                                    Our Core Values
-                                </h1>
+        <!-- why choose us section end -->
 
-                                <div class="heading ">Integrity, Quality & Innovation in Every Connection</div>
-                                <p>
-                                    Our core values define how we work, innovate, and build relationships. At Longeval
-                                    Networks, we operate with a commitment to transparency, sustainability, and customer
-                                    success. Every decision and action is guided by our promise to deliver value, trust,
+        <!-- why choose us section start -->
+
+        <section class="why-sec">
+            <div class="container ">
+                <h1 class="sub-head text-center ">
+                    Why Choose Us
+                </h1>
+                <div class="heading">Unmatched Quality And Service For Your Networking Needs</div>
+                <div class="row justify-content-between align-items-center">
+
+                    <!-- Left Side -->
+                    <div class="col-lg-4 why-col">
+                        <div class="why-item" data-aos="fade-right" data-aos-duration="300">
+                            <div class="icon-box">
+                                <div class="back-icon"></div>
+                                <i class="fa-solid fa-network-wired"></i>
+                            </div>
+                            <div>
+                                <h5>Extensive Fleet of Equipment</h5>
+                                <p>We offer a wide range of Refurbished networking devices to suit every business
+                                    requirement and budget â€” from high-performance switches and routers to firewalls
                                     and
-                                    reliability in every interaction and every network solution.
+                                    access points. Each device is tested and certified to deliver enterprise-grade
+                                    reliability and scalability.</p>
+                            </div>
+                        </div>
+                        <div class="why-item " data-aos="fade-right" data-aos-duration="500">
+                            <div class="icon-box">
+                                <div class="back-icon"></div>
+                                <i class="fa-solid fa-shield-halved"></i>
+                            </div>
+                            <div>
+                                <h5>Reliability and Safety</h5>
+                                <p>All our refurbished equipment undergoes comprehensive inspection and quality checks
+                                    to
+                                    ensure smooth, secure, and uninterrupted network performance. We guarantee reliable
+                                    operation so your network stays up and running â€” always.</p>
+                            </div>
+                        </div>
+                        <div class="why-item " data-aos="fade-right" data-aos-duration="1000">
+                            <div class="icon-box">
+                                <div class="back-icon"></div>
+                                <i class="fa-solid fa-headset"></i>
+                            </div>
+                            <div>
+                                <h5>Exceptional Customer Service</h5>
+                                <p>Our dedicated support team ensures a seamless and hassle-free experience from inquiry
+                                    to
+                                    installation. Weâ€™re available to assist with any queries and provide fast,
+                                    dependable
+                                    solutions tailored to your specific business needs.</p>
+                            </div>
+                        </div>
+                    </div>
 
+                    <!-- Center with 2 Images -->
+                    <div class="col-lg-4 col-md-6 col-sm-12 why-image">
+                        <div class="img-box-1">
+                            <img src="img/why-1.jpg" alt="Why Image 1">
+                        </div>
+                        <div class="img-box-2">
+                            <img src="img/why-2.png" alt="Why Image 2" data-aos="zoom-in" data-aos-delay="100">
+                        </div>
+                    </div>
+
+                    <!-- Right Side -->
+                    <div class="col-lg-4 why-col">
+                        <div class="why-item" data-aos="fade-left" data-aos-duration="1000">
+                            <div class="icon-box">
+                                <div class="back-icon"></div>
+                                <i class="fa-solid fa-clock"></i>
+                            </div>
+                            <div>
+                                <h5>24/7 Availability</h5>
+                                <p>We provide round-the-clock technical support and rental assistance to ensure your
+                                    network
+                                    remains operational at all times. Whether itâ€™s an urgent replacement or scheduled
+                                    setup,
+                                    our equipment is always ready when you need it.</p>
+                            </div>
+                        </div>
+                        <div class="why-item" data-aos="fade-left" data-aos-duration="1000">
+                            <div class="icon-box">
+                                <div class="back-icon"></div>
+                                <i class="fa-solid fa-location-dot"></i>
+                            </div>
+                            <div>
+                                <h5>Convenient Locations</h5>
+                                <p>With multiple service hubs across India, Longeval Networks makes it easy to pick up
+                                    or
+                                    return your rented equipment quickly. Our nationwide presence ensures fast delivery
+                                    and
+                                    accessibility wherever your business operates.
                                 </p>
-
-
-                                <ul>
-                                    <li><i class="fa-solid fa-check"></i>
-                                        Integrity: Honest business practices that build lasting relationships.
-                                    </li>
-                                    <li><i class="fa-solid fa-check"></i>
-                                        Quality: Each product passes through rigorous testing and certification.
-                                    </li>
-                                    <li><i class="fa-solid fa-check"></i>
-                                        Customer Focus: Our clientâ€™s success is our top priority.
-                                    </li>
-                                    <li><i class="fa-solid fa-check"></i>
-                                        Sustainability: A greener IT ecosystem through responsible refurbishment.
-                                    </li>
-
-                                </ul>
-
-
                             </div>
-
                         </div>
-                        <div class="col-lg-6 col-md-12  d-flex justify-content-center align-items-center" data-aos="fade-left">
-                            <div class="img-box squre-effect">
-                                <img src="img/value.png" class="img-fluid">
+                        <div class="why-item" data-aos="fade-left" data-aos-duration="1000">
+                            <div class="icon-box">
+                                <div class="back-icon"></div>
+                                <i class="fa-solid fa-tags"></i>
                             </div>
-
-                        </div>
-                    </div>
-
-
-                </div>
-
-            </div>
-        </div>
-    </section>
-
-
-    <!-- why choose us section end -->
-
-
-    <!-- why choose us section start -->
-
-    <section class="why-sec">
-        <div class="container ">
-            <h1 class="sub-head text-center ">
-                Why Choose Us
-            </h1>
-            <div class="heading">Unmatched Quality And Service For Your Networking Needs</div>
-            <div class="row justify-content-between align-items-center">
-
-                <!-- Left Side -->
-                <div class="col-lg-4 why-col">
-                    <div class="why-item" data-aos="fade-right" data-aos-duration="300">
-                        <div class="icon-box">
-                            <div class="back-icon"></div>
-                            <i class="fa-solid fa-network-wired"></i>
-                        </div>
-                        <div>
-                            <h5>Extensive Fleet of Equipment</h5>
-                            <p>We offer a wide range of Refurbished networking devices to suit every business
-                                requirement and budget â€” from high-performance switches and routers to firewalls and
-                                access points. Each device is tested and certified to deliver enterprise-grade
-                                reliability and scalability.</p>
-                        </div>
-                    </div>
-                    <div class="why-item " data-aos="fade-right" data-aos-duration="500">
-                        <div class="icon-box">
-                            <div class="back-icon"></div>
-                            <i class="fa-solid fa-shield-halved"></i>
-                        </div>
-                        <div>
-                            <h5>Reliability and Safety</h5>
-                            <p>All our refurbished equipment undergoes comprehensive inspection and quality checks to
-                                ensure smooth, secure, and uninterrupted network performance. We guarantee reliable
-                                operation so your network stays up and running â€” always.</p>
-                        </div>
-                    </div>
-                    <div class="why-item " data-aos="fade-right" data-aos-duration="1000">
-                        <div class="icon-box">
-                            <div class="back-icon"></div>
-                            <i class="fa-solid fa-headset"></i>
-                        </div>
-                        <div>
-                            <h5>Exceptional Customer Service</h5>
-                            <p>Our dedicated support team ensures a seamless and hassle-free experience from inquiry to
-                                installation. Weâ€™re available to assist with any queries and provide fast, dependable
-                                solutions tailored to your specific business needs.</p>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Center with 2 Images -->
-                <div class="col-lg-4 col-md-6 col-sm-12 why-image">
-                    <div class="img-box-1">
-                        <img src="img/why-1.jpg" alt="Why Image 1">
-                    </div>
-                    <div class="img-box-2">
-                        <img src="img/why-2.png" alt="Why Image 2" data-aos="zoom-in" data-aos-delay="100">
-                    </div>
-                </div>
-
-                <!-- Right Side -->
-                <div class="col-lg-4 why-col">
-                    <div class="why-item" data-aos="fade-left" data-aos-duration="1000">
-                        <div class="icon-box">
-                            <div class="back-icon"></div>
-                            <i class="fa-solid fa-clock"></i>
-                        </div>
-                        <div>
-                            <h5>24/7 Availability</h5>
-                            <p>We provide round-the-clock technical support and rental assistance to ensure your network
-                                remains operational at all times. Whether itâ€™s an urgent replacement or scheduled setup,
-                                our equipment is always ready when you need it.</p>
-                        </div>
-                    </div>
-                    <div class="why-item" data-aos="fade-left" data-aos-duration="1000">
-                        <div class="icon-box">
-                            <div class="back-icon"></div>
-                            <i class="fa-solid fa-location-dot"></i>
-                        </div>
-                        <div>
-                            <h5>Convenient Locations</h5>
-                            <p>With multiple service hubs across India, Longeval Networks makes it easy to pick up or
-                                return your rented equipment quickly. Our nationwide presence ensures fast delivery and
-                                accessibility wherever your business operates.
-                            </p>
-                        </div>
-                    </div>
-                    <div class="why-item" data-aos="fade-left" data-aos-duration="1000">
-                        <div class="icon-box">
-                            <div class="back-icon"></div>
-                            <i class="fa-solid fa-tags"></i>
-                        </div>
-                        <div>
-                            <h5>Affordable Pricing</h5>
-                            <p>Get the best value with cost-effective refurbished networking equipment rentals. We
-                                provide enterprise-grade solutions at a fraction of new hardware prices â€” helping you
-                                reduce costs without compromising performance.</p>
+                            <div>
+                                <h5>Affordable Pricing</h5>
+                                <p>Get the best value with cost-effective refurbished networking equipment rentals. We
+                                    provide enterprise-grade solutions at a fraction of new hardware prices â€” helping
+                                    you
+                                    reduce costs without compromising performance.</p>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <!-- why choose us section end -->
+        <!-- why choose us section end -->
 
-
-  <!-- Footer Start -->
+        <!-- Footer Start -->
+    </main>
     <section id="footer">
         <div class="footer-sec">
             <div class="container-fluid text-light footer mt-5 wow fadeIn px-0" data-wow-delay="0.1s">
@@ -627,7 +640,6 @@
                     </div> -->
                         </div>
 
-
                         <div class="col-lg-3 col-md-6">
                             <h4 class="text-uppercase mb-4">Quick Links</h4>
                             <a class='btn btn-link' href='index.html'>Home</a>
@@ -649,7 +661,6 @@
                             <a class='btn btn-link' href='product.html'>3850 Series Router</a>
                             <a class='btn btn-link' href='product.html'>2960X Series Router</a>
                             <a class='btn btn-link' href='product.html'>9200 Series Router</a>
-
 
                         </div>
 
@@ -685,18 +696,20 @@
                             <div class="d-flex pt-1 m-n1 pt-4 footer-social-sec">
                                 <a class="btn m-1" href="https://www.facebook.com/longevalnetworks"><i
                                         class="fab fa-facebook-f"></i></a>
-                                <a class="btn m-1" href="https://www.instagram.com/longevalnetworks?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="><i
+                                <a class="btn m-1"
+                                    href="https://www.instagram.com/longevalnetworks?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="><i
                                         class="fa-brands fa-instagram"></i></a>
-                                
-                                
 
                             </div>
-                            <a class="cashfree-payment mt-3" href="https://payments.cashfree.com/forms/longevalnetworks" target="_parent">
-                                <img src="https://cashfree-checkoutcartimages-prod.cashfree.com/logo__13_Rb0sjn5r3cd0_prod.png" alt="Longeval Networks" class="payment-logo">
+                            <a class="cashfree-payment mt-3" href="https://payments.cashfree.com/forms/longevalnetworks"
+                                target="_parent">
+                                <img src="https://cashfree-checkoutcartimages-prod.cashfree.com/logo__13_Rb0sjn5r3cd0_prod.png"
+                                    alt="Longeval Networks" class="payment-logo">
                                 <span class="payment-text">
                                     <span class="payment-title">Pay Now</span>
                                     <span class="payment-brand">Powered By Cashfree
-                                        <img src="https://cashfreelogo.cashfree.com/assets_images/cfbrand/cf_logo.svg" alt="">
+                                        <img src="https://cashfreelogo.cashfree.com/assets_images/cfbrand/cf_logo.svg"
+                                            alt="">
                                     </span>
                                 </span>
                             </a>
@@ -730,58 +743,49 @@
     </div>
     <!-- End whatsapp section -->
 
-
     <!-- Back to Top -->
     <a href="#" class="btn btn-lg-square2 back-to-top" style="    background-color: var(--primary);
     color: white;
     border-radius: 15px;
     display: inline;
     padding: 8px 10px;"><i class="bi bi-arrow-up"></i></a>
-    
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
-<script>
-gsap.registerPlugin(ScrollTrigger);
-
-// Select all headings
-document.querySelectorAll(".heading").forEach((heading) => {
-
-    const words = heading.textContent.trim().split(" ");
-    heading.innerHTML = ""; // Clear old content
-
-    // MAKE WORDS → THEN LETTERS
-    words.forEach(word => {
-        const wordSpan = document.createElement("span");
-        wordSpan.classList.add("word");
-
-        // letters inside each word
-        word.split("").forEach(letter => {
-            const letterSpan = document.createElement("span");
-            letterSpan.classList.add("letter");
-            letterSpan.textContent = letter;
-            wordSpan.appendChild(letterSpan);
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+    <script>
+        gsap.registerPlugin(ScrollTrigger);
+        // Select all headings
+        document.querySelectorAll(".heading").forEach((heading) => {
+            const words = heading.textContent.trim().split(" ");
+            heading.innerHTML = ""; // Clear old content
+            // MAKE WORDS → THEN LETTERS
+            words.forEach(word => {
+                const wordSpan = document.createElement("span");
+                wordSpan.classList.add("word");
+                // letters inside each word
+                word.split("").forEach(letter => {
+                    const letterSpan = document.createElement("span");
+                    letterSpan.classList.add("letter");
+                    letterSpan.textContent = letter;
+                    wordSpan.appendChild(letterSpan);
+                });
+                heading.appendChild(wordSpan);
+            });
+            // GSAP Animation
+            gsap.to(heading.querySelectorAll(".letter"), {
+                scrollTrigger: {
+                    trigger: heading,
+                    start: "top 80%", // when heading scrolls into view
+                },
+                opacity: 1,
+                x: 0,
+                y: 0,
+                duration: 1,
+                stagger: 0.03,
+                ease: "power3.out"
+            });
         });
-
-        heading.appendChild(wordSpan);
-    });
-
-    // GSAP Animation
-    gsap.to(heading.querySelectorAll(".letter"), {
-        scrollTrigger: {
-            trigger: heading,
-            start: "top 80%",  // when heading scrolls into view
-        },
-        opacity: 1,
-        x: 0,
-        y: 0,
-        duration: 1,
-        stagger: 0.03,
-        ease: "power3.out"
-    });
-
-});
-</script>
-
+    </script>
 
     <!-- JavaScript Libraries -->
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
@@ -810,32 +814,53 @@ document.querySelectorAll(".heading").forEach((heading) => {
         AOS.init();
     </script>
 
-
     <!-- product script start -->
     <script>
         const swiper = new Swiper('.fleet-swiper', {
             loop: true,
             speed: 600,
             spaceBetween: 24,
-            autoplay: { delay: 3000, disableOnInteraction: false },
-
+            autoplay: {
+                delay: 3000,
+                disableOnInteraction: false
+            },
             // bottom-centered nav
             navigation: {
                 nextEl: '.fleet-swiper .swiper-button-next',
                 prevEl: '.fleet-swiper .swiper-button-prev',
             },
             // pagination: { el: '.fleet-swiper .swiper-pagination', clickable: true },
-
             breakpoints: {
-                0: { slidesPerView: 1, spaceBetween: 14, centeredSlides: true },
-                480: { slidesPerView: 1.2, spaceBetween: 16, centeredSlides: true },
-                576: { slidesPerView: 2, spaceBetween: 18 },
-                768: { slidesPerView: 2, spaceBetween: 20 },
-                992: { slidesPerView: 3, spaceBetween: 22 },
-                1200: { slidesPerView: 4, spaceBetween: 24 },
+                0: {
+                    slidesPerView: 1,
+                    spaceBetween: 14,
+                    centeredSlides: true
+                },
+                480: {
+                    slidesPerView: 1.2,
+                    spaceBetween: 16,
+                    centeredSlides: true
+                },
+                576: {
+                    slidesPerView: 2,
+                    spaceBetween: 18
+                },
+                768: {
+                    slidesPerView: 2,
+                    spaceBetween: 20
+                },
+                992: {
+                    slidesPerView: 3,
+                    spaceBetween: 22
+                },
+                1200: {
+                    slidesPerView: 4,
+                    spaceBetween: 24
+                },
             },
-
-            observer: true, observeParents: true, watchOverflow: true
+            observer: true,
+            observeParents: true,
+            watchOverflow: true
         });
     </script>
     <!-- product script start -->
@@ -847,20 +872,34 @@ document.querySelectorAll(".heading").forEach((heading) => {
             loop: true,
             speed: 600,
             spaceBetween: 24,
-            autoplay: { delay: 3000, disableOnInteraction: false },
-
+            autoplay: {
+                delay: 3000,
+                disableOnInteraction: false
+            },
             navigation: {
                 nextEl: '.testi-next',
                 prevEl: '.testi-prev',
             },
-
             breakpoints: {
-                0: { slidesPerView: 1, spaceBetween: 14, centeredSlides: true },
-                576: { slidesPerView: 1.4, spaceBetween: 18, centeredSlides: true },
-                768: { slidesPerView: 2, spaceBetween: 20 },
-                992: { slidesPerView: 3, spaceBetween: 22 },
+                0: {
+                    slidesPerView: 1,
+                    spaceBetween: 14,
+                    centeredSlides: true
+                },
+                576: {
+                    slidesPerView: 1.4,
+                    spaceBetween: 18,
+                    centeredSlides: true
+                },
+                768: {
+                    slidesPerView: 2,
+                    spaceBetween: 20
+                },
+                992: {
+                    slidesPerView: 3,
+                    spaceBetween: 22
+                },
             },
-
             observer: true,
             observeParents: true,
             watchOverflow: true,
@@ -868,61 +907,24 @@ document.querySelectorAll(".heading").forEach((heading) => {
     </script>
 
     <!-- testimonial script end -->
-
-
-    <!-- counter script start -->
+    <!-- Counters are managed once in js/main.js. -->
 
     <script>
-        (function () {
-            const counters = document.querySelectorAll('.counter');
-
-            function animate(el) {
-                const target = +el.getAttribute('data-target') || 0;
-                const suffix = el.getAttribute('data-suffix') || '';
-                const duration = 1300;
-                const startTime = performance.now();
-
-                function step(now) {
-                    const p = Math.min((now - startTime) / duration, 1);
-                    const ease = 1 - Math.pow(1 - p, 3);
-                    el.textContent = Math.round(target * ease) + suffix;
-                    if (p < 1) requestAnimationFrame(step);
-                    else el.textContent = target + suffix;
-                }
-                requestAnimationFrame(step);
-            }
-
-            if (!('IntersectionObserver' in window)) {
-                counters.forEach(animate);
-            } else {
-                const io = new IntersectionObserver((entries, obs) => {
-                    entries.forEach(e => {
-                        if (e.isIntersecting) {
-                            animate(e.target);
-                            obs.unobserve(e.target);
-                        }
-                    });
-                }, { threshold: 0.55 });
-                counters.forEach(c => io.observe(c));
-            }
-        })();
-    </script>
-    <!-- counter script start -->
-
-    <script>
-       
         (() => {
             const cursor = document.getElementById('customCursor');
             const label = cursor.querySelector('.cursor-label');
-
             // Smooth follow
-            let mx = innerWidth / 2, my = innerHeight / 2; // mouse
-            let x = mx, y = my;                        // follower
+            let mx = innerWidth / 2,
+                my = innerHeight / 2; // mouse
+            let x = mx,
+                y = my; // follower
             const ease = 0.18;
-
             window.addEventListener('mousemove', (e) => {
-                mx = e.clientX; my = e.clientY;
-            }, { passive: true });
+                mx = e.clientX;
+                my = e.clientY;
+            }, {
+                passive: true
+            });
 
             function raf() {
                 x += (mx - x) * ease;
@@ -931,9 +933,7 @@ document.querySelectorAll(".heading").forEach((heading) => {
                 requestAnimationFrame(raf);
             }
             requestAnimationFrame(raf);
-
             // ====== HOVER STATES ======
-
             // 1) Headings -> active glass effect
             function bindHeadingHover(root = document) {
                 root.querySelectorAll('.heading').forEach(el => {
@@ -944,7 +944,6 @@ document.querySelectorAll(".heading").forEach((heading) => {
                 });
             }
             bindHeadingHover();
-
             // 2) DRAG/Swiper targets -> show "Drag" label
             // Add/adjust selectors as per your project:
             const DRAG_SELECTOR = [
@@ -959,25 +958,21 @@ document.querySelectorAll(".heading").forEach((heading) => {
                 root.querySelectorAll(DRAG_SELECTOR).forEach(el => {
                     if (el.__cursorDragBound) return;
                     el.__cursorDragBound = true;
-
                     el.addEventListener('pointerenter', () => {
                         label.textContent = 'Drag';
                         cursor.classList.add('drag');
                     });
-
                     el.addEventListener('pointerleave', () => {
                         cursor.classList.remove('drag');
                         // If heading se bahar aa rahe ho to label ko clear hi rehne do
                         label.textContent = '';
                     });
-
                     // optional: while actually dragging, keep it active
                     el.addEventListener('pointerdown', () => cursor.classList.add('drag'));
                     el.addEventListener('pointerup', () => cursor.classList.remove('drag'));
                 });
             }
             bindDragHover();
-
             // Observe DOM for SPA/lazy content
             const mo = new MutationObserver(muts => {
                 for (const m of muts) {
@@ -989,19 +984,19 @@ document.querySelectorAll(".heading").forEach((heading) => {
                     });
                 }
             });
-            mo.observe(document.documentElement, { childList: true, subtree: true });
-
+            mo.observe(document.documentElement, {
+                childList: true,
+                subtree: true
+            });
             // Optional polish: hide on window blur
             window.addEventListener('blur', () => cursor.style.opacity = '0');
             window.addEventListener('focus', () => cursor.style.opacity = '1');
         })();
-  
-
         // mission secript start
-
         document.querySelector("#vis").style.backgroundColor = "var(--primary)";
         document.querySelector(".mission-cont").style.display = "none";
         document.querySelector(".value-cont").style.display = "none";
+
         function Vision() {
             document.querySelector(".Vision-cont").style.display = "block";
             document.querySelector("#vis").style.backgroundColor = "var(--primary)";
@@ -1010,6 +1005,7 @@ document.querySelectorAll(".heading").forEach((heading) => {
             document.querySelector(".mission-cont").style.display = "none";
             document.querySelector(".value-cont").style.display = "none";
         }
+
         function Mission() {
             document.querySelector(".Vision-cont").style.display = "none";
             document.querySelector(".mission-cont").style.display = "block";
@@ -1018,6 +1014,7 @@ document.querySelectorAll(".heading").forEach((heading) => {
             document.querySelector("#vis").style.backgroundColor = "black";
             document.querySelector(".value-cont").style.display = "none";
         }
+
         function Value() {
             document.querySelector(".Vision-cont").style.display = "none";
             document.querySelector(".mission-cont").style.display = "none";
@@ -1026,16 +1023,9 @@ document.querySelectorAll(".heading").forEach((heading) => {
             document.querySelector("#vis").style.backgroundColor = "black";
             document.querySelector("#miss").style.backgroundColor = "black";
         }
-
     </script>
 
-
-
-
-
+    <script src="js/site-refresh.js" defer></script>
 </body>
 
 </html>
-
-
-

@@ -47,11 +47,14 @@
 
 
 
+    <link href="css/site-refresh.css" rel="stylesheet">
 </head>
 
-<body>
+<body class="site-refresh">
+    <a class="skip-link" href="#page-content">Skip to content</a>
 
     <!-- error section start -->
+    <main id="page-content" tabindex="-1">
     <section id="error">
         <div class="container error py-5">
             <img src="img/error.png" class="img-fluid">
@@ -61,6 +64,7 @@
             <button class="btn btn-main"><a href="index.html"> Back to Home Page</a></button>
         </div>
     </section>
+    </main>
     <!-- error section start -->
     
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
@@ -137,6 +141,7 @@ document.querySelectorAll(".heading").forEach((heading) => {
 
 
 
+    <script src="js/site-refresh.js" defer></script>
 </body>
 
 </html>
