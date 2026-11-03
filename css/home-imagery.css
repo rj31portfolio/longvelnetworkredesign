@@ -1,0 +1,181 @@
+/* Reference-inspired imagery and layout, scoped to the homepage. */
+body.site-refresh.home-redesign #header {
+  background: #fff;
+  border-bottom: 1px solid #e6edf2;
+  backdrop-filter: none;
+}
+body.site-refresh.home-redesign #header .nav-link { color: #071d40; }
+body.site-refresh.home-redesign #header .nav-link:is(:hover, .active) { color: #d95700; }
+body.site-refresh.home-redesign #header .navbar-toggler { color: #071d40; border-color: #dce5ef; }
+body.site-refresh.home-redesign #header .btn-main,
+body.site-refresh.home-redesign :is(.btn-main, .btn-thir) { border-radius: 30px; }
+body.site-refresh.home-redesign #header .cashfree-payment {
+  background: #fff;
+  color: #071d40;
+  border: 1px solid #dce5ef;
+  border-radius: 30px;
+}
+body.site-refresh.home-redesign #header .payment-title,
+body.site-refresh.home-redesign #header .payment-brand { color: #071d40; }
+body.site-refresh.home-redesign #home-banner { background: #edf5f8; }
+body.site-refresh.home-redesign .home-banner .carousel-inner .first {
+  min-height: 540px;
+  padding-top: 58px;
+  padding-bottom: 30px;
+  background: #edf5f8;
+}
+body.site-refresh.home-redesign .hero-visual {
+  inset: 0 0 0 auto;
+  width: 60%;
+  height: 100%;
+}
+body.site-refresh.home-redesign .hero-visual img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: 64% center;
+}
+body.site-refresh.home-redesign .hero-visual::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(90deg, #edf5f8, #edf5f8b8 9%, transparent 35%);
+}
+body.site-refresh.home-redesign #home-banner .carousel-inner .first > .carousel-caption { width: 51%; }
+body.site-refresh.home-redesign .home-banner .carousel-inner .first .carousel-caption h1 {
+  color: #071d40;
+  font-size: clamp(32px, 3.45vw, 49px);
+  text-shadow: none;
+}
+body.site-refresh.home-redesign .home-banner .carousel-inner .first .carousel-caption h1 span { color: #f4770b; }
+body.site-refresh.home-redesign .home-banner .carousel-inner .carousel-caption h5 { color: #28546b; }
+body.site-refresh.home-redesign .home-banner .carousel-inner .carousel-caption p {
+  color: #314a60;
+  max-width: 460px;
+  padding-right: 18px;
+}
+body.site-refresh.home-redesign .btn-four { border: 1px solid #c9d7e2; border-radius: 30px; }
+.home-redesign .hero-benefits {
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 15px;
+  margin: 36px 0 0;
+  padding: 0;
+}
+.home-redesign .hero-benefits li {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  font-size: 10px;
+  font-weight: 700;
+  line-height: 1.5;
+  color: #071d40;
+}
+.home-redesign .hero-benefits i { font-size: 21px; }
+body.site-refresh.home-redesign #trust { background: #051d30; }
+body.site-refresh.home-redesign #about {
+  padding: 25px 0;
+  background: radial-gradient(ellipse at 0 100%, #e2f6fc 0, transparent 38%), #fff;
+}
+body.site-refresh.home-redesign #about > .container { max-width: 1240px; padding: 0 28px; }
+body.site-refresh.home-redesign #about .left { padding: 0; min-height: 550px; }
+body.site-refresh.home-redesign #about .left .img-box {
+  position: relative;
+  min-height: 550px;
+  height: 100%;
+  border-radius: 20px;
+  overflow: hidden;
+}
+body.site-refresh.home-redesign #about .left .img-box-1 { transform: none; }
+body.site-refresh.home-redesign #about .left .img-box-1 img { object-position: center 36%; border-radius: 20px; }
+body.site-refresh.home-redesign #about .left .img-box-1::before,
+body.site-refresh.home-redesign #about .left .img-box-1::after { display: none; }
+body.site-refresh.home-redesign #about .right { padding: 8px 0 8px 40px; background: none; }
+body.site-refresh.home-redesign #about .heading { font-size: clamp(25px, 2.35vw, 32px); }
+body.site-refresh.home-redesign #our-services {
+  background: radial-gradient(ellipse at 0 0, #fff2e6, transparent 45%), radial-gradient(ellipse at 100% 100%, #e6f7fc, transparent 40%), #fbfcfd;
+}
+body.site-refresh.home-redesign #product-sec,
+body.site-refresh.home-redesign #sub-banner .network-banner,
+body.site-refresh.home-redesign #footer .footer-sec {
+  background: linear-gradient(#04182d45, #04182d45), url('../img/generated/network-trails.jpg') center / cover;
+}
+body.site-refresh.home-redesign #product-sec .product-sec .card > img {
+  object-fit: cover;
+  height: 155px;
+  padding: 0 15px;
+  background: #fff;
+}
+body.site-refresh.home-redesign .network-banner { min-height: 240px; padding-block: 28px; }
+body.site-refresh.home-redesign .network-banner h2 span { color: #31b6e8; }
+body.site-refresh.home-redesign .network-banner .banner-equipment {
+  background: #edf4f9;
+  border-radius: 24px;
+  box-shadow: 0 0 25px #20b7f533;
+}
+body.site-refresh.home-redesign #blog .blog-feature-card img,
+body.site-refresh.home-redesign #blog .blog-list-item img { object-fit: cover; }
+body.site-refresh.home-redesign #blog .blog-list-item:nth-child(2) img { object-position: center 27%; }
+body.site-refresh.home-redesign #blog .blog-list-item:last-child img { object-position: 80% 65%; }
+.home-redesign .switch-promo {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 24px;
+  border-radius: 16px;
+  background: linear-gradient(#04182d50, #04182d50), url('../img/generated/network-trails.jpg') center / cover;
+  color: #fff;
+  overflow: hidden;
+}
+.home-redesign .promo-eyebrow { color: #ffb14c; font-weight: 800; font-size: 22px; line-height: 1.2; }
+.home-redesign .switch-promo strong { color: #fff; font-size: 24px; }
+.home-redesign .promo-features { color: #d6e8f3; font-size: 10px; margin-top: 8px; }
+body.site-refresh.home-redesign .faq-left .switch-promo img { width: 100%; height: 135px; object-fit: cover; margin: 16px 0; border-radius: 8px; }
+.home-redesign .promo-link { color: #ffb14c; font-size: 12px; font-weight: 700; }
+.home-redesign .promo-link i { margin-left: 8px; }
+body.site-refresh.home-redesign #faq-sec { background: #fff; }
+body.site-refresh.home-redesign #footer .footer { background: transparent; }
+body.site-refresh.home-redesign #header .navbar-brand img { filter: brightness(.35); }
+body.site-refresh.home-redesign .service-image { mix-blend-mode: normal; background: #fff; border-radius: 8px; }
+body.site-refresh.home-redesign .testimonials .heading { white-space: normal; width: auto; }
+body.site-refresh.home-redesign .testi-controls button { color: #071d40; }
+@media (max-width: 991px) {
+  body.site-refresh.home-redesign #header .navbar-collapse { background: #fff; }
+  body.site-refresh.home-redesign .home-banner .carousel-inner .first { padding: 46px 28px 32px; }
+  body.site-refresh.home-redesign #home-banner .carousel-inner .first > .carousel-caption { width: 60%; }
+  body.site-refresh.home-redesign .hero-visual { width: 58%; }
+  body.site-refresh.home-redesign .hero-visual::after { background: linear-gradient(90deg, #edf5f8, #edf5f8a0 20%, transparent 70%); }
+  body.site-refresh.home-redesign #about .left,
+  body.site-refresh.home-redesign #about .left .img-box { min-height: 520px; }
+  body.site-refresh.home-redesign #about .left .img-box-1 img { object-position: center 30%; }
+  body.site-refresh.home-redesign #about .right { padding: 30px 0 0; }
+  .home-redesign .hero-benefits { grid-template-columns: repeat(2, 1fr); gap: 18px; }
+}
+@media (max-width: 600px) {
+  body.site-refresh.home-redesign .home-banner .carousel-inner .first { padding: 30px 22px 0; display: flex; flex-direction: column; }
+  body.site-refresh.home-redesign #home-banner .carousel-inner .first > .carousel-caption { width: 100%; max-width: none; }
+  body.site-refresh.home-redesign .home-banner .carousel-inner .first .carousel-caption h1 { font-size: 34px; }
+  body.site-refresh.home-redesign .home-banner .carousel-inner .carousel-caption p { padding-right: 0; }
+  body.site-refresh.home-redesign .hero-visual {
+    position: relative;
+    inset: auto;
+    order: 2;
+    width: calc(100% + 44px);
+    height: auto;
+    aspect-ratio: 3 / 2;
+    margin: 22px -22px 0;
+    opacity: 1;
+  }
+  body.site-refresh.home-redesign .hero-visual::after { background: linear-gradient(#edf5f8, transparent 24%); }
+  .home-redesign .hero-benefits { grid-template-columns: repeat(4, 1fr); gap: 10px; margin-top: 26px; }
+  .home-redesign .hero-benefits li { flex-direction: column; align-items: flex-start; font-size: 9px; }
+  body.site-refresh.home-redesign #about > .container { padding-inline: 20px; }
+  body.site-refresh.home-redesign #about .left,
+  body.site-refresh.home-redesign #about .left .img-box { min-height: 490px; }
+  body.site-refresh.home-redesign #about .left .img-box-1 img { object-position: center 28%; }
+  body.site-refresh.home-redesign .network-banner { gap: 20px; padding: 28px 22px; }
+  body.site-refresh.home-redesign .faq-left { display: block; width: 100%; padding: 0 12px 24px; }
+  body.site-refresh.home-redesign .faq-left + div { width: 100%; padding-inline: 12px; }
+}

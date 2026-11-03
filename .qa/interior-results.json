@@ -1,0 +1,109 @@
+{
+  "results": [
+    {
+      "file": "about.html",
+      "width": 1440,
+      "overflow": false,
+      "brokenImages": [],
+      "generatedPhotos": 7,
+      "banner": true,
+      "missionImages": true
+    },
+    {
+      "file": "blog.html",
+      "width": 1440,
+      "overflow": false,
+      "brokenImages": [],
+      "generatedPhotos": 4,
+      "banner": true
+    },
+    {
+      "file": "contact.html",
+      "width": 1440,
+      "overflow": false,
+      "brokenImages": [],
+      "generatedPhotos": 1,
+      "banner": true
+    },
+    {
+      "file": "portfolio.html",
+      "width": 1440,
+      "overflow": false,
+      "brokenImages": [],
+      "generatedPhotos": 3,
+      "banner": true
+    },
+    {
+      "file": "product-detail.html",
+      "width": 1440,
+      "overflow": false,
+      "brokenImages": [],
+      "generatedPhotos": 0,
+      "banner": true
+    },
+    {
+      "file": "Refurbished-Firewall-Rental-Services.html",
+      "width": 1440,
+      "overflow": false,
+      "brokenImages": [],
+      "generatedPhotos": 1,
+      "banner": true
+    },
+    {
+      "file": "about.html",
+      "width": 390,
+      "overflow": false,
+      "brokenImages": [],
+      "generatedPhotos": 7,
+      "banner": true,
+      "missionImages": true,
+      "mobileMenu": true
+    },
+    {
+      "file": "blog.html",
+      "width": 390,
+      "overflow": false,
+      "brokenImages": [],
+      "generatedPhotos": 4,
+      "banner": true,
+      "mobileMenu": true
+    },
+    {
+      "file": "contact.html",
+      "width": 390,
+      "overflow": false,
+      "brokenImages": [],
+      "generatedPhotos": 1,
+      "banner": true,
+      "mobileMenu": true
+    },
+    {
+      "file": "portfolio.html",
+      "width": 390,
+      "overflow": false,
+      "brokenImages": [],
+      "generatedPhotos": 3,
+      "banner": true,
+      "mobileMenu": true
+    },
+    {
+      "file": "product-detail.html",
+      "width": 390,
+      "overflow": false,
+      "brokenImages": [],
+      "generatedPhotos": 0,
+      "banner": true,
+      "mobileMenu": true
+    },
+    {
+      "file": "Refurbished-Firewall-Rental-Services.html",
+      "width": 390,
+      "overflow": false,
+      "brokenImages": [],
+      "generatedPhotos": 1,
+      "banner": true,
+      "mobileMenu": true
+    }
+  ],
+  "exceptions": []
+}
