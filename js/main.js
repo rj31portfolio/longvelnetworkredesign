@@ -70,11 +70,7 @@
 
 
     // Testimonials carousel
-<<<<<<< HEAD
     $('.testimonial-carousel').owlCarousel({
-=======
-    if ($.fn.owlCarousel && $('.testimonial-carousel').length) $('.testimonial-carousel').owlCarousel({
->>>>>>> a28df36 (Update website files)
         autoplay: true,
         smartSpeed: 1000,
         loop: true,

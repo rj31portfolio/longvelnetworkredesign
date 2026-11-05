@@ -42,11 +42,7 @@
       const button = document.createElement('button');
       button.type = 'button';
       button.className = control.className;
-<<<<<<< HEAD
       button.innerHTML = control.innerHTML;
-=======
-      button.textContent = index ? '\u2192' : '\u2190';
->>>>>>> a28df36 (Update website files)
       button.setAttribute('aria-label', index ? 'Next items' : 'Previous items');
       control.replaceWith(button);
       button.addEventListener('click', () => {
