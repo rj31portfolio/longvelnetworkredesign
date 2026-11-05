@@ -1,0 +1,48 @@
+/* Retain the new photos within the restored site design. */
+.home-redesign .hero-visual .retained-hero-photo {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+body.site-refresh.home-redesign .home-banner .carousel-inner .first {
+  background-image: linear-gradient(90deg, #fffffffc 0%, #ffffffed 35%, #ffffffb8 48%, #ffffff00 68%), url('../img/generated/network-hero.jpg');
+}
+body.site-refresh #breadcrumb-sec {
+  background-image: linear-gradient(105deg, #051b32f5 10%, #073455df 65%, #ff790040), var(--retained-page-image);
+}
+body.site-refresh #footer .footer-sec {
+  background-image: linear-gradient(#031a2dcc, #031a2dcc), url('../img/generated/network-trails.jpg');
+  background-position: center;
+  background-size: cover;
+}
+body.site-refresh.home-redesign #product-sec,
+body.site-refresh.home-redesign #sub-banner .network-banner {
+  background-image: linear-gradient(#04182d45, #04182d45), url('../img/generated/network-trails.jpg');
+  background-position: center;
+  background-size: cover;
+}
+body.site-refresh #error,
+body.site-refresh.profile-page main > header {
+  background-image: linear-gradient(#031a2de6, #031a2de6), url('../img/generated/datacenter-interior.jpg');
+  background-position: center;
+  background-size: cover;
+}
+.site-refresh img[src^="img/generated/"] { object-fit: cover; }
+.site-refresh .contact-visual {
+  margin: 0 0 24px;
+  border-radius: 18px;
+  overflow: hidden;
+}
+.site-refresh .contact-visual img {
+  display: block;
+  width: 100%;
+  height: 230px;
+  object-position: center 40%;
+}
+@media (max-width: 600px) {
+  body.site-refresh.home-redesign .home-banner .carousel-inner .first {
+    background-image: linear-gradient(180deg, #fffffff7 0%, #fffffff7 60%, #ffffff00 87%), url('../img/generated/network-hero.jpg');
+  }
+  .site-refresh .contact-visual img { height: 200px; }
+}
