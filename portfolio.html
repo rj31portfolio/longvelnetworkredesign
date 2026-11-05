@@ -1421,9 +1421,11 @@ document.querySelectorAll(".heading").forEach((heading) => {
 
         // mission secript start
 
-        document.querySelector("#vis").style.backgroundColor = "var(--primary)";
-        document.querySelector(".mission-cont").style.display = "none";
-        document.querySelector(".value-cont").style.display = "none";
+        if (document.querySelector("#vis")) {
+            document.querySelector("#vis").style.backgroundColor = "var(--primary)";
+            document.querySelector(".mission-cont").style.display = "none";
+            document.querySelector(".value-cont").style.display = "none";
+        }
         function Vision() {
             document.querySelector(".Vision-cont").style.display = "block";
             document.querySelector("#vis").style.backgroundColor = "var(--primary)";

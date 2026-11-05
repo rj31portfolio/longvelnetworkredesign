@@ -70,7 +70,7 @@
 
 
     // Testimonials carousel
-    $('.testimonial-carousel').owlCarousel({
+    if ($.fn.owlCarousel && $('.testimonial-carousel').length) $('.testimonial-carousel').owlCarousel({
         autoplay: true,
         smartSpeed: 1000,
         loop: true,

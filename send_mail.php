@@ -32,7 +32,7 @@ if (mail($to, $subject, $body, $headers)) {
 } else {
     echo "<script>
             alert('Sorry, your message could not be sent. Please try again later.');
-            window.location.href='index.php'; // change to your homepage
+            window.location.href='index.html'; // change to your homepage
           </script>";
 }
 

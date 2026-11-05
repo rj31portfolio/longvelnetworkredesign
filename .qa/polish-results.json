@@ -1,0 +1,83 @@
+{
+  "results": [
+    {
+      "file": "index.html",
+      "width": 1440,
+      "overflow": false,
+      "brokenImages": [],
+      "hero": {
+        "photoWidth": 571.203125,
+        "textWidth": 571.203125
+      },
+      "faq": true
+    },
+    {
+      "file": "index.html",
+      "width": 768,
+      "overflow": false,
+      "brokenImages": [],
+      "hero": {
+        "photoWidth": 338.5,
+        "textWidth": 338.5
+      },
+      "faq": true
+    },
+    {
+      "file": "index.html",
+      "width": 390,
+      "overflow": false,
+      "brokenImages": [],
+      "hero": {
+        "photoWidth": 350,
+        "textWidth": 350
+      },
+      "mobileMenu": true,
+      "faq": true
+    },
+    {
+      "file": "about.html",
+      "width": 1440,
+      "overflow": false,
+      "brokenImages": [],
+      "hero": null
+    },
+    {
+      "file": "about.html",
+      "width": 768,
+      "overflow": false,
+      "brokenImages": [],
+      "hero": null
+    },
+    {
+      "file": "about.html",
+      "width": 390,
+      "overflow": false,
+      "brokenImages": [],
+      "hero": null,
+      "mobileMenu": true
+    },
+    {
+      "file": "portfolio.html",
+      "width": 1440,
+      "overflow": false,
+      "brokenImages": [],
+      "hero": null
+    },
+    {
+      "file": "portfolio.html",
+      "width": 768,
+      "overflow": false,
+      "brokenImages": [],
+      "hero": null
+    },
+    {
+      "file": "portfolio.html",
+      "width": 390,
+      "overflow": false,
+      "brokenImages": [],
+      "hero": null,
+      "mobileMenu": true
+    }
+  ],
+  "errors": []
+}
