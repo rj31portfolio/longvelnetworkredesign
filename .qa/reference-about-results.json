@@ -1,0 +1,69 @@
+{
+  "results": [
+    {
+      "width": 1440,
+      "overflow": false,
+      "brokenImages": [],
+      "h1Count": 1,
+      "missingLinks": 0,
+      "tabs": true,
+      "review": true,
+      "accordion": true,
+      "pageHeight": 4992,
+      "keyboardTabs": true
+    },
+    {
+      "width": 1024,
+      "overflow": false,
+      "brokenImages": [],
+      "h1Count": 1,
+      "missingLinks": 0,
+      "tabs": true,
+      "review": true,
+      "accordion": true,
+      "pageHeight": 5130,
+      "keyboardTabs": true
+    },
+    {
+      "width": 768,
+      "overflow": false,
+      "brokenImages": [],
+      "h1Count": 1,
+      "missingLinks": 0,
+      "tabs": true,
+      "review": true,
+      "accordion": true,
+      "pageHeight": 5522,
+      "mobileMenu": true,
+      "keyboardTabs": true
+    },
+    {
+      "width": 390,
+      "overflow": false,
+      "brokenImages": [],
+      "h1Count": 1,
+      "missingLinks": 0,
+      "tabs": true,
+      "review": true,
+      "accordion": true,
+      "pageHeight": 7222,
+      "mobileMenu": true,
+      "keyboardTabs": true
+    },
+    {
+      "width": 320,
+      "overflow": false,
+      "brokenImages": [],
+      "h1Count": 1,
+      "missingLinks": 0,
+      "tabs": true,
+      "review": true,
+      "accordion": true,
+      "pageHeight": 7861,
+      "mobileMenu": true,
+      "keyboardTabs": true
+    }
+  ],
+  "errors": [],
+  "failures": []
+}

@@ -1,0 +1,300 @@
+/* About page: reference-inspired layout, retaining the Longeval identity. */
+.about-reference {
+  --accent: #ff7900;
+  --dark: #24143c;
+  --ink: #2b2140;
+  --muted: #716c7c;
+  margin: 0;
+  padding: 14px 14px 0;
+  background: #fff;
+  color: var(--ink);
+  font: 400 14px/1.8 'Plus Jakarta Sans', 'Segoe UI', sans-serif;
+}
+.about-reference *, .about-reference *::before, .about-reference *::after { box-sizing: border-box; }
+.about-reference [hidden] { display: none !important; }
+.about-reference a { color: inherit; text-decoration: none; }
+.about-reference a, .about-reference button { -webkit-tap-highlight-color: transparent; }
+.about-reference button { font: inherit; cursor: pointer; }
+.about-reference img { display: block; max-width: 100%; object-fit: cover; }
+.about-reference h1, .about-reference h2, .about-reference h3, .about-reference p { margin: 0; }
+.about-reference p { color: var(--muted); }
+.about-reference :is(a, button, summary, [tabindex]):focus-visible { outline: 3px solid var(--accent); outline-offset: 5px; }
+.about-reference .wrap { width: min(1180px, calc(100% - 80px)); margin-inline: auto; }
+.about-reference .skip-link { position: fixed; top: 15px; left: 24px; background: #fff; color: var(--dark); padding: 10px 20px; z-index: 100; clip-path: inset(50%); width: 1px; height: 1px; overflow: hidden; white-space: nowrap; }
+.about-reference .skip-link:focus { clip-path: none; width: auto; height: auto; overflow: visible; }
+.about-reference #header { background: var(--dark); color: #fff; border-radius: 26px 26px 0 0; position: relative; z-index: 10; }
+.about-reference .contact-ribbon { background: var(--accent); color: #fff; margin: 0 30px; border-radius: 0 0 32px 32px; }
+.about-reference .ribbon-inner { display: flex; align-items: center; gap: 28px; min-height: 43px; font-size: 11px; font-weight: 600; }
+.about-reference .ribbon-inner i { margin-right: 7px; }
+.about-reference .socials { display: flex; gap: 8px; margin-left: auto; }
+.about-reference .socials a { display: grid; place-items: center; height: 25px; width: 25px; border: 1px solid #ffffff70; border-radius: 50%; }
+.about-reference .socials i { margin: 0; }
+.about-reference .main-nav { display: flex; align-items: center; gap: 32px; min-height: 108px; }
+.about-reference .brand { flex-shrink: 0; }
+.about-reference .brand img { width: 148px; height: 78px; object-fit: contain; filter: brightness(0) invert(1); }
+.about-reference .nav-content { display: flex; align-items: center; justify-content: space-between; gap: 24px; flex: 1; }
+.about-reference .nav-links { display: flex; gap: 23px; list-style: none; margin: 0 auto; padding: 0; font-size: 12px; font-weight: 700; }
+.about-reference .nav-links a { display: block; padding: 15px 0; white-space: nowrap; }
+.about-reference .nav-links a:hover, .about-reference .nav-links a[aria-current] { color: #ffab60; }
+.about-reference .phone-link { display: flex; align-items: center; gap: 11px; white-space: nowrap; }
+.about-reference .phone-icon { display: grid; place-items: center; width: 40px; height: 40px; background: #fff; border: 4px solid #ffffff35; background-clip: padding-box; color: var(--accent); border-radius: 50%; }
+.about-reference .phone-link small { display: block; font-size: 10px; line-height: 1.7; color: #d4cadd; }
+.about-reference .phone-link strong { display: block; font-size: 13px; line-height: 1.6; }
+.about-reference .payment-link { border: 1px solid #ffffff40; border-radius: 5px; padding: 9px 12px; font-size: 11px; white-space: nowrap; }
+.about-reference .payment-link:hover { background: var(--accent); }
+.about-reference .menu-toggle { display: none; }
+.about-reference .about-hero { position: relative; min-height: 360px; overflow: hidden; isolation: isolate; display: grid; place-items: center; text-align: center; color: #fff; background: linear-gradient(180deg, #24143ce0, #30133eb0), url('../img/generated/network-trails.jpg') center 58% / cover; }
+.about-reference .hero-inner { position: relative; z-index: 1; padding: 65px 0 90px; }
+.about-reference .hero-eyebrow { font-size: 10px; font-weight: 600; letter-spacing: 3px; color: #e4d9ef; margin-bottom: 14px; }
+.about-reference .about-hero h1 { color: #fff; font-size: clamp(42px, 4.4vw, 64px); font-weight: 800; line-height: 1.2; letter-spacing: -2px; margin-bottom: 18px; }
+.about-reference .breadcrumb { display: flex; justify-content: center; gap: 12px; list-style: none; padding: 0; margin: 0; font-size: 12px; font-weight: 600; }
+.about-reference .breadcrumb li + li::before { content: '/'; color: #ffa454; margin-right: 12px; }
+.about-reference .hero-glow { position: absolute; width: 145%; height: 330px; left: -22%; bottom: -270px; border-radius: 50%; border: 5px solid #ffc383; box-shadow: 0 -8px 0 #ff7900, 0 -16px 0 #c34364, 0 -23px 0 #ff8d31, 0 -30px 0 #ffb57b, 0 -37px 0 #ad2b85, 0 -45px 0 #f58a55, 0 -54px 0 #ffcb96, 0 -65px 24px #fc865fb0, 0 -75px 50px #d62c8355; transform: rotate(-4deg); }
+.about-reference .hero-notch { position: absolute; width: 110px; height: 110px; background: #fff; left: calc(50% - 55px); bottom: -87px; border-radius: 20px 0 0; transform: rotate(45deg); }
+.about-reference .section-space { padding-block: 110px; }
+.about-reference .split-layout { display: grid; grid-template-columns: 1fr 1fr; gap: 85px; align-items: center; }
+.about-reference .eyebrow { display: flex; align-items: center; gap: 13px; font-size: 10px; font-weight: 800; color: #c65300; letter-spacing: 1.7px; margin-bottom: 20px; }
+.about-reference .eyebrow::before { content: ''; flex-shrink: 0; width: 21px; height: 9px; border-radius: 10px; border: 1px solid var(--accent); background: linear-gradient(90deg, var(--accent) 55%, transparent 55%); }
+.about-reference .section-title { font-size: clamp(30px, 3vw, 44px); line-height: 1.23; font-weight: 800; letter-spacing: -1.7px; margin-bottom: 28px; }
+.about-reference .section-title em { color: inherit; font-style: normal; }
+.about-reference .section-title::after { content: ''; display: block; width: 65px; height: 4px; border-radius: 100%; background: var(--accent); margin: 24px 0 0 70px; transform: rotate(-3deg); }
+.about-reference .intro-copy > p:not(.eyebrow) { font-size: 13px; }
+.about-reference .intro-copy .intro-lead, .about-reference .intro-lead { color: var(--ink); font-weight: 700; margin-bottom: 15px; }
+.about-reference .intro-art { min-height: 615px; position: relative; padding: 25px 80px 30px 40px; }
+.about-reference .intro-main { width: 100%; height: 535px; border-radius: 70px 70px 18px 18px; object-position: 45%; }
+.about-reference .outline-arch { position: absolute; z-index: -1; width: 65%; height: 75%; border: 3px solid var(--accent); border-radius: 180px 180px 0 0; top: 0; right: 15px; }
+.about-reference .intro-art::before { content: ''; position: absolute; z-index: -1; inset: 30px 70px 40px 10px; background: #f2f3f1; border-radius: 42px 0; transform: rotate(-9deg); }
+.about-reference .intro-inset { position: absolute; width: 265px; height: 240px; right: -7px; bottom: 50px; border: 8px solid #fff; border-radius: 16px; box-shadow: 0 8px 30px #24143c1f; }
+.about-reference .experience-badge { display: flex; flex-direction: column; align-items: center; justify-content: center; position: absolute; top: 88px; left: -5px; color: #fff; background: var(--accent); width: 155px; height: 175px; }
+.about-reference .experience-badge::after { content: ''; position: absolute; top: 100%; left: 0; width: 0; height: 0; border-top: 22px solid #642957; border-left: 35px solid transparent; }
+.about-reference .experience-badge i { font-size: 35px; margin-bottom: 12px; }
+.about-reference .experience-badge strong { font-size: 20px; line-height: 1.3; }
+.about-reference .experience-badge span { font-size: 10px; margin-top: 6px; }
+.about-reference .image-caption { position: absolute; bottom: 0; left: 40px; font-size: 9px; letter-spacing: 2.1px; color: var(--muted); }
+.about-reference .intro-feature { display: flex; gap: 17px; margin-top: 23px; }
+.about-reference .feature-icon { display: grid; place-items: center; flex: 0 0 48px; height: 48px; background: #fff5ec; color: #e16800; font-size: 25px; border-radius: 5px; }
+.about-reference .intro-feature h3 { font-size: 14px; font-weight: 800; margin: 0 0 6px; }
+.about-reference .intro-feature p { font-size: 12px; line-height: 1.85; }
+.about-reference .intro-bottom { display: flex; align-items: center; gap: 25px; margin-top: 28px; }
+.about-reference .button { display: inline-flex; align-items: center; justify-content: center; gap: 28px; padding: 13px 23px; background: var(--accent); color: #fff; border: 1px solid transparent; font-size: 12px; font-weight: 800; line-height: 1.7; border-radius: 5px; transition: background .2s, transform .2s; }
+.about-reference .button:hover { background: #d76200; transform: translateY(-2px); }
+.about-reference .button > span { font-size: 20px; line-height: 1; }
+.about-reference .customer-proof { font-size: 10px; color: var(--muted); }
+.about-reference .customer-proof strong { display: block; color: var(--ink); font-size: 23px; line-height: 1.2; }
+.about-reference .purpose-section { color: #fff; background: var(--dark); position: relative; overflow: hidden; isolation: isolate; padding-block: 90px; }
+.about-reference .purpose-section::after { content: ''; position: absolute; z-index: -1; inset: 0; background: linear-gradient(90deg, #24143c55, #24143ce8), url('../img/generated/network-trails.jpg') right center / cover; opacity: .45; }
+.about-reference .purpose-wave { position: absolute; width: 100%; height: 850px; z-index: -1; background: var(--accent); left: -43%; top: -110px; border-radius: 48%; transform: rotate(-35deg); box-shadow: 45px 18px 0 #ac3b5a, 95px 30px 0 #6b284f; }
+.about-reference .purpose-layout { gap: 65px; }
+.about-reference .purpose-art { position: relative; padding: 0 20px 0 0; }
+.about-reference .purpose-circle { border-radius: 50%; border: 14px solid #fff; box-shadow: 0 0 0 17px #a63e5d, 0 0 0 29px #ffb36a; aspect-ratio: 1; }
+.about-reference .purpose-circle img { width: 100%; height: 100%; border-radius: 50%; }
+.about-reference .support-stamp { position: absolute; right: -5px; top: 42px; background: var(--dark); border: 3px solid #fff; padding: 15px 23px; border-radius: 10px; transform: rotate(12deg); box-shadow: 0 8px 25px #0002; }
+.about-reference .support-stamp strong { display: block; font-size: 40px; color: #ffa85a; line-height: 1.2; }
+.about-reference .support-stamp span { font-size: 10px; }
+.about-reference .purpose-copy .eyebrow { color: #ffaf67; }
+.about-reference .purpose-copy .section-title { font-size: clamp(29px, 2.7vw, 39px); }
+.about-reference .purpose-tabs { display: flex; gap: 9px; padding-block: 18px; border-top: 1px solid #ffffff24; margin-top: 28px; }
+.about-reference .purpose-tabs button { background: transparent; color: #e8ddef; border: 1px solid #84738f; border-radius: 30px; padding: 6px 17px; font-size: 11px; font-weight: 700; }
+.about-reference .purpose-tabs button[aria-selected="true"] { background: var(--accent); border-color: var(--accent); color: #fff; }
+.about-reference .purpose-panel h3 { font-size: 18px; line-height: 1.5; margin-bottom: 12px; }
+.about-reference .purpose-panel p { color: #d4c8df; font-size: 12px; }
+.about-reference .check-list { list-style: none; padding: 0; margin: 17px 0 25px; display: grid; gap: 8px; }
+.about-reference .check-list li { position: relative; padding-left: 22px; font-size: 11px; color: #f4eef9; }
+.about-reference .check-list li::before { content: '\2713'; position: absolute; top: 0; left: 0; color: #ff9b40; font-weight: 800; }
+.about-reference .brands-row { display: flex; align-items: center; justify-content: space-between; gap: 26px; padding-block: 48px; border-bottom: 1px solid #eee9ef; }
+.about-reference .brands-row img { width: 105px; height: 65px; object-fit: contain; filter: grayscale(1); opacity: .55; }
+.about-reference .benefits-layout { gap: 85px; }
+.about-reference .benefits-copy .intro-lead { font-size: 14px; }
+.about-reference .benefits-list { margin: 24px 0 29px; }
+.about-reference details { border-bottom: 1px solid #eae5ed; }
+.about-reference summary { display: flex; align-items: center; gap: 13px; list-style: none; cursor: pointer; min-height: 62px; font-size: 13px; font-weight: 700; }
+.about-reference summary::-webkit-details-marker { display: none; }
+.about-reference .benefit-icon { display: grid; place-items: center; color: #c55a00; width: 34px; height: 34px; font-size: 17px; background: #fff4e9; border-radius: 50%; flex-shrink: 0; }
+.about-reference .detail-plus { margin-left: auto; position: relative; width: 11px; height: 11px; flex-shrink: 0; }
+.about-reference .detail-plus::before, .about-reference .detail-plus::after { content: ''; position: absolute; background: var(--muted); width: 11px; height: 1px; left: 0; top: 5px; }
+.about-reference .detail-plus::after { transform: rotate(90deg); }
+.about-reference details[open] .detail-plus::after { display: none; }
+.about-reference details > p { font-size: 12px; margin: 0 15px 20px 47px; }
+.about-reference .benefits-art { position: relative; min-height: 555px; padding: 20px 30px 60px 0; }
+.about-reference .benefits-blob { position: absolute; z-index: -1; inset: 0 0 15px -35px; border-radius: 42% 58% 59% 41% / 41% 38% 62% 59%; background: #fff0e4; transform: rotate(-15deg); }
+.about-reference .benefits-main { width: 100%; height: 460px; border-radius: 120px 120px 25px 25px; }
+.about-reference .benefits-inset { position: absolute; bottom: 0; right: -10px; height: 210px; width: 255px; border: 8px solid #fff; border-radius: 16px; box-shadow: 0 10px 35px #24143c24; }
+.about-reference .quality-badge { position: absolute; top: 0; left: -40px; width: 132px; height: 132px; display: flex; align-items: center; justify-content: center; flex-direction: column; background: var(--dark); color: #fff; border: 7px solid #fff; border-radius: 50%; text-align: center; }
+.about-reference .quality-badge i { font-size: 23px; color: #ff9c45; margin-bottom: 5px; }
+.about-reference .quality-badge strong { font-size: 12px; line-height: 1.4; }
+.about-reference .company-numbers { background: #fbf8f4; padding-block: 40px; }
+.about-reference .number-grid { display: grid; grid-template-columns: repeat(4, 1fr); text-align: center; }
+.about-reference .number-grid > div + div { border-left: 1px solid #e6dfe8; }
+.about-reference .number-grid strong { display: block; color: var(--ink); font-size: 39px; font-weight: 800; line-height: 1.2; letter-spacing: -1.6px; }
+.about-reference .number-grid span { display: block; font-size: 11px; color: var(--muted); margin-top: 10px; }
+.about-reference .reviews-section { background: radial-gradient(ellipse at 70% 40%, #dceef499, transparent 65%), #f7f6f2; position: relative; overflow: hidden; }
+.about-reference .reviews-section::before { content: ''; position: absolute; inset: 0; background-image: linear-gradient(30deg, transparent 49.8%, #8fc3cf30 50%, transparent 50.3%), linear-gradient(130deg, transparent 49.8%, #8fc3cf24 50%, transparent 50.3%); background-size: 170px 150px; mask-image: linear-gradient(90deg, transparent, #000); pointer-events: none; }
+.about-reference .reviews-layout { display: grid; grid-template-columns: .8fr 1.2fr; gap: 100px; align-items: center; position: relative; }
+.about-reference .reviews-layout > div > p:not(.eyebrow) { font-size: 13px; max-width: 300px; }
+.about-reference .review-controls { display: flex; align-items: center; gap: 12px; margin-top: 30px; }
+.about-reference .review-controls button { width: 42px; height: 42px; border: 1px solid #e2dce4; border-radius: 50%; background: transparent; color: #ca5e00; font-size: 21px; }
+.about-reference .review-controls button:hover { background: var(--accent); color: #fff; }
+.about-reference #review-position { margin-left: 9px; color: var(--muted); font-size: 10px; letter-spacing: 2px; }
+.about-reference .review-card { min-height: 330px; border-radius: 25px 25px 65px 25px; background: #fff; padding: 32px 35px 0; box-shadow: 0 12px 25px #24143c04; position: relative; overflow: hidden; }
+.about-reference .review-number { color: #bd5600; font-size: 11px; font-weight: 800; letter-spacing: 3px; }
+.about-reference blockquote { font-size: 15px; line-height: 1.9; font-weight: 500; margin: 22px 0 30px; }
+.about-reference .review-person { display: flex; align-items: center; gap: 14px; padding-block: 20px; position: relative; }
+.about-reference .review-person::before { content: ''; position: absolute; z-index: 0; background: #f0ede7; inset: 0 50px 0 -35px; clip-path: polygon(0 0, 100% 0, 88% 100%, 0 100%); }
+.about-reference .review-person > * { position: relative; }
+.about-reference .review-avatar { background: #e5d5c8; color: #4e3648; width: 50px; height: 50px; display: grid; place-items: center; border-radius: 50%; font-size: 15px; font-weight: 800; }
+.about-reference .review-person h3 { font-size: 12px; font-weight: 800; text-transform: uppercase; }
+.about-reference .review-person p { font-size: 10px; text-transform: uppercase; margin-top: 4px; }
+.about-reference .quote-mark { color: var(--accent); font-family: Georgia, serif; font-size: 100px; font-weight: 800; line-height: .6; margin-left: auto; top: 15px; }
+.about-reference #footer { color: #fff; background: linear-gradient(120deg, #24143ce8, #24143cfa), url('../img/generated/network-trails.jpg') center / cover; }
+.about-reference .footer-top { padding-block: 60px 45px; display: flex; justify-content: space-between; align-items: center; gap: 40px; border-bottom: 1px solid #ffffff15; }
+.about-reference .footer-invitation { flex: 1; max-width: 500px; }
+.about-reference .footer-invitation > span { display: block; color: #d0c2dc; font-size: 9px; letter-spacing: 2px; margin-bottom: 8px; }
+.about-reference .footer-invitation > a { font-size: 21px; font-weight: 700; line-height: 1.4; }
+.about-reference .footer-invitation > a > span { color: #ffab60; margin-left: 15px; }
+.about-reference .footer-columns { display: grid; grid-template-columns: 1.15fr .8fr .9fr 1.15fr; gap: 55px; padding-block: 55px 65px; }
+.about-reference .footer-columns h2 { font-size: 14px; margin-bottom: 24px; }
+.about-reference .footer-columns h2::after { content: ''; display: block; background: var(--accent); height: 2px; width: 27px; margin-top: 9px; }
+.about-reference .footer-columns p, .about-reference .footer-columns > div > a { display: block; color: #c0b2cd; font-size: 11px; line-height: 1.9; margin-bottom: 8px; }
+.about-reference .footer-columns a:hover { color: #ffaf67; }
+.about-reference .footer-columns .footer-cta { display: inline-flex; gap: 20px; border: 1px solid #ffffff25; padding: 8px 14px; color: #ffaf67; margin-top: 16px; }
+.about-reference .footer-contact > a { overflow-wrap: anywhere; }
+.about-reference .footer-gallery { display: grid; grid-template-columns: repeat(3, 1fr); gap: 6px; margin-top: 18px; }
+.about-reference .footer-gallery img { width: 100%; height: 60px; border-radius: 2px; }
+.about-reference .copyright { display: flex; justify-content: space-between; gap: 20px; color: #bcaec9; border-top: 1px solid #ffffff15; padding-block: 25px; font-size: 10px; }
+.about-reference .copyright a { color: #ffaf67; }
+.about-reference .floating-contact, .about-reference .back-to-top { position: fixed; z-index: 20; right: 24px; width: 47px; height: 47px; border: 2px solid #fff; box-shadow: 0 4px 16px #24143c26; border-radius: 50%; display: grid; place-items: center; color: #fff; }
+.about-reference .floating-contact { bottom: 24px; background: #187d42; font-size: 27px; }
+.about-reference .back-to-top { bottom: 82px; background: var(--dark); font-size: 22px; }
+@media (min-width: 1400px) { .about-reference .about-hero { min-height: 390px; } }
+@media (max-width: 1199px) {
+  .about-reference .wrap { width: calc(100% - 70px); }
+  .about-reference .main-nav { gap: 20px; }
+  .about-reference .brand img { width: 120px; }
+  .about-reference .nav-content { gap: 16px; }
+  .about-reference .nav-links { gap: 16px; font-size: 11px; }
+  .about-reference .main-nav .phone-link { display: none; }
+  .about-reference .split-layout { gap: 50px; }
+  .about-reference .intro-art { padding-right: 45px; }
+  .about-reference .intro-inset { width: 220px; height: 205px; }
+  .about-reference .benefits-inset { width: 215px; }
+  .about-reference .brands-row img { width: 85px; }
+  .about-reference .footer-columns { gap: 30px; }
+}
+@media (max-width: 991px) {
+  .about-reference .wrap { width: calc(100% - 56px); }
+  .about-reference .main-nav { min-height: 88px; justify-content: space-between; flex-wrap: wrap; gap: 0; }
+  .about-reference .brand img { width: 125px; height: 70px; }
+  .about-reference .menu-toggle { display: grid; align-content: center; gap: 5px; padding: 12px; width: 45px; height: 45px; border: 1px solid #ffffff50; background: transparent; border-radius: 50%; }
+  .about-reference .menu-toggle span { width: 19px; height: 2px; background: #fff; }
+  .about-reference .nav-content { display: none; flex: 0 0 100%; padding: 15px 0 25px; border-top: 1px solid #ffffff25; }
+  .about-reference .nav-content.is-open { display: flex; flex-wrap: wrap; }
+  .about-reference .nav-links { width: 100%; flex-direction: column; gap: 0; margin: 0; font-size: 13px; }
+  .about-reference .nav-links a { padding-block: 10px; }
+  .about-reference .main-nav .phone-link { display: flex; margin-right: auto; }
+  .about-reference .ribbon-inner { font-size: 9px; gap: 18px; }
+  .about-reference .contact-ribbon { margin-inline: 16px; }
+  .about-reference .section-space { padding-block: 80px; }
+  .about-reference .split-layout { gap: 35px; }
+  .about-reference .intro-art { padding: 20px 30px 30px 10px; min-height: 480px; }
+  .about-reference .intro-main { height: 410px; }
+  .about-reference .intro-inset { right: -5px; width: 190px; height: 180px; }
+  .about-reference .experience-badge { width: 125px; height: 145px; left: -10px; }
+  .about-reference .experience-badge strong { font-size: 17px; }
+  .about-reference .image-caption { left: 5px; font-size: 7px; }
+  .about-reference .intro-bottom { gap: 15px; flex-wrap: wrap; }
+  .about-reference .section-title { letter-spacing: -1px; }
+  .about-reference .purpose-layout { grid-template-columns: .8fr 1.2fr; gap: 45px; }
+  .about-reference .purpose-circle { border-width: 8px; box-shadow: 0 0 0 10px #a63e5d, 0 0 0 18px #ffb36a; }
+  .about-reference .support-stamp { right: -12px; padding: 10px 16px; }
+  .about-reference .support-stamp strong { font-size: 30px; }
+  .about-reference .purpose-tabs { gap: 6px; }
+  .about-reference .purpose-tabs button { padding: 6px 11px; font-size: 10px; }
+  .about-reference .brands-row { flex-wrap: wrap; justify-content: center; gap: 20px 28px; }
+  .about-reference .brands-row img { width: 75px; height: 50px; }
+  .about-reference .benefits-layout { grid-template-columns: 1.1fr .9fr; }
+  .about-reference .benefits-art { min-height: 450px; padding: 20px 0 50px; }
+  .about-reference .benefits-main { height: 360px; border-radius: 80px 80px 20px 20px; }
+  .about-reference .benefits-inset { height: 170px; width: 185px; }
+  .about-reference .quality-badge { width: 112px; height: 112px; left: -15px; }
+  .about-reference .reviews-layout { gap: 35px; grid-template-columns: .8fr 1.2fr; }
+  .about-reference .review-card { padding: 26px 25px 0; }
+  .about-reference blockquote { font-size: 13px; }
+  .about-reference .footer-top { flex-wrap: wrap; gap: 25px; }
+  .about-reference .footer-top .phone-link { margin-left: auto; }
+  .about-reference .footer-invitation { max-width: none; }
+  .about-reference .footer-invitation > a { font-size: 18px; }
+  .about-reference .footer-columns { grid-template-columns: 1fr 1fr; gap: 35px 60px; }
+}
+@media (max-width: 680px) {
+  .about-reference { padding: 8px 8px 0; }
+  .about-reference .wrap { width: calc(100% - 40px); }
+  .about-reference #header { border-radius: 18px 18px 0 0; }
+  .about-reference .contact-ribbon { margin-inline: 8px; border-radius: 0 0 20px 20px; }
+  .about-reference .ribbon-inner { width: calc(100% - 26px); min-height: 36px; font-size: 8px; gap: 8px; }
+  .about-reference .ribbon-inner > span { display: none; }
+  .about-reference .ribbon-inner i { margin-right: 4px; }
+  .about-reference .socials { gap: 5px; }
+  .about-reference .socials a { height: 21px; width: 21px; }
+  .about-reference .socials i { margin: 0; }
+  .about-reference .main-nav { min-height: 82px; }
+  .about-reference .about-hero { min-height: 275px; }
+  .about-reference .hero-inner { padding: 50px 0 75px; }
+  .about-reference .hero-eyebrow { font-size: 8px; letter-spacing: 1.6px; }
+  .about-reference .about-hero h1 { font-size: 43px; letter-spacing: -1.5px; }
+  .about-reference .hero-glow { width: 190%; left: -45%; bottom: -285px; }
+  .about-reference .section-space { padding-block: 65px; }
+  .about-reference .split-layout { grid-template-columns: 1fr; gap: 45px; }
+  .about-reference .intro-art { width: min(420px, 100%); margin: auto; min-height: 460px; padding: 20px 50px 35px 25px; }
+  .about-reference .intro-main { height: 390px; border-radius: 55px 55px 15px 15px; }
+  .about-reference .intro-inset { width: 200px; height: 180px; right: 0; bottom: 40px; border-width: 6px; }
+  .about-reference .experience-badge { width: 125px; height: 142px; left: -5px; top: 70px; }
+  .about-reference .image-caption { left: 25px; }
+  .about-reference .section-title { font-size: 32px; letter-spacing: -1.2px; }
+  .about-reference .eyebrow { font-size: 9px; letter-spacing: 1.5px; margin-bottom: 15px; }
+  .about-reference .intro-copy > p:not(.eyebrow) { font-size: 12px; }
+  .about-reference .intro-feature p { font-size: 11px; }
+  .about-reference .intro-feature h3 { font-size: 13px; }
+  .about-reference .intro-feature { gap: 12px; }
+  .about-reference .feature-icon { flex-basis: 42px; height: 42px; font-size: 21px; }
+  .about-reference .purpose-section { padding-block: 65px; }
+  .about-reference .purpose-art { width: min(330px, calc(100% - 30px)); margin: 0 auto 10px; padding: 0; }
+  .about-reference .purpose-wave { width: 160%; height: 570px; left: -70%; top: -60px; }
+  .about-reference .support-stamp { right: -10px; top: 25px; }
+  .about-reference .purpose-copy .section-title { font-size: 31px; }
+  .about-reference .purpose-panel h3 { font-size: 17px; }
+  .about-reference .brands-row { gap: 18px 25px; padding-block: 30px; }
+  .about-reference .brands-row img { width: 60px; height: 40px; }
+  .about-reference .benefits-art { grid-row: 1; min-height: 455px; width: min(390px, 100%); margin: auto; padding-right: 20px; padding-left: 15px; }
+  .about-reference .benefits-main { height: 380px; }
+  .about-reference .benefits-inset { width: 200px; height: 175px; right: 0; }
+  .about-reference .quality-badge { left: 0; }
+  .about-reference .benefits-blob { left: 0; }
+  .about-reference summary { font-size: 12px; }
+  .about-reference .number-grid { grid-template-columns: 1fr 1fr; gap: 30px 0; }
+  .about-reference .number-grid > div:nth-child(3) { border-left: 0; }
+  .about-reference .number-grid strong { font-size: 34px; }
+  .about-reference .reviews-layout { grid-template-columns: 1fr; gap: 35px; }
+  .about-reference .review-card { min-height: 335px; padding: 25px 23px 0; border-radius: 22px 22px 50px 22px; }
+  .about-reference .review-person h3 { font-size: 11px; }
+  .about-reference .review-person p { font-size: 8px; }
+  .about-reference .review-avatar { width: 43px; height: 43px; font-size: 12px; flex-shrink: 0; }
+  .about-reference .review-person { gap: 10px; }
+  .about-reference .quote-mark { font-size: 80px; }
+  .about-reference .footer-top { padding-block: 35px; gap: 25px; }
+  .about-reference .footer-invitation { flex: 0 0 100%; order: 1; }
+  .about-reference .footer-invitation > a { font-size: 20px; }
+  .about-reference .footer-top .phone-link { gap: 5px; }
+  .about-reference .phone-link strong { font-size: 11px; }
+  .about-reference .phone-icon { height: 32px; width: 32px; border-width: 2px; }
+  .about-reference .footer-top .brand img { width: 105px; }
+  .about-reference .footer-columns { padding-block: 35px; gap: 30px 25px; }
+  .about-reference .footer-columns > div:first-child, .about-reference .footer-contact { grid-column: 1 / -1; }
+  .about-reference .footer-contact { max-width: 310px; }
+  .about-reference .footer-columns h2 { font-size: 13px; margin-bottom: 17px; }
+  .about-reference .footer-columns p, .about-reference .footer-columns > div > a { font-size: 11px; }
+  .about-reference .copyright { flex-direction: column; text-align: center; gap: 5px; padding-bottom: 30px; font-size: 9px; }
+  .about-reference .floating-contact, .about-reference .back-to-top { right: 15px; width: 42px; height: 42px; }
+  .about-reference .floating-contact { bottom: 15px; }
+  .about-reference .back-to-top { bottom: 67px; }
+}
+@media (prefers-reduced-motion: reduce) { .about-reference *, .about-reference *::before, .about-reference *::after { scroll-behavior: auto !important; transition: none !important; } }

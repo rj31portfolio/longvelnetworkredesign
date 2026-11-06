@@ -51,9 +51,11 @@
     <link href="css/home.css" rel="stylesheet">
     <link href="css/site-refresh.css" rel="stylesheet">
     <link href="css/retained-images.css" rel="stylesheet">
+    <link href="css/home-reference.css" rel="stylesheet">
+<link href="css/product-images.css" rel="stylesheet">
 </head>
 
-<body class="site-refresh home-redesign">
+<body class="site-refresh home-redesign reference-home">
     <a class="skip-link" href="#page-content">Skip to content</a>
     <div id="customCursor" class="custom-cursor" aria-hidden="true">
         <span class="cursor-label"></span>
@@ -69,6 +71,7 @@
 
     <!-- Navbar Start -->
     <header id="header">
+        <div class="home-contact-ribbon"><div class="ribbon-inner"><a href="mailto:contact@longevalnetworks.com"><i class="fas fa-envelope" aria-hidden="true"></i> contact@longevalnetworks.com</a><a href="tel:+918802999776"><i class="fas fa-phone-alt" aria-hidden="true"></i> +91 8802999776</a><span class="ribbon-location"><i class="fas fa-map-marker-alt" aria-hidden="true"></i> Nehru Place, New Delhi</span></div></div>
         <nav class="navbar navbar-expand-lg">
             <div class="container-fluid">
                 <div class="header-brand col-lg-2 col-md-3 col-4 text-dark">
@@ -104,7 +107,7 @@
                         <li class="nav-item px-xxl-3">
                             <a class="nav-link " href="index.html#our-services"> Services</a>
                         </li>
-                       
+
                         <!-- <li class="nav-item px-xxl-3">
                             <a class="nav-link " href="#review">Review</a>
                         </li> -->
@@ -178,6 +181,7 @@
             <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner">
                     <div class="carousel-item first active">
+                        <svg class="hero-light-trails" viewBox="0 0 1440 650" preserveAspectRatio="none" aria-hidden="true"><defs><linearGradient id="trail-color" x1="0" y1="1" x2="1" y2="0"><stop stop-color="#ff7900"/><stop offset=".45" stop-color="#f55086"/><stop offset="1" stop-color="#53d8f4"/></linearGradient></defs><g fill="none" stroke="url(#trail-color)"><path d="M-180 610 C190 250 560 820 1060 410 S1490 40 1660 200"/><path d="M-180 628 C190 268 560 838 1060 428 S1490 58 1660 218"/><path d="M-180 646 C190 286 560 856 1060 446 S1490 76 1660 236"/><path d="M-180 664 C190 304 560 874 1060 464 S1490 94 1660 254"/><path d="M-180 682 C190 322 560 892 1060 482 S1490 112 1660 272"/></g></svg>
                         <div class="carousel-caption d-md-block">
                             <p class="hero-eyebrow"><span></span> Enterprise networking. Within reach.</p>
                             <h1 class="heading">Power your business.<br><span>Rent smarter.</span></h1>
@@ -193,8 +197,8 @@
                             </ul>
                         </div>
                         <div class="hero-visual">
-                            <img class="retained-hero-photo" src="img/generated/network-hero.jpg" alt="Enterprise networking equipment in a blue-lit data center" width="1536" height="1024" fetchpriority="high" decoding="async">
-                            <div class="hero-photo-note"><span class="hero-note-icon" aria-hidden="true">&#8599;</span><div><strong>Enterprise-grade. Business-ready.</strong><span>Switches &middot; Routers &middot; Firewalls</span></div></div>
+                            <img class="retained-hero-photo" src="img/generated/network-engineer.jpg" alt="Network engineer reviewing enterprise infrastructure in a data center" width="1024" height="1536" fetchpriority="high" decoding="async">
+                            <div class="hero-orbit" aria-hidden="true"></div><img class="hero-hardware-shot" src="img/generated/network-hero.jpg" width="1536" height="1024" alt="" aria-hidden="true" decoding="async"><div class="hero-photo-note"><span class="hero-note-icon" aria-hidden="true">&#8599;</span><div><strong>Enterprise-grade. Business-ready.</strong><span>Switches &middot; Routers &middot; Firewalls</span></div></div>
                         </div>
                     </div>
 
@@ -218,6 +222,7 @@
 
     <!-- Carousel End -->
 
+    <a class="hero-scroll-cue" href="#about" aria-label="Scroll to About Longeval"><span aria-hidden="true"></span></a>
     <section id="trust">
         <div class="trust">
             <div class="container">
@@ -269,8 +274,6 @@
                         <img src="img/logo/5.png">
                         <img src="img/logo/6.png">
                         <img src="img/logo/7.png">
-
-
 
 
                     </marquee>
@@ -480,7 +483,7 @@
                     <!-- Slide 1 -->
                     <div class="swiper-slide">
                         <div class="card">
-                            <img src="img/product/2900.png" class="card-img-top" alt="2900 Series Router">
+                            <button type="button" class="product-media" data-product-preview aria-label="Enlarge 2900 Series Router"><img src="img/product/2900.png" class="card-img-top" alt="2900 Series Router"><span class="image-zoom-label"><i class="fa-solid fa-magnifying-glass-plus" aria-hidden="true"></i> View larger</span></button>
                             <div class="card-body">
                                 <h5 class="card-title mb-2">2900 Series Router</h5>
                                 <hr>
@@ -499,7 +502,7 @@
                     <!-- Slide 1 -->
                     <div class="swiper-slide">
                         <div class="card">
-                            <img src="img/product/4300.png" class="card-img-top" alt="4300 Series Router">
+                            <button type="button" class="product-media" data-product-preview aria-label="Enlarge 4300 Series Router"><img src="img/product/4300.png" class="card-img-top" alt="4300 Series Router"><span class="image-zoom-label"><i class="fa-solid fa-magnifying-glass-plus" aria-hidden="true"></i> View larger</span></button>
                             <div class="card-body">
                                 <h5 class="card-title mb-2">4300 Series Router</h5>
                                 <hr>
@@ -518,7 +521,7 @@
                     <!-- Slide 1 -->
                     <div class="swiper-slide">
                         <div class="card">
-                            <img src="img/product/4400.png" class="card-img-top" alt="4400 Series Router">
+                            <button type="button" class="product-media" data-product-preview aria-label="Enlarge 4400 Series Router"><img src="img/product/4400.png" class="card-img-top" alt="4400 Series Router"><span class="image-zoom-label"><i class="fa-solid fa-magnifying-glass-plus" aria-hidden="true"></i> View larger</span></button>
                             <div class="card-body">
                                 <h5 class="card-title mb-2">4400 Series Router</h5>
                                 <hr>
@@ -537,7 +540,7 @@
                     <!-- Slide 1 -->
                     <div class="swiper-slide">
                         <div class="card">
-                            <img src="img/product/3850.png" class="card-img-top" alt="3850 Series Router">
+                            <button type="button" class="product-media" data-product-preview aria-label="Enlarge 3850 Series Router"><img src="img/product/3850.png" class="card-img-top" alt="3850 Series Router"><span class="image-zoom-label"><i class="fa-solid fa-magnifying-glass-plus" aria-hidden="true"></i> View larger</span></button>
                             <div class="card-body">
                                 <h5 class="card-title mb-2">3850 Series Router</h5>
                                 <hr>
@@ -556,7 +559,7 @@
                     <!-- Slide 1 -->
                     <div class="swiper-slide">
                         <div class="card">
-                            <img src="img/product/2960X.png" class="card-img-top" alt="2960X Series Router">
+                            <button type="button" class="product-media" data-product-preview aria-label="Enlarge 2960X Series Router"><img src="img/product/2960X.png" class="card-img-top" alt="2960X Series Router"><span class="image-zoom-label"><i class="fa-solid fa-magnifying-glass-plus" aria-hidden="true"></i> View larger</span></button>
                             <div class="card-body">
                                 <h5 class="card-title mb-2">2960X Series Router</h5>
                                 <hr>
@@ -574,7 +577,7 @@
                     <!-- Slide 1 -->
                     <div class="swiper-slide">
                         <div class="card">
-                            <img src="img/product/9200.png" class="card-img-top" alt="9200 Series Router">
+                            <button type="button" class="product-media" data-product-preview aria-label="Enlarge 9200 Series Router"><img src="img/product/9200.png" class="card-img-top" alt="9200 Series Router"><span class="image-zoom-label"><i class="fa-solid fa-magnifying-glass-plus" aria-hidden="true"></i> View larger</span></button>
                             <div class="card-body">
                                 <h5 class="card-title mb-2">9200 Series Router</h5>
                                 <hr>
@@ -593,7 +596,7 @@
                     <!-- Slide 1 -->
                     <div class="swiper-slide">
                         <div class="card">
-                            <img src="img/product/9300.png" class="card-img-top" alt="9300 Series Router">
+                            <button type="button" class="product-media" data-product-preview aria-label="Enlarge 9300 Series Router"><img src="img/product/9300.png" class="card-img-top" alt="9300 Series Router"><span class="image-zoom-label"><i class="fa-solid fa-magnifying-glass-plus" aria-hidden="true"></i> View larger</span></button>
                             <div class="card-body">
                                 <h5 class="card-title mb-2">9300 Series Router</h5>
                                 <hr>
@@ -612,7 +615,7 @@
                     <!-- Slide 1 -->
                     <div class="swiper-slide">
                         <div class="card">
-                            <img src="img/product/5100.png" class="card-img-top" alt="5100 Series Router">
+                            <button type="button" class="product-media" data-product-preview aria-label="Enlarge 5100 Series Router"><img src="img/product/5100.png" class="card-img-top" alt="5100 Series Router"><span class="image-zoom-label"><i class="fa-solid fa-magnifying-glass-plus" aria-hidden="true"></i> View larger</span></button>
                             <div class="card-body">
                                 <h5 class="card-title mb-2">5100 Series Router</h5>
                                 <hr>
@@ -631,7 +634,7 @@
                     <!-- Slide 1 -->
                     <div class="swiper-slide">
                         <div class="card">
-                            <img src="img/product/3300.png" class="card-img-top" alt="3300 Series Router">
+                            <button type="button" class="product-media" data-product-preview aria-label="Enlarge 3300 Series Router"><img src="img/product/3300.png" class="card-img-top" alt="3300 Series Router"><span class="image-zoom-label"><i class="fa-solid fa-magnifying-glass-plus" aria-hidden="true"></i> View larger</span></button>
                             <div class="card-body">
                                 <h5 class="card-title mb-2">3300 Series Router</h5>
                                 <hr>
@@ -649,7 +652,7 @@
                     <!-- Slide 1 -->
                     <div class="swiper-slide">
                         <div class="card">
-                            <img src="img/product/2200.png" class="card-img-top" alt="2200 Series Router">
+                            <button type="button" class="product-media" data-product-preview aria-label="Enlarge 2200 Series Router"><img src="img/product/2200.png" class="card-img-top" alt="2200 Series Router"><span class="image-zoom-label"><i class="fa-solid fa-magnifying-glass-plus" aria-hidden="true"></i> View larger</span></button>
                             <div class="card-body">
                                 <h5 class="card-title mb-2">2200 Series Router</h5>
                                 <hr>
@@ -667,7 +670,7 @@
                     <!-- Slide 1 -->
                     <div class="swiper-slide">
                         <div class="card">
-                            <img src="img/product/4200.png" class="card-img-top" alt="4200 Series Router">
+                            <button type="button" class="product-media" data-product-preview aria-label="Enlarge 4200 Series Router"><img src="img/product/4200.png" class="card-img-top" alt="4200 Series Router"><span class="image-zoom-label"><i class="fa-solid fa-magnifying-glass-plus" aria-hidden="true"></i> View larger</span></button>
                             <div class="card-body">
                                 <h5 class="card-title mb-2">4200 Series Router</h5>
                                 <hr>
@@ -1048,7 +1051,7 @@
                                 </h3>
                                 <div id="faq1" class="accordion-collapse collapse show" data-bs-parent="#faqAccordion">
                                     <div class="accordion-body">
-                                        Longeval Networks is offering the rental services of refurbished routers, switches, and firewalls to enterprises, data centers, IT projects, and businesses of any size all over India. 
+                                        Longeval Networks is offering the rental services of refurbished routers, switches, and firewalls to enterprises, data centers, IT projects, and businesses of any size all over India.
                                     </div>
                                 </div>
                             </div>
@@ -1063,7 +1066,7 @@
                                 </h2>
                                 <div id="faq2" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
                                     <div class="accordion-body">
-                                       Longeval Networks is a company that has been in operation since 2010 and possesses more than 10 years of experience in providing network rental solutions that are both reliable and economical. 
+                                       Longeval Networks is a company that has been in operation since 2010 and possesses more than 10 years of experience in providing network rental solutions that are both reliable and economical.
                                     </div>
                                 </div>
                             </div>
@@ -1078,7 +1081,7 @@
                                 </h2>
                                 <div id="faq3" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
                                     <div class="accordion-body">
-                                        We provide top-tier quality used as new routers, switches, and firewalls for enterprises from the world's leading brands for both the temporary and permanent fields of application. 
+                                        We provide top-tier quality used as new routers, switches, and firewalls for enterprises from the world's leading brands for both the temporary and permanent fields of application.
                                     </div>
                                 </div>
                             </div>
@@ -1092,7 +1095,7 @@
                                 </h2>
                                 <div id="faq4" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
                                     <div class="accordion-body">
-                                       Sure, every piece of refurbished hardware is verified for performance, stability, and operational capability before it is handed over to the clients. 
+                                       Sure, every piece of refurbished hardware is verified for performance, stability, and operational capability before it is handed over to the clients.
                                     </div>
                                 </div>
                             </div>
@@ -1258,59 +1261,46 @@
     border-radius: 15px;
     display: inline;
     padding: 8px 10px;"><i class="bi bi-arrow-up"></i></a>
-    
-    
-
-
 
 
     <!-- JavaScript Libraries -->
-    
-    
-    
-    
-    
-    
-    
+
 
     <!-- Swiper JS -->
-    
+
 
     <!-- jQuery -->
-    
+
     <!-- Slick JS -->
-    
+
 
     <!-- Template Javascript -->
-    
+
     <!-- End javascript Template -->
 
     <!-- data aos animation  -->
-    
-    
 
 
     <!-- product script start -->
-    
+
     <!-- product script start -->
 
     <!-- testimonial script start -->
-    
+
 
     <!-- testimonial script end -->
 
 
     <!-- counter script start -->
 
-    
+
     <!-- counter script start -->
-
-    
-
 
 
     <script src="js/home.js" defer></script>
     <script src="js/site-refresh.js" defer></script>
+    <script src="js/home-reference.js" defer></script>
+<script src="js/product-images.js" defer></script>
 </body>
 
 </html>

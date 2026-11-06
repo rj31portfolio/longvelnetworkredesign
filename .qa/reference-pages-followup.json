@@ -1,0 +1,239 @@
+{
+  "results": [
+    {
+      "file": "index.html",
+      "width": 1440,
+      "overflow": false,
+      "overflowElements": [
+        "g.[object SVGAnimatedString]",
+        "path.[object SVGAnimatedString]",
+        "path.[object SVGAnimatedString]",
+        "path.[object SVGAnimatedString]",
+        "path.[object SVGAnimatedString]"
+      ],
+      "brokenImages": [],
+      "header": "rgb(36, 22, 60)",
+      "footer": "rgb(33, 18, 56)",
+      "imageStageWidth": 578,
+      "imageStyles": {
+        "width": "578px",
+        "height": "299px",
+        "fit": "cover"
+      },
+      "slides": {
+        "track": 1184,
+        "slide": 580,
+        "basis": "calc(50% - 12px)",
+        "card": 580
+      },
+      "productPreview": true,
+      "form": null
+    },
+    {
+      "file": "index.html",
+      "width": 390,
+      "overflow": false,
+      "overflowElements": [
+        "g.[object SVGAnimatedString]",
+        "path.[object SVGAnimatedString]",
+        "path.[object SVGAnimatedString]",
+        "path.[object SVGAnimatedString]",
+        "path.[object SVGAnimatedString]"
+      ],
+      "brokenImages": [],
+      "header": "rgb(36, 22, 60)",
+      "footer": "rgb(33, 18, 56)",
+      "imageStageWidth": 288,
+      "imageStyles": {
+        "width": "288px",
+        "height": "274px",
+        "fit": "cover"
+      },
+      "slides": {
+        "track": 290,
+        "slide": 290,
+        "basis": "100%",
+        "card": 290
+      },
+      "productPreview": true,
+      "form": null
+    },
+    {
+      "file": "product.html",
+      "width": 1440,
+      "overflow": false,
+      "overflowElements": [
+        "DIV.hero-glow"
+      ],
+      "brokenImages": [],
+      "header": "rgb(36, 20, 60)",
+      "footer": "rgba(0, 0, 0, 0)",
+      "imageStageWidth": 367.328125,
+      "imageStyles": {
+        "width": "367.328px",
+        "height": "279px",
+        "fit": "cover"
+      },
+      "slides": null,
+      "productPreview": true,
+      "form": null
+    },
+    {
+      "file": "product.html",
+      "width": 768,
+      "overflow": false,
+      "overflowElements": [
+        "DIV.hero-glow"
+      ],
+      "brokenImages": [],
+      "header": "rgb(36, 20, 60)",
+      "footer": "rgba(0, 0, 0, 0)",
+      "imageStageWidth": 316.5,
+      "imageStyles": {
+        "width": "316.5px",
+        "height": "279px",
+        "fit": "cover"
+      },
+      "slides": null,
+      "productPreview": true,
+      "form": null,
+      "mobileMenu": true
+    },
+    {
+      "file": "product.html",
+      "width": 390,
+      "overflow": false,
+      "overflowElements": [
+        "DIV.hero-glow"
+      ],
+      "brokenImages": [],
+      "header": "rgb(36, 20, 60)",
+      "footer": "rgba(0, 0, 0, 0)",
+      "imageStageWidth": 332,
+      "imageStyles": {
+        "width": "332px",
+        "height": "254px",
+        "fit": "cover"
+      },
+      "slides": null,
+      "productPreview": true,
+      "form": null,
+      "mobileMenu": true
+    },
+    {
+      "file": "product.html",
+      "width": 320,
+      "overflow": false,
+      "overflowElements": [
+        "DIV.hero-glow"
+      ],
+      "brokenImages": [],
+      "header": "rgb(36, 20, 60)",
+      "footer": "rgba(0, 0, 0, 0)",
+      "imageStageWidth": 262,
+      "imageStyles": {
+        "width": "262px",
+        "height": "254px",
+        "fit": "cover"
+      },
+      "slides": null,
+      "productPreview": true,
+      "form": null,
+      "mobileMenu": true
+    },
+    {
+      "file": "blog.html",
+      "width": 1440,
+      "overflow": false,
+      "overflowElements": [
+        "DIV.hero-glow"
+      ],
+      "brokenImages": [],
+      "header": "rgb(36, 20, 60)",
+      "footer": "rgba(0, 0, 0, 0)",
+      "imageStyles": null,
+      "slides": null,
+      "productPreview": null,
+      "form": null
+    },
+    {
+      "file": "blog.html",
+      "width": 390,
+      "overflow": false,
+      "overflowElements": [
+        "DIV.hero-glow"
+      ],
+      "brokenImages": [],
+      "header": "rgb(36, 20, 60)",
+      "footer": "rgba(0, 0, 0, 0)",
+      "imageStyles": null,
+      "slides": null,
+      "productPreview": null,
+      "form": null,
+      "mobileMenu": true
+    },
+    {
+      "file": "about-us.html",
+      "width": 1440,
+      "overflow": false,
+      "overflowElements": [
+        "DIV.hero-glow"
+      ],
+      "brokenImages": [],
+      "header": "rgb(36, 20, 60)",
+      "footer": "rgba(0, 0, 0, 0)",
+      "imageStyles": null,
+      "slides": null,
+      "productPreview": null,
+      "form": null
+    },
+    {
+      "file": "about-us.html",
+      "width": 390,
+      "overflow": false,
+      "overflowElements": [
+        "DIV.hero-glow"
+      ],
+      "brokenImages": [],
+      "header": "rgb(36, 20, 60)",
+      "footer": "rgba(0, 0, 0, 0)",
+      "imageStyles": null,
+      "slides": null,
+      "productPreview": null,
+      "form": null,
+      "mobileMenu": true
+    },
+    {
+      "file": "Refurbished-Firewall-Rental-Services.html",
+      "width": 1440,
+      "overflow": false,
+      "overflowElements": [
+        "DIV.hero-glow"
+      ],
+      "brokenImages": [],
+      "header": "rgb(36, 20, 60)",
+      "footer": "rgba(0, 0, 0, 0)",
+      "imageStyles": null,
+      "slides": null,
+      "productPreview": null,
+      "form": null
+    },
+    {
+      "file": "Refurbished-Firewall-Rental-Services.html",
+      "width": 390,
+      "overflow": false,
+      "overflowElements": [
+        "DIV.hero-glow"
+      ],
+      "brokenImages": [],
+      "header": "rgb(36, 20, 60)",
+      "footer": "rgba(0, 0, 0, 0)",
+      "imageStyles": null,
+      "slides": null,
+      "productPreview": null,
+      "form": null,
+      "mobileMenu": true
+    }
+  ],
+  "errors": []
+}

@@ -1,0 +1,536 @@
+{
+  "results": [
+    {
+      "file": "404.html",
+      "width": 1440,
+      "overflow": false,
+      "overflowElements": [],
+      "brokenImages": [],
+      "header": "rgb(36, 20, 60)",
+      "footer": "rgba(0, 0, 0, 0)",
+      "productPreview": null,
+      "form": null
+    },
+    {
+      "file": "404.html",
+      "width": 390,
+      "overflow": false,
+      "overflowElements": [],
+      "brokenImages": [],
+      "header": "rgb(36, 20, 60)",
+      "footer": "rgba(0, 0, 0, 0)",
+      "productPreview": null,
+      "form": null,
+      "mobileMenu": true
+    },
+    {
+      "file": "about-us.html",
+      "width": 1440,
+      "overflow": false,
+      "overflowElements": [
+        "DIV.hero-glow"
+      ],
+      "brokenImages": [],
+      "header": "rgb(36, 20, 60)",
+      "footer": "rgba(0, 0, 0, 0)",
+      "productPreview": null,
+      "form": null
+    },
+    {
+      "file": "about-us.html",
+      "width": 390,
+      "overflow": false,
+      "overflowElements": [
+        "DIV.hero-glow"
+      ],
+      "brokenImages": [],
+      "header": "rgb(36, 20, 60)",
+      "footer": "rgba(0, 0, 0, 0)",
+      "productPreview": null,
+      "form": null,
+      "mobileMenu": true
+    },
+    {
+      "file": "blog.html",
+      "width": 1440,
+      "overflow": false,
+      "overflowElements": [
+        "DIV.hero-glow"
+      ],
+      "brokenImages": [],
+      "header": "rgb(36, 20, 60)",
+      "footer": "rgba(0, 0, 0, 0)",
+      "productPreview": null,
+      "form": null
+    },
+    {
+      "file": "blog.html",
+      "width": 390,
+      "overflow": false,
+      "overflowElements": [
+        "DIV.hero-glow"
+      ],
+      "brokenImages": [],
+      "header": "rgb(36, 20, 60)",
+      "footer": "rgba(0, 0, 0, 0)",
+      "productPreview": null,
+      "form": null,
+      "mobileMenu": true
+    },
+    {
+      "file": "contact.html",
+      "width": 1440,
+      "overflow": false,
+      "overflowElements": [
+        "DIV.hero-glow"
+      ],
+      "brokenImages": [],
+      "header": "rgb(36, 20, 60)",
+      "footer": "rgba(0, 0, 0, 0)",
+      "productPreview": null,
+      "form": {
+        "action": "send_mail.php",
+        "method": "post",
+        "fields": [
+          "access_key",
+          "name",
+          "email",
+          "phone",
+          "subject",
+          "message"
+        ]
+      }
+    },
+    {
+      "file": "contact.html",
+      "width": 390,
+      "overflow": false,
+      "overflowElements": [
+        "DIV.hero-glow"
+      ],
+      "brokenImages": [],
+      "header": "rgb(36, 20, 60)",
+      "footer": "rgba(0, 0, 0, 0)",
+      "productPreview": null,
+      "form": {
+        "action": "send_mail.php",
+        "method": "post",
+        "fields": [
+          "access_key",
+          "name",
+          "email",
+          "phone",
+          "subject",
+          "message"
+        ]
+      },
+      "mobileMenu": true
+    },
+    {
+      "file": "Maximizing-Efficiency-With-Refurbished-Switch-Rentals-A-Guide-for-Businesses.html",
+      "width": 1440,
+      "overflow": false,
+      "overflowElements": [
+        "DIV.hero-glow"
+      ],
+      "brokenImages": [],
+      "header": "rgb(36, 20, 60)",
+      "footer": "rgba(0, 0, 0, 0)",
+      "productPreview": null,
+      "form": null
+    },
+    {
+      "file": "Maximizing-Efficiency-With-Refurbished-Switch-Rentals-A-Guide-for-Businesses.html",
+      "width": 390,
+      "overflow": false,
+      "overflowElements": [
+        "DIV.hero-glow"
+      ],
+      "brokenImages": [],
+      "header": "rgb(36, 20, 60)",
+      "footer": "rgba(0, 0, 0, 0)",
+      "productPreview": null,
+      "form": null,
+      "mobileMenu": true
+    },
+    {
+      "file": "portfolio.html",
+      "width": 1440,
+      "overflow": false,
+      "overflowElements": [
+        "DIV.hero-glow"
+      ],
+      "brokenImages": [],
+      "header": "rgb(36, 20, 60)",
+      "footer": "rgba(0, 0, 0, 0)",
+      "productPreview": null,
+      "form": null,
+      "profileTabs": true
+    },
+    {
+      "file": "portfolio.html",
+      "width": 390,
+      "overflow": false,
+      "overflowElements": [
+        "DIV.hero-glow"
+      ],
+      "brokenImages": [],
+      "header": "rgb(36, 20, 60)",
+      "footer": "rgba(0, 0, 0, 0)",
+      "productPreview": null,
+      "form": null,
+      "mobileMenu": true,
+      "profileTabs": true
+    },
+    {
+      "file": "privacy-policy.html",
+      "width": 1440,
+      "overflow": false,
+      "overflowElements": [
+        "DIV.hero-glow"
+      ],
+      "brokenImages": [],
+      "header": "rgb(36, 20, 60)",
+      "footer": "rgba(0, 0, 0, 0)",
+      "productPreview": null,
+      "form": null
+    },
+    {
+      "file": "privacy-policy.html",
+      "width": 390,
+      "overflow": false,
+      "overflowElements": [
+        "DIV.hero-glow"
+      ],
+      "brokenImages": [],
+      "header": "rgb(36, 20, 60)",
+      "footer": "rgba(0, 0, 0, 0)",
+      "productPreview": null,
+      "form": null,
+      "mobileMenu": true
+    },
+    {
+      "file": "product-detail.html",
+      "width": 1440,
+      "overflow": false,
+      "overflowElements": [
+        "DIV.hero-glow"
+      ],
+      "brokenImages": [],
+      "header": "rgb(36, 20, 60)",
+      "footer": "rgba(0, 0, 0, 0)",
+      "imageStageWidth": 564,
+      "productPreview": true,
+      "form": null,
+      "carousel": true
+    },
+    {
+      "file": "product-detail.html",
+      "width": 768,
+      "overflow": false,
+      "overflowElements": [
+        "DIV.hero-glow"
+      ],
+      "brokenImages": [],
+      "header": "rgb(36, 20, 60)",
+      "footer": "rgba(0, 0, 0, 0)",
+      "imageStageWidth": 699,
+      "productPreview": true,
+      "form": null,
+      "mobileMenu": true,
+      "carousel": true
+    },
+    {
+      "file": "product-detail.html",
+      "width": 390,
+      "overflow": false,
+      "overflowElements": [
+        "DIV.hero-glow"
+      ],
+      "brokenImages": [],
+      "header": "rgb(36, 20, 60)",
+      "footer": "rgba(0, 0, 0, 0)",
+      "imageStageWidth": 332,
+      "productPreview": true,
+      "form": null,
+      "mobileMenu": true,
+      "carousel": true
+    },
+    {
+      "file": "product-detail.html",
+      "width": 320,
+      "overflow": false,
+      "overflowElements": [
+        "DIV.hero-glow"
+      ],
+      "brokenImages": [],
+      "header": "rgb(36, 20, 60)",
+      "footer": "rgba(0, 0, 0, 0)",
+      "imageStageWidth": 262,
+      "productPreview": true,
+      "form": null,
+      "mobileMenu": true,
+      "carousel": true
+    },
+    {
+      "file": "product.html",
+      "width": 1440,
+      "overflow": false,
+      "overflowElements": [
+        "DIV.hero-glow"
+      ],
+      "brokenImages": [],
+      "header": "rgb(36, 20, 60)",
+      "footer": "rgba(0, 0, 0, 0)",
+      "imageStageWidth": 367.328125,
+      "productPreview": true,
+      "form": null
+    },
+    {
+      "file": "product.html",
+      "width": 768,
+      "overflow": false,
+      "overflowElements": [
+        "DIV.hero-glow"
+      ],
+      "brokenImages": [],
+      "header": "rgb(36, 20, 60)",
+      "footer": "rgba(0, 0, 0, 0)",
+      "imageStageWidth": 316.5,
+      "productPreview": true,
+      "form": null,
+      "mobileMenu": true
+    },
+    {
+      "file": "product.html",
+      "width": 390,
+      "overflow": false,
+      "overflowElements": [
+        "DIV.hero-glow"
+      ],
+      "brokenImages": [],
+      "header": "rgb(36, 20, 60)",
+      "footer": "rgba(0, 0, 0, 0)",
+      "imageStageWidth": 332,
+      "productPreview": true,
+      "form": null,
+      "mobileMenu": true
+    },
+    {
+      "file": "product.html",
+      "width": 320,
+      "overflow": false,
+      "overflowElements": [
+        "DIV.hero-glow"
+      ],
+      "brokenImages": [],
+      "header": "rgb(36, 20, 60)",
+      "footer": "rgba(0, 0, 0, 0)",
+      "imageStageWidth": 262,
+      "productPreview": true,
+      "form": null,
+      "mobileMenu": true
+    },
+    {
+      "file": "Refurbished-Firewall-Rental-Services.html",
+      "width": 1440,
+      "overflow": false,
+      "overflowElements": [
+        "DIV.hero-glow"
+      ],
+      "brokenImages": [],
+      "header": "rgb(36, 20, 60)",
+      "footer": "rgba(0, 0, 0, 0)",
+      "productPreview": null,
+      "form": null
+    },
+    {
+      "file": "Refurbished-Firewall-Rental-Services.html",
+      "width": 390,
+      "overflow": false,
+      "overflowElements": [
+        "DIV.hero-glow"
+      ],
+      "brokenImages": [],
+      "header": "rgb(36, 20, 60)",
+      "footer": "rgba(0, 0, 0, 0)",
+      "productPreview": null,
+      "form": null,
+      "mobileMenu": true
+    },
+    {
+      "file": "return-refund.html",
+      "width": 1440,
+      "overflow": false,
+      "overflowElements": [
+        "DIV.hero-glow"
+      ],
+      "brokenImages": [],
+      "header": "rgb(36, 20, 60)",
+      "footer": "rgba(0, 0, 0, 0)",
+      "productPreview": null,
+      "form": null
+    },
+    {
+      "file": "return-refund.html",
+      "width": 390,
+      "overflow": false,
+      "overflowElements": [
+        "DIV.hero-glow"
+      ],
+      "brokenImages": [],
+      "header": "rgb(36, 20, 60)",
+      "footer": "rgba(0, 0, 0, 0)",
+      "productPreview": null,
+      "form": null,
+      "mobileMenu": true
+    },
+    {
+      "file": "term-condition.html",
+      "width": 1440,
+      "overflow": false,
+      "overflowElements": [
+        "DIV.hero-glow"
+      ],
+      "brokenImages": [],
+      "header": "rgb(36, 20, 60)",
+      "footer": "rgba(0, 0, 0, 0)",
+      "productPreview": null,
+      "form": null
+    },
+    {
+      "file": "term-condition.html",
+      "width": 390,
+      "overflow": false,
+      "overflowElements": [
+        "DIV.hero-glow"
+      ],
+      "brokenImages": [],
+      "header": "rgb(36, 20, 60)",
+      "footer": "rgba(0, 0, 0, 0)",
+      "productPreview": null,
+      "form": null,
+      "mobileMenu": true
+    },
+    {
+      "file": "The-Ultimate-Guide-to-Refurbished-Router-Rentals.html",
+      "width": 1440,
+      "overflow": false,
+      "overflowElements": [
+        "DIV.hero-glow"
+      ],
+      "brokenImages": [],
+      "header": "rgb(36, 20, 60)",
+      "footer": "rgba(0, 0, 0, 0)",
+      "productPreview": null,
+      "form": null
+    },
+    {
+      "file": "The-Ultimate-Guide-to-Refurbished-Router-Rentals.html",
+      "width": 390,
+      "overflow": false,
+      "overflowElements": [
+        "DIV.hero-glow"
+      ],
+      "brokenImages": [],
+      "header": "rgb(36, 20, 60)",
+      "footer": "rgba(0, 0, 0, 0)",
+      "productPreview": null,
+      "form": null,
+      "mobileMenu": true
+    },
+    {
+      "file": "Why-Renting-Refurbished-Network-Equipment-Is-a-Smart-Move-for-Your-Business.html",
+      "width": 1440,
+      "overflow": false,
+      "overflowElements": [
+        "DIV.hero-glow"
+      ],
+      "brokenImages": [],
+      "header": "rgb(36, 20, 60)",
+      "footer": "rgba(0, 0, 0, 0)",
+      "productPreview": null,
+      "form": null
+    },
+    {
+      "file": "Why-Renting-Refurbished-Network-Equipment-Is-a-Smart-Move-for-Your-Business.html",
+      "width": 390,
+      "overflow": false,
+      "overflowElements": [
+        "DIV.hero-glow"
+      ],
+      "brokenImages": [],
+      "header": "rgb(36, 20, 60)",
+      "footer": "rgba(0, 0, 0, 0)",
+      "productPreview": null,
+      "form": null,
+      "mobileMenu": true
+    },
+    {
+      "file": "index.html",
+      "width": 1440,
+      "overflow": false,
+      "overflowElements": [
+        "g.[object SVGAnimatedString]",
+        "path.[object SVGAnimatedString]",
+        "path.[object SVGAnimatedString]",
+        "path.[object SVGAnimatedString]",
+        "path.[object SVGAnimatedString]"
+      ],
+      "brokenImages": [],
+      "header": "rgb(36, 22, 60)",
+      "footer": "rgb(33, 18, 56)",
+      "imageStageWidth": 258,
+      "productPreview": true,
+      "form": null
+    },
+    {
+      "file": "index.html",
+      "width": 390,
+      "overflow": false,
+      "overflowElements": [
+        "g.[object SVGAnimatedString]",
+        "path.[object SVGAnimatedString]",
+        "path.[object SVGAnimatedString]",
+        "path.[object SVGAnimatedString]",
+        "path.[object SVGAnimatedString]"
+      ],
+      "brokenImages": [],
+      "header": "rgb(36, 22, 60)",
+      "footer": "rgb(33, 18, 56)",
+      "imageStageWidth": 190,
+      "productPreview": true,
+      "form": null
+    },
+    {
+      "file": "about.html",
+      "width": 1440,
+      "overflow": false,
+      "overflowElements": [
+        "DIV.hero-glow",
+        "DIV.purpose-wave"
+      ],
+      "brokenImages": [],
+      "header": "rgb(36, 20, 60)",
+      "footer": "rgba(0, 0, 0, 0)",
+      "productPreview": null,
+      "form": null
+    },
+    {
+      "file": "about.html",
+      "width": 390,
+      "overflow": false,
+      "overflowElements": [
+        "DIV.hero-glow",
+        "DIV.purpose-wave",
+        "DIV.benefits-blob"
+      ],
+      "brokenImages": [],
+      "header": "rgb(36, 20, 60)",
+      "footer": "rgba(0, 0, 0, 0)",
+      "productPreview": null,
+      "form": null
+    }
+  ],
+  "errors": []
+}

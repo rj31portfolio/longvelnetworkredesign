@@ -1,0 +1,58 @@
+{
+  "results": [
+    {
+      "file": "index.html",
+      "width": 1440,
+      "overflow": false,
+      "brokenImages": [],
+      "hero": {
+        "photoWidth": 615.8125,
+        "textWidth": 570.1875
+      },
+      "faq": true,
+      "visibleCards": true,
+      "productCarousel": true
+    },
+    {
+      "file": "index.html",
+      "width": 768,
+      "overflow": false,
+      "brokenImages": [],
+      "hero": {
+        "photoWidth": 332.828125,
+        "textWidth": 308.171875
+      },
+      "faq": true,
+      "visibleCards": true,
+      "productCarousel": true
+    },
+    {
+      "file": "index.html",
+      "width": 390,
+      "overflow": false,
+      "brokenImages": [],
+      "hero": {
+        "photoWidth": 299.90625,
+        "textWidth": 326
+      },
+      "mobileMenu": true,
+      "faq": true,
+      "visibleCards": true,
+      "productCarousel": true
+    },
+    {
+      "file": "index.html",
+      "width": 320,
+      "overflow": false,
+      "brokenImages": [],
+      "hero": {
+        "photoWidth": 235.515625,
+        "textWidth": 256
+      },
+      "faq": true,
+      "visibleCards": true,
+      "productCarousel": true
+    }
+  ],
+  "errors": []
+}
